@@ -1,62 +1,60 @@
 title: Nordhaven Tails
 description: Tails told from the great Nordhaven Lodge
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+
+theme: minima # Using Minima theme
 
 search_enabled: true
 
 markdown: kramdown
-theme: minima # Or your chosen theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
     output: true
 
+# Sidebar configuration (Minima compatible - using includes)
 sidebar:
-  - ai-ml
-  - label: Computing
-    children:
-      - computing-resources-overview
-      - hpcc
-      - ursa-major
-      - nsf-access
-      - nautilus
-      - nsf-osg
-      - gcp-aws-edp
-      - gcp-aws-cloud-credits
-      - on-prem-facilities
-  - label: Data Storage
-    children:
-      - storage-overview
-      - ursa-major-storage
-      - google-drive
-      - ursa-major-data
-      - gcs-aws-s3
-      - hpcc-gpfs
-      - ceph-secure-research-storage
-      - dryad
-      - backup
-  - label: Support
-    children:
-      - research-facilitation
-      - software-support
-      - infrastructure-support
-      - grant-collaboration
-      - lab-support
-  - label: Training
-    children:
-      - workshops-and-webinars
-      - online-courses
-      - documentation-and-guides
-  - research-security
-  - knowledge-base
-  - cost-models
-  - guidelines
-  - about
-  - success-stories
-  - contact-us
+  - title: "Navigation"
+    items:
+      - text: "AI/ML"
+        link: "/ai-ml"
+      - text: "Computing"
+        items:
+          - text: "Computing Resources Overview"
+            link: "/computing-resources-overview"
+          - text: "HPCC"
+            link: "/hpcc"
+          # ... other computing items ...
+      - text: "Data Storage"
+        items:
+          - text: "Storage Overview"
+            link: "/storage-overview"
+          # ... other storage items ...
+      - text: "Support"
+        items:
+          - text: "Research Facilitation"
+            link: "/research-facilitation"
+          # ... other support items ...
+      - text: "Training"
+        items:
+          - text: "Workshops and Webinars"
+            link: "/workshops-and-webinars"
+          # ... other training items ...
+      - text: "Research Security"
+        link: "/research-security"
+      - text: "Knowledge Base"
+        link: "/knowledge-base"
+      - text: "Cost Models"
+        link: "/cost-models"
+      - text: "Guidelines"
+        link: "/guidelines"
+      - text: "About"
+        link: "/about"
+      - text: "Success Stories"
+        link: "/success-stories"
+      - text: "Contact Us"
+        link: "/contact-us"
