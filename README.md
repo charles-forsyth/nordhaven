@@ -1,4 +1,4 @@
-Welcome to Nordhaven Tails, my personal blog where I share my experiences exploring the Pennsylvania wilderness and my passion for technology research. I'm Chuck Forsyth, and this site is a reflection of my lifelong fascination with the outdoors and the tools that help us better understand it.
+Welcome to Nordhaven Tails, my personal blog where I share my experiences exploring the Pennsylvania wilderness and my passion for technology research. This site is a reflection of my lifelong fascination with the outdoors and the tools that help us better understand it.
 
 ## Featured Blog Posts
 
