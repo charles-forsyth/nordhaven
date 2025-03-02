@@ -15,7 +15,7 @@ tags:
 
 Today, I took my latest research project into the heart of the Pennsylvania wilderness, near my home. I wanted to test some new data collection methods relating to local wildlife patterns. It's amazing how technology can enhance the traditional camping experience, and more importantly, how it can help us understand the natural world.
 
-### My Tech-Enhanced Camping Setup
+### My Tech-Enhanced Camping Setup 
 
 * **Solar-Powered Data Loggers:** These small devices, placed strategically around the campsite, are collecting environmental data like temperature, humidity, and even sound recordings.
 * **Portable Satellite Communicator:** While I enjoy disconnecting, safety is paramount. This device allows me to send and receive messages, even in areas with no cellular service.
