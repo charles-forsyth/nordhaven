@@ -1,6 +1,6 @@
 ---
 title: Camping Tech: Blending Nature with Modern Research
-date: 2025-3-2 # Assuming today's date is October 27, 2024
+date: 2025-3-2
 layout: post
 categories:
   - Camping
