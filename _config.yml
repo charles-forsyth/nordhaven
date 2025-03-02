@@ -1,5 +1,5 @@
-title: Nordhaven Tails
-description: Tails told from the great Nordhaven Lodge
+title: Nordhaven
+description: Tails told from the Great Nordhaven Lodge
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 search_enabled: true
@@ -10,7 +10,3 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
-
-posts:
-  permalink: /posts/:year/:month/:day/:title/
-  output: true
