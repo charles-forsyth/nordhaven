@@ -1,3 +1,37 @@
-theme: jekyll-theme-minimal
 title: Nordhaven Tails
 description: Tails told from the great Nordhaven Lodge
+
+email: chuck.forsyth@gmail.com
+baseurl: ""
+url: "https://charles-forsyth.github.io/nordhaven-tails/" # Replace with your GitHub username
+
+github_username: charles-forsyth # Replace with your GitHub username
+
+markdown: kramdown
+theme: minima # Or your chosen theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  posts:
+    permalink: /posts/:year/:month/:day/:title/
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+include:
+  - .htaccess
+
+author:
+  name: "Charles 'Chuck' Forsyth"
+  bio: "Outdoor enthusiast and research technologist."
+location: "1539 Button Hill Road, Tioga, PA 16946"
+favorite_food: "Tuna Casserole"
