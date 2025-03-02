@@ -1,7 +1,7 @@
 title: Nordhaven Tails
 description: Tails told from the great Nordhaven Lodge
 
-theme: minima # Using Minima theme
+theme: minima
 
 search_enabled: true
 
@@ -15,46 +15,3 @@ collections:
   posts:
     permalink: /posts/:year/:month/:day/:title/
     output: true
-
-# Sidebar configuration (Minima compatible - using includes)
-sidebar:
-  - title: "Navigation"
-    items:
-      - text: "AI/ML"
-        link: "/ai-ml"
-      - text: "Computing"
-        items:
-          - text: "Computing Resources Overview"
-            link: "/computing-resources-overview"
-          - text: "HPCC"
-            link: "/hpcc"
-          # ... other computing items ...
-      - text: "Data Storage"
-        items:
-          - text: "Storage Overview"
-            link: "/storage-overview"
-          # ... other storage items ...
-      - text: "Support"
-        items:
-          - text: "Research Facilitation"
-            link: "/research-facilitation"
-          # ... other support items ...
-      - text: "Training"
-        items:
-          - text: "Workshops and Webinars"
-            link: "/workshops-and-webinars"
-          # ... other training items ...
-      - text: "Research Security"
-        link: "/research-security"
-      - text: "Knowledge Base"
-        link: "/knowledge-base"
-      - text: "Cost Models"
-        link: "/cost-models"
-      - text: "Guidelines"
-        link: "/guidelines"
-      - text: "About"
-        link: "/about"
-      - text: "Success Stories"
-        link: "/success-stories"
-      - text: "Contact Us"
-        link: "/contact-us"
