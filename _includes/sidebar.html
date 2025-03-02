@@ -1,0 +1,27 @@
+<aside class="sidebar">
+  <h2>Navigation</h2>
+  <ul>
+    {% for item in site.sidebar[0].items %}
+      {% if item.link %}
+        <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+      {% elsif item.items %}
+        <li>
+          {{ item.text }}
+          <ul>
+            {% for subitem in item.items %}
+              <li><a href="{{ subitem.link }}">{{ subitem.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h2>Recent Posts</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
