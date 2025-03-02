@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ "/" | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        {% if site.description %}
+          <p>{{ site.description }}</p>
+        {% endif %}
+      </div>
+    </header>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="page-content-container">
+          <div class="content">
+            {{ content }}
+          </div>
+          <div class="sidebar-container">
+            {% include sidebar.html %}
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        {% if site.github.is_project_page %}
+          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/minima">Minima</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
