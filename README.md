@@ -2,6 +2,7 @@ Welcome to Nordhaven Tails, my personal blog where I share my experiences explor
 
 ## Featured Blog Posts
 
-* **[Camping Tech: Blending Nature with Modern Research](/posts/2025/03/02/camping-tech-research/)** - My latest adventure combining camping and research technology.
-* **[Wildlife Tracking with Bioacoustics](/posts/your-bioacoustics-post-url/)** - Exploring new bioacoustics sensor technology. (Replace `your-bioacoustics-post-url` with the correct URL)
-* **[PA Wilderness Data Collection](/posts/your-pa-data-post-url/)** - Data collection methods in the PA wilderness. (Replace `your-pa-data-post-url` with the correct URL)
+* [Adventure Lab](https://www.adventurelab.org) - Research-grade environmental monitoring tools for outdoor enthusiasts
+* [iNaturalist](https://www.inaturalist.org) - Citizen science platform for documenting biodiversity
+* [Cornell Lab of Ornithology](https://www.birds.cornell.edu) - Leading resource for bioacoustics research and bird monitoring
+* [National Phenology Network](https://www.usanpn.org) - Nature's timing research and citizen science opportunities
