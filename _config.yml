@@ -3,6 +3,7 @@ description: Tails told from the Great Nordhaven Lodge
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 search_enabled: true
+permalink: /:year/:month/:day/:title.html
 
 markdown: kramdown
 plugins:
