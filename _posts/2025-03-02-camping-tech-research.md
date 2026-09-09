@@ -1,5 +1,5 @@
 ---
-title: Camping Tech: Blending Nature with Modern Research
+title: "Camping Tech: Blending Nature with Modern Research"
 date: 2025-03-02
 layout: post
 categories:
