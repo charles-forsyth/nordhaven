@@ -45,8 +45,9 @@ Omstead is also an active intellectual workshop. Through our publishing imprint,
 
 Explore our latest field notes, seasonal reflections, and tech experiments:
 
-{% for post in site.posts %}
-* **[{{ post.title }}]({{ post.url | relative_url }})** *({{ post.date | date: "%B %d, %Y" }})*
+| Date | Chronicle Dispatch | Categories | Link |
+| :--- | :--- | :--- | :--- |
+{% for post in site.posts %}| **{{ post.date | date: "%b %d, %Y" }}** | {{ post.title }} | `{{ post.categories | join: ", " }}` | [Read Dispatch &rarr;]({{ post.url | relative_url }}) |
 {% endfor %}
 
 ---
