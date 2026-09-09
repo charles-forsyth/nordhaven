@@ -43,10 +43,11 @@ Omstead is also an active intellectual workshop. Through our publishing imprint,
 
 ## 📜 Recent Field Dispatches & Chronicle Entries
 
-Explore our latest blog posts, seasonal reflections, and tech experiments:
+Explore our latest field notes, seasonal reflections, and tech experiments:
 
-* **[Announcing: Building a Farmstead for Science (20-Chapter Release)]({{ site.baseurl }}/2026/09/08/announcing-building-a-farmstead-for-science.html)** *(Sep 8, 2026)*
-* **[Camping Tech: Blending Nature with Modern Research]({{ site.baseurl }}/2025/03/02/camping-tech-research.html)** *(Mar 2, 2025)*
+{% for post in site.posts %}
+* **[{{ post.title }}]({{ post.url | relative_url }})** *({{ post.date | date: "%B %d, %Y" }})*
+{% endfor %}
 
 ---
 
