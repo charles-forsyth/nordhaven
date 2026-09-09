@@ -45,10 +45,26 @@ Omstead is also an active intellectual workshop. Through our publishing imprint,
 
 Explore our latest field notes, seasonal reflections, and tech experiments:
 
-| Date | Chronicle Dispatch | Categories | Link |
-| :--- | :--- | :--- | :--- |
-{% for post in site.posts %}| **{{ post.date | date: "%b %d, %Y" }}** | {{ post.title }} | `{{ post.categories | join: ", " }}` | [Read Dispatch &rarr;]({{ post.url | relative_url }}) |
-{% endfor %}
+<table>
+  <thead>
+    <tr>
+      <th style="width: 15%;">Date</th>
+      <th style="width: 45%;">Chronicle Dispatch</th>
+      <th style="width: 25%;">Categories</th>
+      <th style="width: 15%;">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for post in site.posts %}
+    <tr>
+      <td><strong>{{ post.date | date: "%b %d, %Y" }}</strong></td>
+      <td>{{ post.title }}</td>
+      <td><code>{{ post.categories | join: ", " }}</code></td>
+      <td><a href="{{ post.url | relative_url }}">Read Dispatch &rarr;</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 ---
 
