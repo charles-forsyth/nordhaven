@@ -35,6 +35,20 @@ All volumes are available as free, publication-styled PDF downloads under `/asse
 
 ---
 
+## 📜 Recent Field Dispatches & Chronicle Entries
+
+| Date | Chronicle Dispatch | Focus & Core Themes | Live Link |
+| :--- | :--- | :--- | :--- |
+| **Sep 08, 2026** | **Announcing: Building a Farmstead for Science** | 20-chapter field manual & 5 distinct PDF releases | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/09/08/announcing-building-a-farmstead-for-science.html) |
+| **Aug 24, 2026** | **Algiz and Sowilo: The Sacred Shield and the Solar Victory (ᛉᛋ)** | Protective perimeter wards, Bifröst, and solar photosynthesis | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/24/algiz-and-sowilo-the-shield-and-the-sun.html) |
+| **Aug 22, 2026** | **Tiwaz and the Pillar of Sovereignty: A Runic Meditation on Tyr (ᛏ)** | Upward spear, Polaris pole star, homestead sovereignty | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/22/tiwaz-and-the-pillar-of-sovereignty.html) |
+| **Aug 20, 2026** | **The Genius Loci of the Ridge: The Living Spirit of Button Hill** | Spirit of place at 1,607 ft, thermal drainage, soil microbiology | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/20/the-genius-loci-of-the-ridge.html) |
+| **Aug 15, 2026** | **The Essence of an Earth Blessing: Reciprocity, Immanence, and the Landvættir** | Immanent sacredness, Landvættir spirits of place, gods as kin | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/15/what-is-an-earth-blessing.html) |
+| **Aug 12, 2026** | **The Five Elements and Spirit: Living Foundations on the Mountain Ridge** | Classical & Norse elementalism: Earth, Air, Fire, Water, Spirit | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/12/the-five-elements-and-spirit.html) |
+| **Mar 02, 2025** | **Camping Tech: Blending Nature with Modern Research** | Sensor loggers, satellite communicators, and trail research | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2025/03/02/camping-tech-research.html) |
+
+---
+
 ## ⚙️ Technical Architecture
 
 * **Engine:** Jekyll Static Site Generator
