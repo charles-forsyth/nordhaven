@@ -11,6 +11,8 @@ permalink: /
 
 Welcome to **Nordhaven**, the literary chronicle and living field journal of **Omstead**—our high-ridge homestead situated at 1,607 feet in the Appalachian plateau of Tioga County, Pennsylvania.
 
+[📖 **Meet Chuck Forsyth — Director of Research Computing & Ridge Homesteader &rarr;**]({{ site.baseurl }}/about/) &bull; [🌟 **Explore Omstead Press & Free Books &rarr;**]({{ site.baseurl }}/press/)
+
 Nordhaven is both a retreat and an empirical laboratory. It is where ancestral earth rhythms, seasonal Norse ceremonies, closed-loop soil microbiology, and modern edge telemetry converge into a sovereign way of life.
 
 ---
