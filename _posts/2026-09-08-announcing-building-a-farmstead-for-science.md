@@ -34,6 +34,7 @@ For years, traditional homesteading has relied heavily on oral traditions, anecd
 
 We have compiled and released several distinct model editions through our enterprise AI gateway, each showcasing different analytical strengths:
 
+* **[Download Gemini 3.8 Flash Edition — The Scientific Homestead (1.2 MB)]({{ site.baseurl }}/assets/books/The_Scientific_Homestead_Gemini_Flash_38.pdf)** *(Autonomous Typst compilation via Hermes Agent Kanban plugin: 84 pages, 8 technical chapters, MinION genomics & open-source metrology)*
 * **[Download Gemini 2.5 Pro Edition (0.7 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Gemini_Pro_Edition.pdf)**
 * **[Download Gemma 4 31B Edition (1.6 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Gemma_4_31B_Edition.pdf)**
 * **[Download Gemini 2.5 Flash-Lite Edition (3.7 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_25.pdf)**

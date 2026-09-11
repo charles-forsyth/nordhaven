@@ -55,6 +55,7 @@ Here we document the empirical synthesis of high-altitude Appalachian agroecolog
 
 * **Abstract:** Grounded in soil chemistry, thermodynamics, avian epidemiology, and autonomous IoT telemetry, this master volume outlines the exact protocols, mathematical models, and engineering blueprints required to operate a resilient, closed-loop homestead in the Northern Appalachian plateau.
 * **Available Editions:**
+  * [📥 Download Gemini 3.8 Flash Edition — The Scientific Homestead (1.2 MB)]({{ site.baseurl }}/assets/books/The_Scientific_Homestead_Gemini_Flash_38.pdf) *(Latest Master Edition: Autonomous Typst compilation via Hermes Agent Kanban plugin. 84 pages, 8 technical chapters, 40+ mathematical models, 39 data tables, 37 ASCII schematics, and 16 project build plans covering CEA aeroponics, LoRaWAN telemetry, Oxford Nanopore MinION soil metagenomics, 50-tonne Biomeiler heat recovery, and UV-Vis spectrophotometry)*
   * [📥 Download Gemini 2.5 Flash-Lite Edition (3.7 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_25.pdf) *(The definitive data-dense reference manual)*
   * [📥 Download Gemini 3.5 Flash-Lite Edition (3.1 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_35.pdf) *(Optimal narrative & practical homestead balance)*
   * [📥 Download Gemma 4 31B Edition (1.6 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Gemma_4_31B_Edition.pdf) *(Exhaustive chemical breakdowns & chassis rust conversion)*
