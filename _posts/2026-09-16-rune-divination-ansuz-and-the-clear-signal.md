@@ -53,7 +53,7 @@ Single-ended signaling—where a single wire carries a voltage referenced to a s
 
 To overcome this, engineers deploy **differential signaling** (the physical archetype of Ansuz):
 * **Equal and Opposite Vectors:** Two conductors transmit identical signals inverted in polarity.
-* **Common-Mode Rejection: When electromagnetic interference strikes the cable, both conductors absorb the identical noise spike simultaneously.
+* **Common-Mode Rejection:** When electromagnetic interference strikes the cable, both conductors absorb the identical noise spike simultaneously.
 * **Differential Decoding:** The receiver measures only the difference between the two wires, completely subtracting and canceling the induced interference.
 
 Ansuz teaches that integrity in transmission is not about shouting louder; it is about architectural balance. By pairing the signal with its calibrated inverse and establishing proper termination, the communication survives untouched through the storm.
