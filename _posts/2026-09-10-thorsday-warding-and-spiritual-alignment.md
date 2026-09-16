@@ -43,4 +43,4 @@ When you watch pastured hens scratching in the grass or look out over a well-gua
 
 May the sun stay warm upon the back grass, may the boundaries of home remain absolute and secure, and may the rest of this Thursday bring absolute clarity, steady rhythm, and quiet evening rest. 
 
-*— Chuck & Laylla, Omstead Lodge*
+*— The Keepers of Omstead Hearth*
