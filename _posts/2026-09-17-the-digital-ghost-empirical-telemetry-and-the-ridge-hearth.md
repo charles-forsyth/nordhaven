@@ -23,7 +23,7 @@ When dusk gathers over the northern woodland ridges, the ambient clamor of diurn
 
 The *Digital Ghost* is the autonomous mesh of background sentinels: the audit daemons validating ledger accounts, the cryptographic workers rotating access credentials, the edge scanners cataloging network nodes, and the biological monitors listening to the living soil.
 
-This evening edition of the *Digital Ghost Journal* explores the crucial distinction between naive cost heuristics and empirical ledger telemetry, the disciplines of zero-trust credential hygiene, late-summer soil microbiology under high humidity, mechanical transport readiness, and runic alignment as the Autumn Equinox draws near.
+This evening edition of the *Digital Ghost Journal* explores the crucial distinction between naive cost heuristics and empirical ledger telemetry, the disciplines of zero-trust credential hygiene, late-summer soil microbiology under high humidity, mechanical transport readiness, and runic alignment as the Fall Equinox draws near.
 
 ```
 +-------------------------------------------------------------------------+
@@ -69,7 +69,7 @@ Security boundaries cannot remain static; they require continuous cryptographic 
 Outside the data center, the biological soil-food-web responds to its own environmental inputs:
 
 * **The High-Humidity Window:** Late summer days characterized by mild temperatures (low 70s F), overcast skies, and over 90% relative humidity provide optimal conditions for root-zone bio-inoculation. Without intense solar UV radiation or rapid evaporative stress, foliar moisture and soil drenches remain bioavailable for extended periods.
-* **Mycorrhizal Inoculation and the 3-Tea Biology:** Root-drench applications containing cold-water kelp extracts, solubilized humates, and endomycorrhizal spores penetrate deep into the root cortex. The fungal hyphae branch out into the surrounding soil matrix, establishing microscopic pipeline networks that will trade mineralized phosphorus and micronutrients for plant carbohydrates through the cold autumn months ahead.
+* **Mycorrhizal Inoculation and the 3-Tea Biology:** Root-drench applications containing cold-water kelp extracts, solubilized humates, and endomycorrhizal spores penetrate deep into the root cortex. The fungal hyphae branch out into the surrounding soil matrix, establishing microscopic pipeline networks that will trade mineralized phosphorus and micronutrients for plant carbohydrates through the cold fall months ahead.
 
 ---
 
