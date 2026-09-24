@@ -1,42 +1,43 @@
 ---
 layout: page
-title: "About Chuck Forsyth | The Ridge & The Wire"
+title: "About Nordhaven | The Ridge and The Wire"
 permalink: /about/
+description: "Who keeps the Great Nordhaven Lodge: a high-ridge Appalachian homestead where Norse earth-faith, soil science, and systems engineering meet."
 ---
 
-# 🌲 About Chuck Forsyth: The Ridge & The Wire
+# About Nordhaven: The Ridge and The Wire
 
-> *"Between the bedrock and the server rack, the ancient forest meets the empirical wire. What the old Norse called the Landvættir—the spirits of place—we honor with both sacred gratitude and exact measurement."*
+> *"Between the bedrock and the server rack, the ancient forest meets the empirical wire. What the old Norse called the Landvaettir, the spirits of place, we honor with both sacred gratitude and exact measurement."*
 
-Welcome to **Omstead** (known literary as **Nordhaven**), our high-ridge homestead situated at 1,607 feet in the Appalachian plateau of Tioga County, Pennsylvania. My name is **Chuck Forsyth**, and my life is built at the intersection of large-scale computational systems and rigorous earth-based self-reliance.
-
----
-
-## 🏛️ Professional Background & Research Computing
-
-In my professional life, I serve as the **Director of Research Computing at University of California, Riverside (UCR)**, where I lead the architecture, engineering, and governance of advanced research infrastructure. 
-
-My work spans enterprise AI gateway deployment (scaling production LiteLLM proxies on Cloud Run v2 and Cloud SQL PostgreSQL 17), high-performance computing clusters (Slurm HPC), secure data enclaves (NIST 800-171 / CUI compliance), and campus-wide cloud FinOps governance across Google Cloud. Whether designing automated cost-governance throttles or scaling multi-model LLM pipelines, my focus is always on robust, production-grade systems engineering.
+**Nordhaven**, the Great Nordhaven Lodge, is a working homestead on a high ridge in the northern Appalachian plateau, about 1,600 feet up. This site is its chronicle. It is written under the lodge's name rather than a personal one, on purpose: the place and the practice are the point, not the people.
 
 ---
 
-## 🏡 Omstead & The Nordhaven Philosophy
+## The Keeper's Trade
 
-Away from the terminal, Omstead is our living, breathing closed-loop ecological laboratory. We operate on empirical agroecology, continuous environmental measurement, and radical self-reliance:
+The keeper of the lodge spends the working week in large-scale research computing: designing and governing the kind of infrastructure scientists run their work on. High-performance clusters, cloud platforms, cost governance, secure research environments, and the automation that keeps them honest.
 
-* **The Living Soil:** High-aeration fabric smart pot cultivation powered by our Master Three-Tea organic protocol (aerated compost root drenches, mycorrhizal inoculation, and foliar biostimulants).
-* **Spatial Telemetry:** A wireless mesh sensor grid tracking barometric dynamics, microclimate inversions, and soil respiration across our ridge.
-* **The Heritage Flock & Garden:** Pastured laying hens, ghost peppers, cold-hardy winter greens, and perennial fruit stewardship.
-* **The Mechanical Fleet:** Restoring and maintaining the iron that moves the mountain—from our Dodge Ram Daytona and VW Beetle to our Jayco expedition rig.
+That trade leaks into everything written here. The habits that keep a cluster healthy (measure first, verify every repair, never trust a report that has not been checked) turn out to be exactly the habits that keep a garden, a flock, and a household healthy too.
 
 ---
 
-## ᛉ Ancestral Heritage & Earth Faith
+## The Lodge and Its Philosophy
 
-As a practitioner of ancestral Norse paganism and animism, Nordhaven is also a sanctuary of the spirit. We believe that modern scientific telemetry and ancient earth-faith are not mutually exclusive; rather, they are two lenses looking at the exact same systemic reality. 
+Away from the terminal, Nordhaven is a living, closed-loop ecological laboratory. It runs on empirical agroecology, continuous environmental measurement, and plain self-reliance:
 
-Whether we are engineering cloud infrastructure, brewing compost tea for fabric pots, or casting runes by the woodstove as the Tioga ridge cools for winter, every act is grounded in sovereign responsibility, truth, and respect for the living land.
+* **The Living Soil:** High-aeration fabric pot cultivation fed by a three-tea organic protocol (aerated compost root drenches, mycorrhizal inoculation, and foliar biostimulants).
+* **Spatial Telemetry:** A wireless mesh of sensors tracking barometric pressure, microclimate inversions, and soil conditions across the ridge.
+* **The Heritage Flock and Garden:** Pastured laying hens, hot peppers, cold-hardy winter greens, and perennial fruit.
+* **The Mechanical Fleet:** Keeping the old iron running: a work truck, a small camper, and a classic air-cooled car that refuses to die.
 
 ---
 
-*“Between the bedrock and the sky, the wheel turns, and the land provides.”*
+## Ancestral Heritage and Earth Faith
+
+The lodge keeps the old Norse and animist ways. Modern scientific telemetry and ancient earth-faith are not at odds here; they are two lenses on the same living system.
+
+Whether the work is tuning cloud infrastructure, brewing compost tea for the fabric pots, or casting runes by the woodstove as the ridge cools for winter, every act rests on the same three things: responsibility, truth, and respect for the living land.
+
+---
+
+*"Between the bedrock and the sky, the wheel turns, and the land provides."*

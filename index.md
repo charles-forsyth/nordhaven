@@ -1,51 +1,52 @@
 ---
 layout: page
-title: "Nordhaven | The Omstead Chronicle"
+title: "Nordhaven | Tales from the Great Nordhaven Lodge"
 permalink: /
+description: "The chronicle of a high-ridge Appalachian homestead: Norse earth-faith, soil science, telemetry, and honest engineering."
 ---
 
-# 🌲 Nordhaven: The Omstead Chronicle
-*Tails & Truths from the Great Nordhaven Lodge &bull; Tioga County, Pennsylvania*
+# Nordhaven: The Lodge Chronicle
+*Tales and truths from the Great Nordhaven Lodge, high on a northern Appalachian ridge*
 
-> *"Here on the mountain ridge, the ancient forest meets the empirical wire. What the old Norse called the Landvættir—the spirits of place—we honor with both sacred gratitude and exact measurement."*
+> *"Here on the mountain ridge, the ancient forest meets the empirical wire. What the old Norse called the Landvaettir, the spirits of place, we honor with both sacred gratitude and exact measurement."*
 
-Welcome to **Nordhaven**, the literary chronicle and living field journal of **Omstead**—our high-ridge homestead situated at 1,607 feet in the Appalachian plateau of Tioga County, Pennsylvania.
+Welcome to **Nordhaven**, the chronicle and field journal of a high-ridge homestead in the northern Appalachian plateau, about 1,600 feet up.
 
-[📖 **Meet Chuck Forsyth — Director of Research Computing & Ridge Homesteader &rarr;**]({{ site.baseurl }}/about/) &bull; [🌟 **Explore Omstead Press & Free Books &rarr;**]({{ site.baseurl }}/press/)
+[**About the lodge &rarr;**]({{ site.baseurl }}/about/) &bull; [**Nordhaven Press: free books &rarr;**]({{ site.baseurl }}/press/)
 
-Nordhaven is both a retreat and an empirical laboratory. It is where ancestral earth rhythms, seasonal Norse ceremonies, closed-loop soil microbiology, and modern edge telemetry converge into a sovereign way of life.
-
----
-
-## 🏡 What is Omstead?
-
-Omstead is a living, self-sufficient homestead designed as a closed-loop ecological system. Rather than relying on romanticized folklore, we operate on empirical agroecology, continuous measurement, and radical self-reliance.
-
-* 🐓 **The Heritage Laying Flock:** An 8-hen pastured flock managed with automated predator-warded housing, deep-litter carbon bedding, and closed-loop nitrogen recycling.
-* 🌿 **The Living Soil & 3-Tea Organics:** High-aeration fabric smart pot cultivation powered by our Master Three-Tea protocol (aerated compost root drenches, living mycorrhizal inoculation, and foliar biostimulants)—no synthetic pesticides or chemical fertilizers.
-* 📡 **Spatial Telemetry & Ridge Microclimates:** A multi-node wireless mesh sensor grid tracking barometric dynamics, frost pocket inversions, soil respiration, base-50 Growing Degree Days (GDD), and Vapor Pressure Deficit (VPD).
-* 🛠️ **The Mechanical Fleet & Heavy Duty Workshop:** Maintaining the iron that moves the mountain—from our 2005 Dodge Ram 1500 Daytona and undercarriage rust conversion chemistry, to our Jayco 212QBW expedition rig and classic 1971 VW Beetle.
-* 🐾 **The Hearth & Companions:** Guarded by Milo ("Moe"), the off-leash ridge cat, warm woodstove fires, rich home cooking, and the shared camaraderie of family and good friends.
+Nordhaven is both a retreat and an empirical laboratory. It is where ancestral earth rhythms, seasonal Norse ceremonies, closed-loop soil microbiology, and modern edge telemetry come together into one way of life.
 
 ---
 
-## 📖 Omstead Press & Publications
+## What Is Nordhaven?
 
-Omstead is also an active intellectual workshop. Through our publishing imprint, **Omstead Press**, we produce complete open-access field manuals, books, and scientific treatises bridging earth-faith metaphysics, thermodynamics, and applied agronomy.
+Nordhaven is a living, self-sufficient homestead run as a closed-loop ecological system. Rather than leaning on romantic folklore, it runs on empirical agroecology, continuous measurement, and plain self-reliance.
 
-### 🌟 Featured Releases:
-* **[The Web of Wyrd & Entropy]({{ site.baseurl }}/press/):** *Ancient Norse Cosmology, Thermodynamics, and the Science of the Living Homestead.*
+* **The Heritage Laying Flock:** A small pastured flock with predator-warded housing, deep-litter carbon bedding, and closed-loop nitrogen recycling.
+* **The Living Soil and Three-Tea Organics:** High-aeration fabric pot cultivation fed by a three-tea protocol (aerated compost root drenches, living mycorrhizal inoculation, and foliar biostimulants). No synthetic pesticides or chemical fertilizers.
+* **Spatial Telemetry and Ridge Microclimates:** A wireless mesh of sensors tracking barometric pressure, frost-pocket inversions, soil respiration, base-50 Growing Degree Days (GDD), and Vapor Pressure Deficit (VPD).
+* **The Mechanical Fleet and Workshop:** Keeping the old iron running, from a work truck and its undercarriage rust-conversion chemistry to a small camper and a classic air-cooled car.
+* **The Hearth and Companions:** A ridge cat who keeps his own hours, a woodstove, good home cooking, and the company of family and friends.
+
+---
+
+## Nordhaven Press
+
+The lodge is also a working intellectual shop. Through its imprint, **Nordhaven Press**, it publishes free open-access field manuals and treatises bridging earth-faith, thermodynamics, and applied agronomy.
+
+### Featured Releases
+* **[The Web of Wyrd and Entropy]({{ site.baseurl }}/press/):** *Ancient Norse Cosmology, Thermodynamics, and the Science of the Living Homestead.*
 * **[The Scientific Animist]({{ site.baseurl }}/press/):** *Honoring the Land Through Ritual, Sensor Networks, and Ecological Biophysics.*
 * **[Of Soil and Solstice]({{ site.baseurl }}/press/):** *Where Ancient Earth Faith Meets Modern Physics on the Living Homestead.*
-* **[Building a Farmstead for Science]({{ site.baseurl }}/press/):** *The Definitive 20-Chapter Agronomy & Engineering Field Manual.*
+* **[Building a Farmstead for Science]({{ site.baseurl }}/press/):** *The 20-Chapter Agronomy and Engineering Field Manual.*
 
-👉 **[Explore the Full Omstead Press Library & Download Free PDFs &rarr;]({{ site.baseurl }}/press/)**
+**[See the full Nordhaven Press library and download free PDFs &rarr;]({{ site.baseurl }}/press/)**
 
 ---
 
-## 📜 Recent Field Dispatches & Chronicle Entries
+## Recent Field Dispatches
 
-Explore our latest field notes, seasonal reflections, and tech experiments:
+Field notes, seasonal reflections, and tech experiments:
 
 <table>
   <thead>
@@ -70,4 +71,4 @@ Explore our latest field notes, seasonal reflections, and tech experiments:
 
 ---
 
-*“Between the bedrock and the sky, the wheel turns, and the land provides.”*
+*"Between the bedrock and the sky, the wheel turns, and the land provides."*

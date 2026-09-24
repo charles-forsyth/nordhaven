@@ -1,62 +1,50 @@
-# 🌲 Nordhaven &bull; The Omstead Chronicle
+# Nordhaven: The Lodge Chronicle
 
 [![GitHub Pages Deployment](https://img.shields.io/badge/GitHub%20Pages-Live-2ea043?style=flat&logo=github)](https://charles-forsyth.github.io/nordhaven/)
-[![Publishing Imprint](https://img.shields.io/badge/Imprint-Omstead%20Press-blue?style=flat)](https://charles-forsyth.github.io/nordhaven/press/)
+[![Publishing Imprint](https://img.shields.io/badge/Imprint-Nordhaven%20Press-blue?style=flat)](https://charles-forsyth.github.io/nordhaven/press/)
 
-> *"Tails & Truths from the Great Nordhaven Lodge &bull; Tioga County, Pennsylvania (Elevation 1,607 ft)"*
+> *"Tales and truths from the Great Nordhaven Lodge, high on a northern Appalachian ridge."*
 
-Welcome to the official repository for **Nordhaven** (`https://charles-forsyth.github.io/nordhaven/`), the public chronicle, literary journal, and publishing platform of **Omstead**—our high-ridge homestead situated in the Appalachian plateau of Tioga County, Pennsylvania.
-
----
-
-## 🏡 About Omstead (The Great Nordhaven Lodge)
-
-**Nordhaven** is the established literary and homestead alias for **Omstead**. It represents an integrated lifestyle and research platform uniting:
-
-* 🐓 **Closed-Loop Animal Systems:** An 8-hen pastured laying flock with automated predator defense, deep-litter carbon bedding, and nitrogen recycling.
-* 🌿 **Empirical Agronomy & 3-Tea Organics:** High-aeration fabric smart pot cultivation powered by our Master Three-Tea protocol (aerated compost root drenches, living mycorrhizae inoculation, and foliar feeding).
-* 📡 **Spatial Mesoclimate Telemetry:** Wireless multi-node mesh grids tracking temperature inversions, ridge microclimates, soil moisture, and atmospheric dynamics.
-* 🛠️ **Heavy Duty Fleet Engineering:** Hands-on maintenance of our expedition and work fleet (2005 Dodge Ram 1500 Daytona, 2022 Jayco 212QBW, 1971 VW Beetle, and CR-Vs).
-* ᛟ **Earth-Based Spiritual Rhythms:** Honoring the turning of the seasonal wheel (solstices and equinoxes) and the *Landvættir* through exact ecological biophysics and stewardship.
+Source for **Nordhaven** (`https://charles-forsyth.github.io/nordhaven/`), the public chronicle, field journal, and publishing platform of the Great Nordhaven Lodge.
 
 ---
 
-## 📖 Omstead Press
+## What the site covers
 
-This repository also hosts **[Omstead Press](https://charles-forsyth.github.io/nordhaven/press/)**, the open-access publication imprint of the homestead. 
-
-Available books include:
-1. **The Web of Wyrd & Entropy:** *Ancient Norse Cosmology, Thermodynamics, and the Science of the Living Homestead* (Editions: Gemini 2.5 Flash-Lite, Gemini 2.5 Pro, Gemini 3.7 Flash)
-2. **The Scientific Animist:** *Honoring the Land Through Ritual, Sensor Networks, and Ecological Biophysics* (Gemini 3.5 Flash-Lite Edition)
-3. **Of Soil and Solstice:** *Where Ancient Earth Faith Meets Modern Physics on the Living Homestead* (Gemini 3.5 Flash-Lite Edition, 121 pages)
-4. **Building a Farmstead for Science:** *Applied Agronomy, Spatial Mesoclimates, and Closed-Loop Homestead Engineering* (20 Chapters, 5 distinct model editions)
-
-All volumes are available as free, publication-styled PDF downloads under `/assets/books/` and through the online catalog at [`/press/`](https://charles-forsyth.github.io/nordhaven/press/).
+* **Closed-loop animal systems:** a small pastured laying flock, predator-warded housing, deep-litter bedding, nitrogen recycling.
+* **Empirical agronomy:** fabric pot cultivation and a three-tea organic protocol (compost root drenches, mycorrhizal inoculation, foliar feeding).
+* **Ridge telemetry:** a wireless sensor mesh tracking inversions, microclimates, soil moisture, and weather.
+* **The fleet and workshop:** keeping old iron running.
+* **Earth-based rhythms:** the seasonal wheel, the runes, and the *Landvaettir*, approached through both reverence and measurement.
 
 ---
 
-## 📜 Recent Field Dispatches & Chronicle Entries
+## Nordhaven Press
 
-| Date | Chronicle Dispatch | Focus & Core Themes | Live Link |
-| :--- | :--- | :--- | :--- |
-| **Sep 08, 2026** | **Announcing: Building a Farmstead for Science** | 20-chapter field manual & 5 distinct PDF releases | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/09/08/announcing-building-a-farmstead-for-science.html) |
-| **Aug 24, 2026** | **Algiz and Sowilo: The Sacred Shield and the Solar Victory (ᛉᛋ)** | Protective perimeter wards, Bifröst, and solar photosynthesis | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/24/algiz-and-sowilo-the-shield-and-the-sun.html) |
-| **Aug 22, 2026** | **Tiwaz and the Pillar of Sovereignty: A Runic Meditation on Tyr (ᛏ)** | Upward spear, Polaris pole star, homestead sovereignty | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/22/tiwaz-and-the-pillar-of-sovereignty.html) |
-| **Aug 20, 2026** | **The Genius Loci of the Ridge: The Living Spirit of Button Hill** | Spirit of place at 1,607 ft, thermal drainage, soil microbiology | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/20/the-genius-loci-of-the-ridge.html) |
-| **Aug 15, 2026** | **The Essence of an Earth Blessing: Reciprocity, Immanence, and the Landvættir** | Immanent sacredness, Landvættir spirits of place, gods as kin | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/15/what-is-an-earth-blessing.html) |
-| **Aug 12, 2026** | **The Five Elements and Spirit: Living Foundations on the Mountain Ridge** | Classical & Norse elementalism: Earth, Air, Fire, Water, Spirit | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2026/08/12/the-five-elements-and-spirit.html) |
-| **Mar 02, 2025** | **Camping Tech: Blending Nature with Modern Research** | Sensor loggers, satellite communicators, and trail research | [Read Dispatch &rarr;](https://charles-forsyth.github.io/nordhaven/2025/03/02/camping-tech-research.html) |
+The site also hosts **[Nordhaven Press](https://charles-forsyth.github.io/nordhaven/press/)**, the lodge's free open-access imprint. PDFs live in `assets/books/`; the catalog is `press.md`.
 
 ---
 
-## ⚙️ Technical Architecture
+## Privacy rule for this repo
 
-* **Engine:** Jekyll Static Site Generator
-* **Hosting:** GitHub Pages (`gh-pages` / `main` branch)
-* **Theme:** Zendesk Garden Remote Theme (`zendesk/jekyll-theme-zendesk-garden@main`)
+Nordhaven is published under the lodge's name, not a personal one. Posts, pages, and PDFs must not contain real personal or family names, the employer or institution, the exact location (town, county, road, hill name, precise elevation or coordinates), vendor names, cloud project IDs, IPs, or ticket numbers. Translate specifics into roles and metaphors instead of just deleting them. Private working material (briefings, cluster configs) must never be placed in this directory; `.gitignore` blocks the common patterns as a backstop.
+
+---
+
+## Adding a post
+
+1. `git checkout -b post/<slug>`
+2. Create `_posts/YYYY-MM-DD-<slug>.md` with frontmatter: `layout: post`, a double-quoted `title`, `date`, `description` (one sentence, used for link previews), `categories` (from the list below), and `tags`.
+3. Keep the body plain ASCII (no em dashes, smart quotes, or emoji). Runes are fine.
+4. Open a PR, merge with `--delete-branch`, and delete the local branch.
+
+**Categories** (keep to these so the archive stays tidy): Spiritual, Runic Lore, Astronomy, Hearthcraft, Homesteading, Agronomy, Systems Architecture, Philosophy, Resilience, Press.
+
+---
+
+## Technical architecture
+
+* **Engine:** Jekyll on GitHub Pages (builds from `main`)
+* **Theme:** `zendesk/jekyll-theme-zendesk-garden@main` (remote theme), with a local `_layouts/default.html` override that adds SEO/Open Graph tags, the RSS link, and site navigation
 * **Plugins:** `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-remote-theme`
-* **Markdown:** Kramdown with table and code block support
-
----
-
-*Authored and maintained by Chuck Forsyth &bull; Omstead Ridge, Tioga PA.*
+* **Pages:** home, about, press, archive (by month and category), 404

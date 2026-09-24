@@ -12,7 +12,7 @@ Sunday evening carries a distinct psychological weight in modern life. The quiet
 
 For many, this transition is marked by the "Sunday scaries"—an unfocused dread of unresolved tasks and mounting obligations. But in a disciplined homestead and engineering sanctuary, Sunday night is approached not with apprehension, but with deliberate, strategic readiness.
 
-Under a bright **Waxing Gibbous Moon (73% illumination)**, the ridge at 1,607 feet elevation rests in complete clarity.
+Under a bright **Waxing Gibbous Moon (73% illumination)**, the ridge at 1,600 feet elevation rests in complete clarity.
 
 ```
        73% WAXING GIBBOUS MOON
