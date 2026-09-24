@@ -13,6 +13,7 @@ tags:
   - Phenology
   - Runes
   - Stewardship
+description: "When the sun dips below the western ridgeline and ambient electromagnetic noise recedes, a distributed environment reveals its true baseline."
 ---
 
 ## The Threshold of Nightfall

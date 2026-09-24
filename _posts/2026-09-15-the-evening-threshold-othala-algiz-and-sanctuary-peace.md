@@ -4,6 +4,7 @@ title: "The Evening Threshold: Othala, Algiz, and the Peace of the Sanctuary"
 date: 2026-09-15
 categories: [Spiritual, Runic, Philosophy]
 tags: [Othala, Algiz, Gebo, Ingwaz, Blessings, Homestead, Sanctuary]
+description: "As twilight fades into the blue chill of a September evening, a distinct silence settles across the high ridge."
 ---
 
 ## Crossing the Threshold

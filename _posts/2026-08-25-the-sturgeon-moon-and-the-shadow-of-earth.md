@@ -4,6 +4,7 @@ title: "The Sturgeon Moon Approaches: Máni, Jera, and the Coming Eclipse"
 date: 2026-08-25
 categories: [Spiritual, Astronomy, Norse Cosmology]
 tags: [Sturgeon Moon, Lunar Eclipse, Mani, Jera, Algiz, Earth Shadow]
+description: "High on the Appalachian ridge at 1,600 feet elevation, the night sky is flooded with brilliant silver brilliance."
 ---
 
 ## The Waxing Light of the Sturgeon Moon

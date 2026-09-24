@@ -11,6 +11,7 @@ tags:
   - Agronomy
   - Telemetry
   - FinOps
+description: "Today marks a major milestone at the Great Nordhaven Lodge: the official release of our 20-chapter field manual and scientific treatise, 'Building a..."
 ---
 
 ## Moving from Folklore to Empirical Agroecology

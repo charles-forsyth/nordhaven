@@ -10,6 +10,7 @@ tags:
   - Animism
   - Mountain Living
   - Telemetry
+description: "In classical Roman and archaic animist philosophy, the Genius Loci is the unique, living spiritual essence, character, and guardian soul of a physical..."
 ---
 
 ## The Living Spirit of Place

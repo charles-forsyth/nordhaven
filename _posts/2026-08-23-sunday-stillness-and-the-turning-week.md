@@ -4,6 +4,7 @@ title: "The Waxing Gibbous: Sunday Night Readiness, Sowilo, and the Monday Dawn"
 date: 2026-08-23
 categories: [Spiritual, Philosophy, Agronomy]
 tags: [Sowilo, Algiz, Foliar Spray, Sunday Reset, Microbes]
+description: "Sunday evening carries a distinct psychological weight in modern life."
 ---
 
 ## The Sunday Night Threshold

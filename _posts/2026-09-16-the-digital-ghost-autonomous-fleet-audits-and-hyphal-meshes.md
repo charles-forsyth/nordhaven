@@ -14,6 +14,7 @@ tags:
   - Phenology
   - Runes
   - Stewardship
+description: "When dusk descends across the mountain ridge and human operators step back from terminal consoles, an autonomous sanctuary shifts its posture."
 ---
 
 ## The Threshold of Nightfall

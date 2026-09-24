@@ -4,6 +4,7 @@ title: "The Return to Sanctuary: Uruz, Laguz, and the Restored Vessel"
 date: 2026-08-17
 categories: [Spiritual, Philosophy, Homestead]
 tags: [Uruz, Laguz, Algiz, Healing, Sanctuary, Travel, Evening]
+description: "In our hyper-connected world, high-performance technical work exerts an invisible, accumulating tax upon the body."
 ---
 
 ## Listening to the Physical Vessel

@@ -12,6 +12,7 @@ tags:
   - Mechanics
   - Infrastructure
   - Journey
+description: "In the Elder Futhark, Raidho (ᚱ) is traditionally associated with the chariot, the horse rider, and the wagon wheel."
 ---
 
 ## ᚱ — The Mystery of the Wheel

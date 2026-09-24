@@ -4,6 +4,7 @@ title: "Muting the Noise: Friday Stillness, Living Ferments, and the Algiz Ward"
 date: 2026-08-21
 categories: [Spiritual, Philosophy, Homestead]
 tags: [Algiz, Weekend Rest, Digital Silence, Compost Tea, Sanctuary]
+description: "There is a precise moment on Friday evening when systems administration must yield to human sanctuary."
 ---
 
 ## Muting the World at Dusk

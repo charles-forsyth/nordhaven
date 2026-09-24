@@ -9,6 +9,7 @@ tags:
   - Research
   - Outdoor Gear
   - Data Collection
+description: "Today, I took my latest research project into the heart of the Appalachian wilderness, near my home."
 ---
 
 ## Exploring the Wilderness with Cutting-Edge Tools

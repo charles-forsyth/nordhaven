@@ -12,6 +12,7 @@ tags:
   - Automation
   - Soil Biology
   - Stewardship
+description: "Most engineering narratives glorify the architectural genesis - the initial commit, the dramatic greenfield rollout, the high-throughput benchmark triumph."
 ---
 
 ## The Unseen Rhythm of Maintenance

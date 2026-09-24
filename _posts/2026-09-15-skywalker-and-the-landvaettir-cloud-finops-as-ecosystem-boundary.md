@@ -12,6 +12,7 @@ tags:
   - Governance
   - Cloud Architecture
   - Boundaries
+description: "In modern cloud marketing, infrastructure is presented as ethereal, weightless, and infinite."
 ---
 
 ## The Illusion of Infinite Compute

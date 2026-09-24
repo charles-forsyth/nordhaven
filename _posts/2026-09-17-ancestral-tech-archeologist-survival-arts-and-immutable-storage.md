@@ -13,6 +13,7 @@ tags:
   - Merkle Trees
   - Systems Ecology
   - Bit Rot
+description: "Every civilization is bounded by its ability to preserve state across temporal distance."
 ---
 
 ## The Thermodynamics of Archival

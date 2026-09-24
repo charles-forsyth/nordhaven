@@ -4,6 +4,7 @@ title: "Hearthcraft and Autumn Soup: Domestic Sanctuary, Gebo, and the Golden Gl
 date: 2026-09-09
 categories: [Spiritual, Hearthcraft, Philosophy]
 tags: [Hearthcraft, Gebo, Ingwaz, Othala, Autumn, Sanctuary]
+description: "As September nights dip into the low 50s, the spiritual center of the homestead shifts from the outdoor garden beds back toward the hearth."
 ---
 
 ## The Sacred Kitchen

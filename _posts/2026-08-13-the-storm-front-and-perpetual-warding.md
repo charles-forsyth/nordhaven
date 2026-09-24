@@ -4,6 +4,7 @@ title: "The Cycle of Jera: Microclimate Telemetry and the Restorative Soil"
 date: 2026-08-13
 categories: [Spiritual, Agronomy, Meteorology]
 tags: [Jera, Microclimate, GDD, Telemetry, Soil Biology, Landvaettir]
+description: "Under the first razor-thin sliver of the waxing crescent moon (1.8% illumination), the atmosphere over the northern ridge settles into a heavy, warm stillness."
 ---
 
 ## The First Light of the Crescent

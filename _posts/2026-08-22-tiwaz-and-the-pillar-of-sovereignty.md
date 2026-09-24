@@ -10,6 +10,7 @@ tags:
   - Tiwaz
   - Norse
   - Sovereignty
+description: "In the Elder Futhark, the rune Tiwaz (ᛏ) is shaped like an upward-pointing spear or the central pillar upholding the sky."
 ---
 
 ## The Upward Spear and the Steady Star

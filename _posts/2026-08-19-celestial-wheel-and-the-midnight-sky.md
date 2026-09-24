@@ -4,6 +4,7 @@ title: "The Bifröst Arch: Waxing Moon, Dark Skies, and the Celestial Wheel"
 date: 2026-08-19
 categories: [Spiritual, Astronomy, Norse Cosmology]
 tags: [Odin, Mani, Dark Skies, Milky Way, Jera, Bifrost, Stargazing]
+description: "At 1,530 feet elevation under Class 3 rural dark skies, nightfall is not the absence of light; it is the unveiling of an immense cosmic architecture."
 ---
 
 ## The Observatory on the Ridge

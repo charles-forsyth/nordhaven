@@ -13,6 +13,7 @@ tags:
   - Merkle Trees
   - Ancestral Tech
   - Cold Storage
+description: "Civilization is fundamentally an exercise in decoupling human survival from the acute fluctuations of seasons and climate."
 ---
 
 ## The Ecology of Long Dormancy

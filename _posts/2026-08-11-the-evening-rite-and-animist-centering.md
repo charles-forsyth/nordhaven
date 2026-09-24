@@ -4,6 +4,7 @@ title: "The Dark Moon Threshold: Innangarð, Warding, and the Still Hearth"
 date: 2026-08-11
 categories: [Spiritual, Runic, Philosophy]
 tags: [Innangard, Dark Moon, Warding, Algiz, Ansuz, Hearthcraft]
+description: "In ancient Old Norse cosmology, human existence is organized around two contrasting spiritual geometries: Innangarð (the sacred enclosure within the fence)..."
 ---
 
 ## The Boundary of Innangarð and Útgarðr

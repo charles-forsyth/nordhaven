@@ -1,0 +1,15 @@
+<header class="chrome:header">
+  <div class="chrome:header_title">
+    <a href="{{ "/" | relative_url }}" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
+      <span class="text-3xl">{{ site.title }}</span>
+    </a>
+  </div>
+  <nav class="nh-nav" aria-label="Site">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/archive/' | relative_url }}">Archive</a>
+    <a href="{{ '/press/' | relative_url }}">Press</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+  </nav>
+  {% if site.search_enabled %} {% include search_input.html %} {% endif %}
+</header>

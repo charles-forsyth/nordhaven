@@ -13,6 +13,7 @@ tags:
   - Systems Architecture
   - Phenology
   - Fault Tolerance
+description: "In the Elder Futhark, Eihwaz (ᛇ, stave thirteen) follows immediately upon the cyclical culmination of Jera."
 ---
 
 ## ᛇ - The Mystery of the Sacred Yew and the Enduring Axis

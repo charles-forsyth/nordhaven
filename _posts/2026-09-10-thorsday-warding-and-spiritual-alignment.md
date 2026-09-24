@@ -4,6 +4,7 @@ title: "Þórsdagr: The Thunder, The Warding, and the Resilient Shield"
 date: 2026-09-10
 categories: [Spiritual, Runic, Homestead]
 tags: [Thor, Warding, Runic, Blessings, Appalaches]
+description: "Today on the ridge, the morning sun breaks through crisp autumn air at 74 degF while the laying flock free-ranges across the back grass."
 ---
 
 Today on the ridge, the morning sun breaks through crisp autumn air at 74°F while the laying flock free-ranges across the back grass. September brings the quiet turning of the season—the second harvest, the dropping of the sap, and the steady, unyielding strength of **Þórsdagr (Thor’s Day)**.

@@ -4,6 +4,7 @@ title: "The Laws of Hospitality: Kinship, Bread, and the Living Hall"
 date: 2026-09-12
 categories: [Spiritual, Philosophy, Norse Lore]
 tags: [Havamal, Othala, Gebo, Wunjo, Algiz, Hospitality, Kinship]
+description: "In the ancient Eddic poem Hávamál, Odin speaks of the sacred balance of hospitality:"
 ---
 
 ## The Ancient Rule of the Guest

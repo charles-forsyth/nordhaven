@@ -1,5 +1,9 @@
 title: Nordhaven
 description: Tales told from the Great Nordhaven Lodge
+url: https://charles-forsyth.github.io
+baseurl: /nordhaven
+lang: en_US
+author: Nordhaven
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 search_enabled: true
@@ -11,3 +15,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

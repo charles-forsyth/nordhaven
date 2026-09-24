@@ -15,6 +15,7 @@ tags:
   - Phenology
   - Runes
   - Stewardship
+description: "When dusk gathers over the northern woodland ridges, the ambient clamor of diurnal traffic falls quiet."
 ---
 
 ## The Threshold of Nightfall

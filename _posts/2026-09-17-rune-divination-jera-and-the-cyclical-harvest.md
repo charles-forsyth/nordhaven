@@ -13,6 +13,7 @@ tags:
   - Systems Architecture
   - Phenology
   - Equinox
+description: "In the Elder Futhark, Jera (ᛃ) is the twelfth stave, marking the exact midpoint of the twenty-four rune sequence."
 ---
 
 ## ᛃ - The Mystery of the Turning Year and the Unforced Season

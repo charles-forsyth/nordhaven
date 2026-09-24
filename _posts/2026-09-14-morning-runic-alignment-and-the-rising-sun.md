@@ -4,6 +4,7 @@ title: "The Morning Staves: Raidho, Thurisaz, and the Mechanical Anvil"
 date: 2026-09-14
 categories: [Spiritual, Mechanics, Philosophy]
 tags: [Raidho, Thurisaz, Jera, Algiz, Morning, Alignment, Machinery]
+description: "At 8:30 AM on Monday morning, the mountain air is crisp at 54 degF under a steady northwest breeze."
 ---
 
 ## The Laying of the Morning Staves

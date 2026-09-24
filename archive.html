@@ -1,0 +1,36 @@
+---
+layout: page
+title: "Archive"
+permalink: /archive/
+description: "Every Nordhaven dispatch, by month and by category."
+---
+
+<h1>The Archive</h1>
+<p>All {{ site.posts | size }} dispatches from the lodge. Jump to <a href="#by-category">by category</a>, or subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.</p>
+
+<h2 id="by-month">By Month</h2>
+{% assign months = site.posts | group_by_exp: "p", "p.date | date: '%B %Y'" %}
+{% for m in months %}
+<h3 class="nh-archive-month" id="{{ m.name | slugify }}">{{ m.name }} <small>({{ m.items | size }})</small></h3>
+<ul>
+  {% for post in m.items %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d" }}</small></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<h2 id="by-category">By Category</h2>
+{% assign cats = site.categories | sort %}
+<ul class="nh-cat-list">
+  {% for c in cats %}
+  <li><a href="#cat-{{ c[0] | slugify }}">{{ c[0] }}</a> ({{ c[1] | size }})</li>
+  {% endfor %}
+</ul>
+{% for c in cats %}
+<h3 class="nh-archive-month" id="cat-{{ c[0] | slugify }}">{{ c[0] }}</h3>
+<ul>
+  {% for post in c[1] %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d, %Y" }}</small></li>
+  {% endfor %}
+</ul>
+{% endfor %}
