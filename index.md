@@ -12,7 +12,7 @@ description: "The chronicle of a high-ridge Appalachian homestead: Norse earth-f
 
 Welcome to **Nordhaven**, the chronicle and field journal of a high-ridge homestead in the northern Appalachian plateau, about 1,600 feet up.
 
-[**About the lodge &rarr;**]({{ site.baseurl }}/about/) &bull; [**Nordhaven Press: free books &rarr;**]({{ site.baseurl }}/press/)
+[**About the lodge &rarr;**]({{ site.baseurl }}/about/) &bull; [**Nordhaven Press: free books &rarr;**]({{ site.baseurl }}/press/) &bull; [**The archive &rarr;**]({{ site.baseurl }}/archive/) &bull; [**RSS**]({{ site.baseurl }}/feed.xml)
 
 Nordhaven is both a retreat and an empirical laboratory. It is where ancestral earth rhythms, seasonal Norse ceremonies, closed-loop soil microbiology, and modern edge telemetry come together into one way of life.
 
@@ -46,7 +46,7 @@ The lodge is also a working intellectual shop. Through its imprint, **Nordhaven 
 
 ## Recent Field Dispatches
 
-Field notes, seasonal reflections, and tech experiments:
+The ten newest entries. Everything else is in the **[archive]({{ site.baseurl }}/archive/)**, by month and by category.
 
 <table>
   <thead>
@@ -58,7 +58,7 @@ Field notes, seasonal reflections, and tech experiments:
     </tr>
   </thead>
   <tbody>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10 %}
     <tr>
       <td><strong>{{ post.date | date: "%b %d, %Y" }}</strong></td>
       <td>{{ post.title }}</td>
@@ -68,6 +68,8 @@ Field notes, seasonal reflections, and tech experiments:
     {% endfor %}
   </tbody>
 </table>
+
+**[All {{ site.posts | size }} dispatches &rarr;]({{ site.baseurl }}/archive/)**
 
 ---
 
