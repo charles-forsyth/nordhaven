@@ -1,0 +1,20 @@
+# Jekyll build output and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*~
+
+# Guardrails: private working material must never be published from this repo
+*_Briefing.md
+*briefing*.md
+ucr-*/
+*.env
+*.key
+*.pem
