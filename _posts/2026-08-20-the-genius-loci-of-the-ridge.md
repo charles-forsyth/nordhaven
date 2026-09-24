@@ -1,5 +1,5 @@
 ---
-title: "The Genius Loci of the Ridge: The Living Spirit of Button Hill"
+title: "The Genius Loci of the Ridge: The Living Spirit of the High Ridge"
 date: 2026-08-20
 layout: post
 categories:
@@ -16,7 +16,7 @@ tags:
 
 In classical Roman and archaic animist philosophy, the ***Genius Loci*** is the unique, living spiritual essence, character, and guardian soul of a physical landscape. Land is never inert, dead matter. It possesses geological memory, cyclical moods, and an enduring presence shaped by its bedrock, prevailing winds, ancient canopy, and the caretakers who dwell upon it in conscious reciprocity.
 
-On the crest of Button Hill, at an elevation of 1,607 feet in the glaciated Appalachian plateau of Northern Pennsylvania, the *Genius Loci* reveals itself through five distinct facets.
+On the crest of our ridge, some 1,600 feet up in the glaciated Appalachian plateau, the *Genius Loci* reveals itself through five distinct facets.
 
 ---
 

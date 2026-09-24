@@ -1,13 +1,14 @@
 ---
 layout: page
-title: "Omstead Press"
+title: "Nordhaven Press"
 permalink: /press/
+description: "Free open-access books from the Great Nordhaven Lodge: Norse cosmology, thermodynamics, soil science, and homestead engineering."
 ---
 
-# 📖 Omstead Press
+# Nordhaven Press
 *Applied Agronomy, Spatial Mesoclimates, Norse Cosmology & Living Biophysics*
 
-Welcome to **Omstead Press**, the publishing imprint of **Omstead** (known chronologically and in our archives as the *Great Nordhaven Lodge*). 
+Welcome to **Nordhaven Press**, the publishing imprint of the *Great Nordhaven Lodge*. Every book here is free to download.
 
 Here we document the empirical synthesis of high-altitude Appalachian agroecology, 21-node spatial telemetry mesh networks, closed-loop soil microbiology, and ancestral Earth & Norse spiritual metaphysics.
 
@@ -17,7 +18,7 @@ Here we document the empirical synthesis of high-altitude Appalachian agroecolog
 
 ### 1. **The Web of Wyrd & Entropy**
 *Ancient Norse Cosmology, Thermodynamics, and the Science of the Living Homestead*  
-**Author:** Chuck Forsyth &bull; September 2026 &bull; 12 Chapters  
+**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters  
 
 * **Core Premise:** The ancient Norse metaphysics of *Wyrd*—the interconnected web of cause, consequence, and ancestral momentum (*Urðr, Verðandi, Skuld*)—is fundamentally an intuitive spiritual model of thermodynamic entropy, quantum entanglement, and ecological feedback loops. When applied to an empirical homestead, managing soil respiration, thermal loss, closed-loop nutrient flows, and generational soil fertility becomes both a sacred duty to the Norns and a strict exercise in non-equilibrium thermodynamics.
 * **Available Editions:**
@@ -29,7 +30,7 @@ Here we document the empirical synthesis of high-altitude Appalachian agroecolog
 
 ### 2. **The Scientific Animist**
 *Honoring the Land Through Ritual, Sensor Networks, and Ecological Biophysics*  
-**Author:** Chuck Forsyth &bull; September 2026 &bull; 12 Chapters  
+**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters  
 
 * **Core Premise:** True animism does not mean ignoring reality in favor of mysticism; it means honoring the *Landvættir* (land wights and spirits of place) by measuring and understanding their actual physical manifestations. Covers 21-node LoRa telemetry grids, soil respiration chambers, *Argiope aurantia* (Zipper Spider) orb-web tensile biophysics, and solar declination angles.
 * **Available Edition:**
@@ -39,7 +40,7 @@ Here we document the empirical synthesis of high-altitude Appalachian agroecolog
 
 ### 3. **Of Soil and Solstice**
 *Where Ancient Earth Faith Meets Modern Physics on the Living Homestead*  
-**Author:** Chuck Forsyth &bull; September 2026 &bull; 12 Chapters &bull; 121 Pages  
+**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters &bull; 121 Pages  
 
 * **Core Premise:** Blends the turning of the ancient seasonal wheel (Yule, Imbolc, Ostara, Beltane, Midsummer, Lammas, Mabon, Samhain) with the real solar physics of photoperiodism, base-50 Growing Degree Day (GDD) accumulation, 1D Fourier soil thermal lag diffusion ($\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial z^2}$), and seed vernalization epigenetics.
 * **Available Edition:**
@@ -51,7 +52,7 @@ Here we document the empirical synthesis of high-altitude Appalachian agroecolog
 
 ### **Building a Farmstead for Science**
 *Applied Agronomy, Spatial Mesoclimates, and Closed-Loop Homestead Engineering*  
-**Author:** Chuck Forsyth &bull; September 2026 &bull; 20 Chapters  
+**Author:** Nordhaven &bull; September 2026 &bull; 20 Chapters  
 
 * **Abstract:** Grounded in soil chemistry, thermodynamics, avian epidemiology, and autonomous IoT telemetry, this master volume outlines the exact protocols, mathematical models, and engineering blueprints required to operate a resilient, closed-loop homestead in the Northern Appalachian plateau.
 * **Available Editions:**

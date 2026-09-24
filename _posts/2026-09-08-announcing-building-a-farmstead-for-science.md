@@ -7,7 +7,7 @@ categories:
   - Research
   - Technology
 tags:
-  - Omstead Press
+  - Nordhaven Press
   - Agronomy
   - Telemetry
   - FinOps
@@ -15,7 +15,7 @@ tags:
 
 ## Moving from Folklore to Empirical Agroecology
 
-Today marks a major milestone at the Great Nordhaven Lodge (Omstead): the official release of our 20-chapter field manual and scientific treatise, **"Building a Farmstead for Science: Applied Agronomy, Spatial Mesoclimates, and Closed-Loop Homestead Engineering"**, published under the **Omstead Press** imprint.
+Today marks a major milestone at the Great Nordhaven Lodge: the official release of our 20-chapter field manual and scientific treatise, **"Building a Farmstead for Science: Applied Agronomy, Spatial Mesoclimates, and Closed-Loop Homestead Engineering"**, published under the **Nordhaven Press** imprint.
 
 For years, traditional homesteading has relied heavily on oral traditions, anecdotes, and regional folklore. While rooted in genuine passion, these methods often lack the quantitative feedback mechanisms required to maximize soil fertility, optimize season extension, or safeguard small-scale livestock health.
 
@@ -23,7 +23,7 @@ For years, traditional homesteading has relied heavily on oral traditions, anecd
 
 ### What the 20 Chapters Cover
 
-1. **Foundations of Empirical Homesteading:** High-altitude ridge topography (1,607 ft), watershed hydrology, 21-node spatial telemetry mesh grids, and the biochemistry of the living soil food web.
+1. **Foundations of Empirical Homesteading:** High-altitude ridge topography (about 1,600 ft), watershed hydrology, 21-node spatial telemetry mesh grids, and the biochemistry of the living soil food web.
 2. **Biological Inputs & Regeneration:** The science of aerated compost teas (ACT), dissolved oxygen maintenance, living mycorrhizal root inoculation, biochar pyrolysis, and poultry manure nitrogen stabilization.
 3. **Controlled Agronomy:** Fabric smart pot physics, perched water table elimination, thermal mass season extension, base-50 Growing Degree Day (GDD) tracking, and biological pest management under the *Argiope aurantia* (Zipper Spider) paradigm.
 4. **Animal Systems:** Avian bioenergetics for heritage laying flocks, biosecurity protocols, and rotational scratching dynamics.
@@ -41,4 +41,4 @@ We have compiled and released several distinct model editions through our enterp
 * **[Download Gemini 3.1 Flash-Lite Edition (2.4 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_31.pdf)**
 * **[Download Gemini 3.5 Flash-Lite Edition (3.1 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_35.pdf)**
 
-Visit our complete catalog at the **[Omstead Press Page]({{ site.baseurl }}/press/)** for full chapter breakdowns and future volumes.
+Visit our complete catalog at the **[Nordhaven Press Page]({{ site.baseurl }}/press/)** for full chapter breakdowns and future volumes.

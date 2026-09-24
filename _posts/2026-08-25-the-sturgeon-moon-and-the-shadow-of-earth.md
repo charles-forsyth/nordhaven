@@ -8,7 +8,7 @@ tags: [Sturgeon Moon, Lunar Eclipse, Mani, Jera, Algiz, Earth Shadow]
 
 ## The Waxing Light of the Sturgeon Moon
 
-High on the Appalachian ridge at 1,607 feet elevation, the night sky is flooded with brilliant silver brilliance. The moon rides as a **Waxing Gibbous at 88% illumination**—the herald of the August **Sturgeon Full Moon**.
+High on the Appalachian ridge at 1,600 feet elevation, the night sky is flooded with brilliant silver brilliance. The moon rides as a **Waxing Gibbous at 88% illumination**—the herald of the August **Sturgeon Full Moon**.
 
 In northern lore, this celestial body is not an inert satellite; it is **Máni**, the ancient driver who guides the chariot of the moon across the vault of heaven, steadfastly navigating the starry lanes while pursued by the cosmic wolf *Hati*. 
 

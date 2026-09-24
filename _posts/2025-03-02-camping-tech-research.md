@@ -13,7 +13,7 @@ tags:
 
 ## Exploring the Wilderness with Cutting-Edge Tools
 
-Today, I took my latest research project into the heart of the Pennsylvania wilderness, near my home. I wanted to test some new data collection methods relating to local wildlife patterns. It's amazing how technology can enhance the traditional camping experience, and more importantly, how it can help us understand the natural world.
+Today, I took my latest research project into the heart of the Appalachian wilderness, near my home. I wanted to test some new data collection methods relating to local wildlife patterns. It's amazing how technology can enhance the traditional camping experience, and more importantly, how it can help us understand the natural world.
 
 ### My Tech-Enhanced Camping Setup 
 

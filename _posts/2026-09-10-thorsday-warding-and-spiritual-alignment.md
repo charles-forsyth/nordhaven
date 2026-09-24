@@ -2,11 +2,11 @@
 layout: post
 title: "Þórsdagr: The Thunder, The Warding, and the Resilient Shield"
 date: 2026-09-10
-categories: [Spiritual, Runic, Omstead]
+categories: [Spiritual, Runic, Homestead]
 tags: [Thor, Warding, Runic, Blessings, Appalaches]
 ---
 
-Today on the Omstead ridge, the morning sun breaks through crisp autumn air at 74°F while the laying flock free-ranges across the back grass. September brings the quiet turning of the season—the second harvest, the dropping of the sap, and the steady, unyielding strength of **Þórsdagr (Thor’s Day)**.
+Today on the ridge, the morning sun breaks through crisp autumn air at 74°F while the laying flock free-ranges across the back grass. September brings the quiet turning of the season—the second harvest, the dropping of the sap, and the steady, unyielding strength of **Þórsdagr (Thor’s Day)**.
 
 ---
 
@@ -43,4 +43,4 @@ When you watch pastured hens scratching in the grass or look out over a well-gua
 
 May the sun stay warm upon the back grass, may the boundaries of home remain absolute and secure, and may the rest of this Thursday bring absolute clarity, steady rhythm, and quiet evening rest. 
 
-*— The Keepers of Omstead Hearth*
+*— The Keepers of the Nordhaven Hearth*

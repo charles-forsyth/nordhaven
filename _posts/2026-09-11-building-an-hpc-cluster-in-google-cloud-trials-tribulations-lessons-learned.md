@@ -5,7 +5,6 @@ layout: post
 categories:
   - High Performance Computing
   - Cloud Architecture
-  - Research Computing
 tags:
   - Google Cloud
   - Slurm
@@ -19,7 +18,7 @@ tags:
 
 When researchers think of High-Performance Computing (HPC), they typically picture an on-premise datacenter: row upon row of liquid-cooled racks humming at 100% capacity, fixed queue wait times, and amortized hardware depreciating over five years.
 
-At the **University of California, Riverside (Research Computing)**, our mission is to dramatically shrink the *"Time to Science."* To complement our campus HPCC and regional consortium resources, we set out to build the **Ursa Major HPC Cluster (`ucr-ursa-major-hpc-cluster`)** in Google Cloud using the **Google Cloud Cluster Toolkit (`gcluster`)** and **Slurm v6**.
+In university research computing, our mission is to dramatically shrink the *"Time to Science."* To complement our campus HPCC and regional consortium resources, we set out to build an **elastic HPC cluster** (`hpc-cluster`) in Google Cloud using the **Google Cloud Cluster Toolkit (`gcluster`)** and **Slurm v6**.
 
 The goal was ambitious: provide an elastic, on-demand supercomputing environment capable of scaling from zero to hundreds of CPU cores and multi-node NVIDIA L4 GPU arrays, running heavy production workloads across Computational Fluid Dynamics (OpenFOAM), Molecular Dynamics (GROMACS), bioinformatics genomics pipelines, and distributed machine learning training—all while strictly enforcing FinOps governance to prevent runaway cloud costs.
 
@@ -37,7 +36,7 @@ During our initial deployments, our blueprints targeted `us-west1-b`. We had ver
 Yet, when we queued multi-node GPU batches requiring modern **C3** compute instances paired with **NVIDIA L4 GPUs**, the Slurm dynamic node provisioner failed with a cold API error:
 
 ```text
-ERROR: (gcloud.compute.instances.create) The zone 'projects/ucr-ursa-major-hpc-cluster/zones/us-west1-b'
+ERROR: (gcloud.compute.instances.create) The zone 'projects/hpc-cluster/zones/us-west1-b'
 does not have enough resources available to fulfill the request. ('ZONE_RESOURCE_POOL_EXHAUSTED')
 ```
 
@@ -58,7 +57,7 @@ Scientific workloads are notorious I/O abusers. Unlike modern web applications t
 Attempting to use FUSE-mounted object storage (like Cloud Storage FUSE) for active simulation scratch space is a recipe for catastrophic performance degradation. High metadata latency and lack of full POSIX locking will choke molecular dynamics simulations and crash MPI ranks within minutes.
 
 ### The Solution: Multi-Tier Google Cloud Filestore NFS
-To solve the I/O bottleneck without introducing astronomical costs, we architected a multi-tier **Google Cloud Filestore NFS** blueprint (`ucr-ursa-major-hpc-v1.yaml`):
+To solve the I/O bottleneck without introducing astronomical costs, we architected a multi-tier **Google Cloud Filestore NFS** blueprint (`hpc-v1.yaml`):
 
 1. **`/home` (Filestore Basic SSD):** Persistent user home directories, dotfiles, virtual environments, and bash profiles.
 2. **`/apps` (Filestore Enterprise / Regional):** Centrally compiled Spack modules, GCC/Clang toolchains, OpenMPI, and scientific application binaries accessible across all nodes.
@@ -88,7 +87,7 @@ If `ResumeTimeout` is set too low, Google Cloud's VM provisioning and cloud-init
 Rather than deploying a monolithic Terraform template, we split our environment into three isolated, idempotent stages:
 
 ```text
-ucr-slurm-cl-v11/
+slurm-cluster-v11/
 ├── setup/                 # VPC networks, subnets, firewall rules, IAM roles
 ├── software_installation/ # Filestore NFS instances, base OS images, Spack/modules
 └── cluster/               # Slurm controller, login nodes, compute partitions
