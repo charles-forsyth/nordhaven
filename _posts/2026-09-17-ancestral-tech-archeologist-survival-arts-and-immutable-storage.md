@@ -1,18 +1,9 @@
 ---
 title: "Ancestral Tech Archeologist: Survival Arts and the Modern Storage Hierarchy"
 date: 2026-09-17
+categories: [Resilience, Systems Architecture]
+tags: [Ancestral Tech, Cold Storage, Immutability, Merkle Trees, Systems Ecology, Bit Rot]
 layout: post
-categories:
-  - History of Technology
-  - Systems Architecture
-  - Resilience
-tags:
-  - Ancestral Tech
-  - Cold Storage
-  - Immutability
-  - Merkle Trees
-  - Systems Ecology
-  - Bit Rot
 description: "Every civilization is bounded by its ability to preserve state across temporal distance."
 ---
 
@@ -26,17 +17,17 @@ The solutions modern distributed systems engineers champion--tiered cold storage
 
 ```
        ANCESTRAL SURVIVAL ART                     DISTRIBUTED STORAGE SYSTEM
-   ───────────────────────────────             ────────────────────────────────
-   Smokehouse (Desiccation & Curing)  ──────►  Coldline Archival (Stripping Ephemera)
+   -------------------------------             --------------------------------
+   Smokehouse (Desiccation & Curing)  ------>  Coldline Archival (Stripping Ephemera)
    [Water Activity Lowered < 0.60]             [Non-Volatile Media & Quiescence]
 
-   Root Cellar & Seed Vault           ──────►  Golden Manifests & Air-Gapped Tiers
+   Root Cellar & Seed Vault           ------>  Golden Manifests & Air-Gapped Tiers
    [Passive Thermal Flywheel & DNA]            [Declarative Images & Blast Isolation]
 
-   Flotation & Winnowing Density      ──────►  Cryptographic Checksums (BLAKE3/SHA256)
+   Flotation & Winnowing Density      ------>  Cryptographic Checksums (BLAKE3/SHA256)
    [Analog Integrity Verification]             [Periodic Storage Tree Scrub Daemons]
 
-   Sumerian Bullae & Split Tallies    ──────►  Append-Only Immutable Logs (WORM)
+   Sumerian Bullae & Split Tallies    ------>  Append-Only Immutable Logs (WORM)
    [Physical Tamper-Evident Seals]             [Hash Chains & Cryptographic Locks]
 ```
 

@@ -2,14 +2,14 @@
 layout: post
 title: "The Sturgeon Moon Approaches: Máni, Jera, and the Coming Eclipse"
 date: 2026-08-25
-categories: [Spiritual, Astronomy, Norse Cosmology]
-tags: [Sturgeon Moon, Lunar Eclipse, Mani, Jera, Algiz, Earth Shadow]
+categories: [Spiritual, Sky and Weather]
+tags: [Sturgeon Moon, Lunar Eclipse, Mani, Jera, Algiz, Earth Shadow, Wheel of the Year]
 description: "High on the Appalachian ridge at 1,600 feet elevation, the night sky is flooded with brilliant silver brilliance."
 ---
 
 ## The Waxing Light of the Sturgeon Moon
 
-High on the Appalachian ridge at 1,600 feet elevation, the night sky is flooded with brilliant silver brilliance. The moon rides as a **Waxing Gibbous at 88% illumination**—the herald of the August **Sturgeon Full Moon**.
+High on the Appalachian ridge at 1,600 feet elevation, the night sky is flooded with brilliant silver brilliance. The moon rides as a **Waxing Gibbous at 88% illumination** - the herald of the August **Sturgeon Full Moon**.
 
 In northern lore, this celestial body is not an inert satellite; it is **Máni**, the ancient driver who guides the chariot of the moon across the vault of heaven, steadfastly navigating the starry lanes while pursued by the cosmic wolf *Hati*. 
 
@@ -19,18 +19,18 @@ This August, however, the Sturgeon Moon brings a rare cosmic alignment: in two n
 
 ```
                   THE LUNAR CHARIOT & EARTH'S SHADOW
-  ┌─────────────────────────────────────────────────────────────┐
-  │                 MÁNI (The Silver Charioteer)                │
-  │                  Waxing Gibbous (88% -> 100%)               │
-  └──────────────────────────────┬──────────────────────────────┘
-                                 │
-                 ┌───────────────┴───────────────┐
-                 ▼                               ▼
+  +-------------------------------------------------------------+
+  |                 MÁNI (The Silver Charioteer)                |
+  |                  Waxing Gibbous (88% -> 100%)               |
+  +------------------------------+------------------------------+
+                                 |
+                 +---------------+---------------+
+                 v                               v
       [JERA (ᛃ - EARNED REWARD)]       [THE APPROACHING SHADOW]
       Living Soil Inoculated           96% Deep Partial Umbra
       Squashes Swelling in the Dark    Earth Standing Between
       Cabbage and Root Crop Sown       Sun and Moon
-  └─────────────────────────────────────────────────────────────┘
+  +-------------------------------------------------------------+
 ```
 
 ---
@@ -45,7 +45,7 @@ Think of the biological alignment anchored across the homestead:
 * The flock roosts peacefully in the cedar-framed coop.
 * The home is latched against the rising mountain winds.
 
-When you walk the boundary stones under an 88% moon, the rhythm of the year becomes visceral. Summer’s raw, explosive growth is yielding to autumn’s dense, quiet maturation.
+When you walk the boundary stones under an 88% moon, the rhythm of the year becomes visceral. Summer's raw, explosive growth is yielding to autumn's dense, quiet maturation.
 
 ---
 
@@ -63,4 +63,4 @@ When you walk the boundary stones under an 88% moon, the rhythm of the year beco
 > *May your body rest, your weary nerves find ease, and your mind touch quiet stillness.*  
 > *The labor of the day is accomplished; the watch is kept.*  
 >  
-> **So it is spoken. Hail!"** ᛉ ᛃ 🌕🌲✨
+> **So it is spoken. Hail!"** ᛉ ᛃ 

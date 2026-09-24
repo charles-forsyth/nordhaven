@@ -2,7 +2,7 @@
 layout: post
 title: "The Evening Threshold: Othala, Algiz, and the Peace of the Sanctuary"
 date: 2026-09-15
-categories: [Spiritual, Runic, Philosophy]
+categories: [Spiritual, Runic Lore, Philosophy]
 tags: [Othala, Algiz, Gebo, Ingwaz, Blessings, Homestead, Sanctuary]
 description: "As twilight fades into the blue chill of a September evening, a distinct silence settles across the high ridge."
 ---
@@ -18,13 +18,13 @@ To live with spiritual sovereignty, an engineer and a homesteader must learn the
 ```
        ᛟ (OTHALA)           ᛉ (ALGIZ)
    [Sacred Enclosure]     [Protective Shield]
-           │                      │
-           ▼                      ▼
+           |                      |
+           v                      v
   ==============================================
          THE SACRED EVENING THRESHOLD
   ==============================================
-           ▲                      ▲
-           │                      │
+           ^                      ^
+           |                      |
        ᚷ (GEBO)              ᛜ (INGWAZ)
    [Reciprocal Love]      [Gestation in Dark]
 ```
@@ -35,16 +35,16 @@ To live with spiritual sovereignty, an engineer and a homesteader must learn the
 
 Tonight, the northern sky turns upon four foundational archetypes of the Elder Futhark:
 
-### 1. ᛟ — Othala: The Sacred Enclosure
+### 1. ᛟ - Othala: The Sacred Enclosure
 Othala represents the estate, the homestead, and the sovereign space carved out of the wilderness. It is the understanding that land is not merely real estate; it is an ancestral relationship. Within the bounds of Othala, peace (*grið*) is sacred. Outside may lie administrative turbulence, market volatility, and noise, but within the boundary of the homestead, harmony governs the hearth.
 
-### 2. ᛉ — Algiz: The Protective Ward
+### 2. ᛉ - Algiz: The Protective Ward
 Algiz is the elk-sedge, the horned shield, the sentinel standing between the safe clearing and the wild forest. When the coop door is latched tight and the perimeter gate is swung shut, we invoke Algiz. True protection is not aggressive paranoia; it is the quiet, competent confidence of a well-built fence and an attentive eye.
 
-### 3. ᚷ — Gebo: The Sacred Gift
+### 3. ᚷ - Gebo: The Sacred Gift
 Gebo is the rune of reciprocity, partnership, and equitable exchange. A homestead cannot survive on solitary grit. It thrives on shared burdens, mutual respect, and the warmth of two souls reuniting around the dinner table after a long day of separate labors. The gift demands a gift, and the greatest gift of the evening is presence and peace.
 
-### 4. ᛜ — Ingwaz: Gestation in the Dark
+### 4. ᛜ - Ingwaz: Gestation in the Dark
 Modern culture fears stillness. It demands 24/7 productivity, constant lighting, and relentless acceleration. But the natural world teaches that the most profound transformations occur entirely unseen. The actively aerated compost tea multiplies its millions of microbes in the dark water column; the young seedling sends down its taproot into the subterranean damp; the human spine and nervous system decompress and heal while resting in silence. Ingwaz is the fertile seed sleeping under the soil, gathering energy for tomorrow's sunrise.
 
 ---
@@ -57,7 +57,7 @@ Modern culture fears stillness. It demands 24/7 productivity, constant lighting,
 > **Hail to Jörð, who holds the bedrock and nourishes every root!**  
 > **Hail to the ancient wardens of timber, hearth, and herd!**  
 >  
-> *The long day’s toil is done; the digital channels are silent and still.*  
+> *The long day's toil is done; the digital channels are silent and still.*  
 > *The flock rests safe beneath the eaves; the cool mountain air settles on the grass.*  
 > *Othala (ᛟ) wraps this sanctuary in warmth and sovereignty.*  
 > *Algiz (ᛉ) stands like an iron ward at every corner of the property line.*  
@@ -69,4 +69,4 @@ Modern culture fears stillness. It demands 24/7 productivity, constant lighting,
 >  
 > *The work is accomplished. The perimeter is held. The peace is kept.*  
 >  
-> **So it is spoken. Hail!** ᛟ ᛉ ᚷ ᛜ 🌲✨
+> **So it is spoken. Hail!** ᛟ ᛉ ᚷ ᛜ 

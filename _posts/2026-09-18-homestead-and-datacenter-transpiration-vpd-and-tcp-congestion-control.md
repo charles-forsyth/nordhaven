@@ -1,18 +1,9 @@
 ---
 title: "Transpiration Dynamics and Congestion Control: Stomatal Vapor Pressure Deficit and TCP Backpressure"
 date: 2026-09-18
+categories: [Systems Architecture, Agronomy]
+tags: [Backpressure, Congestion Control, Vapor Pressure Deficit, Plant Physiology, Networking, Resilience]
 layout: post
-categories:
-  - Systems Architecture
-  - Agronomy
-  - Cloud Computing
-tags:
-  - Backpressure
-  - Congestion Control
-  - Vapor Pressure Deficit
-  - Plant Physiology
-  - Networking
-  - Resilience
 description: "Every high-throughput pipeline eventually encounters a fundamental physical limit."
 ---
 

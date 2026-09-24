@@ -1,18 +1,9 @@
 ---
 title: "Eihwaz: The Yew Axis, Structural Resilience, and the Immutable Backbone"
 date: 2026-09-18
+categories: [Runic Lore, Philosophy, Systems Architecture]
+tags: [Elder Futhark, Eihwaz, Hardware Resilience, Systems Architecture, Phenology, Fault Tolerance]
 layout: post
-categories:
-  - Runic Lore
-  - Philosophy
-  - Systems Engineering
-tags:
-  - Elder Futhark
-  - Eihwaz
-  - Hardware Resilience
-  - Systems Architecture
-  - Phenology
-  - Fault Tolerance
 description: "In the Elder Futhark, Eihwaz (ᛇ, stave thirteen) follows immediately upon the cyclical culmination of Jera."
 ---
 
@@ -83,9 +74,9 @@ As late September settles across the ridges and valleys, the lessons of Eihwaz a
 
 Deciduous hardwoods have completed their harvest cycle and begun the dramatic descent into dormancy. Their leaves yellow, dry, and fall away to conserve water before the deep freeze. Yet the evergreen yew, hemlock, and pine remain fully intact, green and composed against the autumn chill:
 
-*   **Needle Architecture:** Instead of broad, thin leaves vulnerable to frost damage and moisture loss, evergreens invest in thick, waxy needles and dense cellular walls that prevent intracellular freezing.
-*   **Subterranean Anchoring:** Rather than spreading shallow roots in rich topsoil, the yew drives taproots and deep radial anchors through cracked bedrock and rocky fissures. It trades rapid seasonal growth for unmatched mechanical stability against winter gales and heavy snow loads.
-*   **Endogenous Regeneration:** When a yew branch touches soil or its central trunk is fractured by lightning, it initiates adventitious rooting and internal shoots. It treats trauma not as an endpoint, but as an impetus for decentralized renewal.
+* **Needle Architecture:** Instead of broad, thin leaves vulnerable to frost damage and moisture loss, evergreens invest in thick, waxy needles and dense cellular walls that prevent intracellular freezing.
+* **Subterranean Anchoring:** Rather than spreading shallow roots in rich topsoil, the yew drives taproots and deep radial anchors through cracked bedrock and rocky fissures. It trades rapid seasonal growth for unmatched mechanical stability against winter gales and heavy snow loads.
+* **Endogenous Regeneration:** When a yew branch touches soil or its central trunk is fractured by lightning, it initiates adventitious rooting and internal shoots. It treats trauma not as an endpoint, but as an impetus for decentralized renewal.
 
 In our own work and physical routines, Eihwaz calls for establishing internal grounding before winter arrives. When schedules become turbulent and operational demands spike, the answer is not frantic motion, but deepening your core routines: maintaining physical strength, protecting restorative sleep, and reinforcing the foundational habits that sustain your mental clarity.
 
@@ -95,8 +86,8 @@ In our own work and physical routines, Eihwaz calls for establishing internal gr
 
 As we stand at the threshold of the darkening year, Eihwaz asks us to examine the structural integrity of our work and lives:
 
-*   **What are the immutable invariants of your current architecture?** Which core services or data stores must remain inviolate, and which components can be safely treated as disposable?
-*   **Is your resilience balanced between tension and compression?** Are you relying solely on brittle resistance against external stress, or have you engineered flexibility and differential balance into your protocols?
-*   **Where have you anchored your roots?** When external conditions fluctuate and seasonal shifts demand adaptation, what deep foundations keep your direction steady?
+* **What are the immutable invariants of your current architecture?** Which core services or data stores must remain inviolate, and which components can be safely treated as disposable?
+* **Is your resilience balanced between tension and compression?** Are you relying solely on brittle resistance against external stress, or have you engineered flexibility and differential balance into your protocols?
+* **Where have you anchored your roots?** When external conditions fluctuate and seasonal shifts demand adaptation, what deep foundations keep your direction steady?
 
 Stand like the yew. Balance the tension. Protect the immutable core.

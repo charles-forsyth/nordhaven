@@ -1,17 +1,9 @@
 ---
 title: "The Digital Smokehouse: Preservation from Salt Curing to Coldline Storage"
 date: 2026-09-15
+categories: [Resilience, Systems Architecture]
+tags: [Archiving, Coldline, Preservation, Ancestral Tech, Data Durability]
 layout: post
-categories:
-  - History of Technology
-  - Cloud Architecture
-  - Resilience
-tags:
-  - Archiving
-  - Coldline
-  - Preservation
-  - Ancestral Tech
-  - Data Durability
 description: "Before the advent of refrigeration, human survival in northern latitudes was defined by a single, ruthless equation: can you preserve the surplus of the..."
 ---
 
@@ -29,17 +21,17 @@ Today, engineers pride themselves on inventing "cutting-edge" resilient data arc
 ```
        ANCESTRAL                           DIGITAL
      PRESERVATION                        ARCHIVING
-  ┌─────────────────┐                ┌─────────────────┐
-  │  Smoked Venison │                │  Tiered Backup  │
-  │    & Root Crop  │                │  (GCS Coldline) │
-  └────────┬────────┘                └────────┬────────┘
-           │                                  │
+  +-----------------+                +-----------------+
+  |  Smoked Venison |                |  Tiered Backup  |
+  |    & Root Crop  |                |  (GCS Coldline) |
+  +--------+--------+                +--------+--------+
+           |                                  |
       [Strip Water]                     [Strip Ephemeral]
       (Remove Decay)                    (Skip node_modules)
-           │                                  │
+           |                                  |
       [Smoke Barrier]                   [Cryptographic]
       (Phenolic Seal)                   (MD5/SHA Hashes)
-           │                                  │
+           |                                  |
       [Deep Cellar]                     [Archive Tier]
       (Constant Temp)                   (11 Nines of SLA)
 ```
@@ -70,7 +62,7 @@ When our ancestors cured fish or beef, salt acted as a physical guarantee of sta
 
 By computing checksums at the point of origin and validating them against the object metadata in cloud coldline storage, we establish tamper-evident immutability:
 * **Bit rot detection:** Silent disk degradation or network packet corruption is instantly exposed.
-* **Deduplication:** Unchanged files are skipped, ensuring that bandwidth-constrained uplinks—such as rural satellite terminals—only transfer net-new deltas.
+* **Deduplication:** Unchanged files are skipped, ensuring that bandwidth-constrained uplinks - such as rural satellite terminals - only transfer net-new deltas.
 * **Provenance:** The archive becomes a verifiable historical record.
 
 ---

@@ -1,14 +1,9 @@
 ---
 title: "Camping Tech: Blending Nature with Modern Research"
 date: 2025-03-02
+categories: [Homesteading, Systems Architecture]
+tags: [Research, Outdoor Gear, Data Collection]
 layout: post
-categories:
-  - Camping
-  - Technology
-tags:
-  - Research
-  - Outdoor Gear
-  - Data Collection
 description: "Today, I took my latest research project into the heart of the Appalachian wilderness, near my home."
 ---
 

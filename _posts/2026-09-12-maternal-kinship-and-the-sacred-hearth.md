@@ -2,7 +2,7 @@
 layout: post
 title: "The Laws of Hospitality: Kinship, Bread, and the Living Hall"
 date: 2026-09-12
-categories: [Spiritual, Philosophy, Norse Lore]
+categories: [Spiritual, Philosophy]
 tags: [Havamal, Othala, Gebo, Wunjo, Algiz, Hospitality, Kinship]
 description: "In the ancient Eddic poem Hávamál, Odin speaks of the sacred balance of hospitality:"
 ---
@@ -24,11 +24,11 @@ Hospitality is not about expensive performance; it is the fundamental moral law 
 
 ```
                   THE CIRCLE OF HOSPITALITY
-                ┌──────────────────────────┐
-                │   ᛟ OTHALA (The Hall)    │
-                └─────────────┬────────────┘
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
+                +--------------------------+
+                |   ᛟ OTHALA (The Hall)    |
+                +-------------+------------+
+         +--------------------+--------------------+
+         v                    v                    v
      ᚷ GEBO               ᚹ WUNJO              ᛉ ALGIZ
    The Gift Returned   Joy of Table Fellowship The Antlered Shield
 ```
@@ -39,10 +39,10 @@ Hospitality is not about expensive performance; it is the fundamental moral law 
 
 Tonight on the ridge, the energy of the homestead is anchored by four ancient runes of kinship and peace:
 
-* **ᛟ (Othala — Heritage & Ancestry):** Honoring the living line of ancestry that walks across the threshold. Welcoming maternal kin under your roof, sharing old memories and fresh bread, anchors the homestead in deep temporal soil.
-* **ᚷ (Gebo — The Sacred Gift):** The mutual exchange where giving and receiving are one. Generosity offered without transaction; presence received with gratitude.
-* **ᚹ (Wunjo — Fellowship & Joy):** The spontaneous laughter around the gaming table, solving cooperative mysteries, and celebrating victories together. Wunjo is the golden harmony of honest companionship.
-* **ᛉ (Algiz — The Horned Elk Shield):** Outside, the autumn winds rustle the trees, the coop is latched tight, and the guardian companions rest peacefully. The perimeter is held.
+* **ᛟ (Othala - Heritage & Ancestry):** Honoring the living line of ancestry that walks across the threshold. Welcoming maternal kin under your roof, sharing old memories and fresh bread, anchors the homestead in deep temporal soil.
+* **ᚷ (Gebo - The Sacred Gift):** The mutual exchange where giving and receiving are one. Generosity offered without transaction; presence received with gratitude.
+* **ᚹ (Wunjo - Fellowship & Joy):** The spontaneous laughter around the gaming table, solving cooperative mysteries, and celebrating victories together. Wunjo is the golden harmony of honest companionship.
+* **ᛉ (Algiz - The Horned Elk Shield):** Outside, the autumn winds rustle the trees, the coop is latched tight, and the guardian companions rest peacefully. The perimeter is held.
 
 ---
 
@@ -57,8 +57,8 @@ Tonight on the ridge, the energy of the homestead is anchored by four ancient ru
 >  
 > *May Othala (ᛟ) ground this home in quiet strength and abiding love;*  
 > *May Wunjo (ᚹ) leave its sweet afterglow upon our hearts;*  
-> *And may Algiz (ᛉ) cast its high, antlered shield over this roof tonight—*  
+> *And may Algiz (ᛉ) cast its high, antlered shield over this roof tonight - *  
 > *Guarding the hearth, the flock, and all who rest beneath.*  
 >  
 > *The watch is kept. All is well upon the ridge.*  
-> **So it is spoken. Hail!"** ᛟ ᚷ ᚹ ᛉ 🕯️🌲✨
+> **So it is spoken. Hail!"** ᛟ ᚷ ᚹ ᛉ 
