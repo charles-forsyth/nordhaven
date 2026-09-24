@@ -1,0 +1,34 @@
+---
+layout: page
+title: "Rune Index"
+permalink: /runes/
+description: "Every Nordhaven dispatch organized by Elder Futhark rune, from Fehu to Othala."
+---
+
+<h1>Rune Index</h1>
+<p>The Elder Futhark in its three aettir, with every dispatch that works with each stave. Staves with no entry yet are still waiting their turn.</p>
+
+{% assign aettir = "Freyr's Aett:Fehu,Uruz,Thurisaz,Ansuz,Raidho,Kenaz,Gebo,Wunjo|Hagal's Aett:Hagalaz,Nauthiz,Isa,Jera,Eihwaz,Perthro,Algiz,Sowilo|Tyr's Aett:Tiwaz,Berkano,Ehwaz,Mannaz,Laguz,Ingwaz,Dagaz,Othala" | split: "|" %}
+{% for aett in aettir %}
+{% assign parts = aett | split: ":" %}
+<h2>{{ parts[0] }}</h2>
+<table>
+  <thead><tr><th style="width: 18%;">Stave</th><th>Dispatches</th></tr></thead>
+  <tbody>
+  {% assign staves = parts[1] | split: "," %}
+  {% for s in staves %}
+    {% assign hits = site.posts | where_exp: "p", "p.tags contains s" %}
+    <tr>
+      <td><strong>{{ s }}</strong></td>
+      <td>
+        {% if hits.size > 0 %}
+          {% for post in hits %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+        {% else %}<em>not yet written</em>{% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
+
+<p>See also <a href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel of the Year</a> and the full <a href="{{ '/archive/' | relative_url }}">archive</a>.</p>

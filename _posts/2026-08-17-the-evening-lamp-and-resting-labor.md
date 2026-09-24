@@ -2,7 +2,7 @@
 layout: post
 title: "The Return to Sanctuary: Uruz, Laguz, and the Restored Vessel"
 date: 2026-08-17
-categories: [Spiritual, Philosophy, Homestead]
+categories: [Spiritual, Philosophy, Homesteading]
 tags: [Uruz, Laguz, Algiz, Healing, Sanctuary, Travel, Evening]
 description: "In our hyper-connected world, high-performance technical work exerts an invisible, accumulating tax upon the body."
 ---
@@ -17,14 +17,14 @@ True strength (*Uruz*) is not stubborn endurance until collapse. It is the disce
 
 ```
        [Physical Strain & Travel]
-                   │
-                   ▼
-  ═════════════════════════════════════════
+                   |
+                   v
+  =========================================
      ᚢ URUZ (Vitality) + ᛚ LAGUZ (Flow)
-  ═════════════════════════════════════════
-                   │
-         ┌─────────┴─────────┐
-         ▼                   ▼
+  =========================================
+                   |
+         +---------+---------+
+         v                   v
   [Decompress Spine]   [Return to Sanctuary]
   [Warm Hydrotherapy]  [Close the Gate]
 ```
@@ -35,7 +35,7 @@ True strength (*Uruz*) is not stubborn endurance until collapse. It is the disce
 
 There is a profound spiritual rhythm in returning home after journeys across the highway. 
 
-Towing a mobile shelter across mountain passes requires acute situational focus—monitoring hitch tongue weight, brake controllers, wind shear, and transmission temperatures. But when the rig pulls off the asphalt, down the gravel lane, and settles into the driveway of the homestead, a visible sigh releases from the chest.
+Towing a mobile shelter across mountain passes requires acute situational focus - monitoring hitch tongue weight, brake controllers, wind shear, and transmission temperatures. But when the rig pulls off the asphalt, down the gravel lane, and settles into the driveway of the homestead, a visible sigh releases from the chest.
 
 The evening protocol takes over:
 * Unhitching the trailer and setting the wheel chocks.
@@ -58,10 +58,9 @@ The Waxing Crescent Moon (18.2% illumination) hangs pale and slender over the da
 > 
 > May Thor stand like an iron hammer at the outer boundary.  
 > May Frigg and Eir soothe weary nerves and bring deep, restorative sleep to the body.  
-> May Algiz (ᛉ), Uruz (ᚢ), and Laguz (ᛚ) cast their sacred threefold stave—  
-> Protective warding, renewed vitality, and peaceful flowing waters.  
+> May Algiz (ᛉ), Uruz (ᚢ), and Laguz (ᛚ) cast their sacred threefold stave - > Protective warding, renewed vitality, and peaceful flowing waters.  
 > 
 > Sink deep into the quiet hearth,  
 > And wake restored under tomorrow's morning sun.  
 > 
-> So it is spoken, so it is warded, so it shall be!" ᛟ ᚢ ᛚ ᛉ 🌲✨
+> So it is spoken, so it is warded, so it shall be!" ᛟ ᚢ ᛚ ᛉ 

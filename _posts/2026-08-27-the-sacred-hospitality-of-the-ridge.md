@@ -2,7 +2,7 @@
 layout: post
 title: "Under the Copper Shield: Post-Eclipse Clarity, Hemlocks, and Hearth Peace"
 date: 2026-08-27
-categories: [Spiritual, Poetry, Philosophy]
+categories: [Spiritual, Philosophy]
 tags: [Eclipse, Mani, Algiz, Jera, Wunjo, Sanctuary, Ridge]
 description: "When the deep copper veil of an eclipse passes, the night sky does not return to ordinary dark; it feels cleansed, re-centered, and profoundly quiet."
 ---
@@ -17,15 +17,15 @@ In the wake of great celestial alignments, human striving falls away. What remai
 
 ```
        [THE COPPER VEIL PASSES]
-                   │
-                   ▼
-  ═════════════════════════════════════════
+                   |
+                   v
+  =========================================
      ᛉ ALGIZ + ᛃ JERA + ᚹ WUNJO
   [Protection] [Harvest] [Quiet Joy]
-  ═════════════════════════════════════════
-                   │
-         ┌─────────┴─────────┐
-         ▼                   ▼
+  =========================================
+                   |
+         +---------+---------+
+         v                   v
   [Hemlocks Guarding]  [Hearth Fire Abiding]
   [The Forest Border]  [Unbroken Night Rest]
 ```
@@ -51,4 +51,4 @@ In the wake of great celestial alignments, human striving falls away. What remai
 > *As clouds clear at midnight and silver light pours,*  
 > *May grace, peace, and power abide at your doors.*  
 >  
-> **ᛉ (Algiz — Protection)  |  ᛃ (Jera — Fruitful Harvest)  |  ᚹ (Wunjo — Joy & Peace)** 🌲✨
+> **ᛉ (Algiz - Protection) | ᛃ (Jera - Fruitful Harvest) | ᚹ (Wunjo - Joy & Peace)** 

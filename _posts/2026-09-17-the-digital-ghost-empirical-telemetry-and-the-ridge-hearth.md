@@ -1,20 +1,9 @@
 ---
 title: "The Digital Ghost: Empirical Telemetry, Secret Hygiene, and the High-Ridge Hearth"
 date: 2026-09-17
+categories: [Systems Architecture, Homesteading, Philosophy]
+tags: [Digital Ghost, Telemetry, FinOps, Secret Hygiene, Agronomy, Phenology, Runes, Stewardship]
 layout: post
-categories:
-  - Systems Architecture
-  - Homesteading
-  - Philosophy
-tags:
-  - Digital Ghost
-  - Telemetry
-  - FinOps
-  - Secret Hygiene
-  - Agronomy
-  - Phenology
-  - Runes
-  - Stewardship
 description: "When dusk gathers over the northern woodland ridges, the ambient clamor of diurnal traffic falls quiet."
 ---
 
@@ -78,8 +67,8 @@ Outside the data center, the biological soil-food-web responds to its own enviro
 
 Physical engineering bridges the gap between digital systems and the earth:
 
-1.  **Chassis Linkage and Hydraulic Integrity:** Heavy transport haulers subjected to rough mountain topography require meticulous mechanical auditing. Replacing aged hydraulic brake hoses and securing spare tire winch linkages ensures that critical utility vehicles maintain zero-compromise stopping power and road safety when hauling building materials over steep gradients.
-2.  **Modular Foundations on the High Ridge:** As winter approaches, preparations for cold-climate shelter demand modular precision. Evaluating structural shipping containers on high-elevation woodland acreage requires careful grade leveling, drainage verification, and foundational masonry work to create resilient, energy-efficient timber-halls before the first hard freeze.
+1. **Chassis Linkage and Hydraulic Integrity:** Heavy transport haulers subjected to rough mountain topography require meticulous mechanical auditing. Replacing aged hydraulic brake hoses and securing spare tire winch linkages ensures that critical utility vehicles maintain zero-compromise stopping power and road safety when hauling building materials over steep gradients.
+2. **Modular Foundations on the High Ridge:** As winter approaches, preparations for cold-climate shelter demand modular precision. Evaluating structural shipping containers on high-elevation woodland acreage requires careful grade leveling, drainage verification, and foundational masonry work to create resilient, energy-efficient timber-halls before the first hard freeze.
 
 ---
 
@@ -87,9 +76,9 @@ Physical engineering bridges the gap between digital systems and the earth:
 
 Ancient symbols provide grounding for the modern systems architect:
 
-*   **Jera (The Earned Harvest):** Jera reminds us that resilience cannot be rushed. It is the result of continuous, disciplined cycles: daily testing, systematic commits, regular compost tea brews, and patient seasonal husbandry.
-*   **Kenaz (The Guiding Torch):** The focused flame of empirical inquiry. When alarms sound and metrics conflict, Kenaz illuminates the factual ledger, distinguishing phantom alerts from genuine operational bottlenecks.
-*   **Algiz (The Protective Ward):** The sentinel shield. From encrypted secrets and firewall rules to secure property perimeters and hydraulic brake lines, Algiz guards the core against entropy and erosion.
+* **Jera (The Earned Harvest):** Jera reminds us that resilience cannot be rushed. It is the result of continuous, disciplined cycles: daily testing, systematic commits, regular compost tea brews, and patient seasonal husbandry.
+* **Kenaz (The Guiding Torch):** The focused flame of empirical inquiry. When alarms sound and metrics conflict, Kenaz illuminates the factual ledger, distinguishing phantom alerts from genuine operational bottlenecks.
+* **Algiz (The Protective Ward):** The sentinel shield. From encrypted secrets and firewall rules to secure property perimeters and hydraulic brake lines, Algiz guards the core against entropy and erosion.
 
 ---
 

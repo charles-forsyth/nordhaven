@@ -2,8 +2,8 @@
 layout: post
 title: "The Autumn Equinox Almanac: Solar Arcs, Kenaz, and the Gathering Hearth"
 date: 2026-09-15
-categories: [Spiritual, Astronomy, Hearthcraft]
-tags: [Equinox, Solar Almanac, Jera, Kenaz, Othala, Dark Skies, Autumn]
+categories: [Spiritual, Sky and Weather, Hearthcraft]
+tags: [Equinox, Solar Almanac, Jera, Kenaz, Othala, Dark Skies, Autumn, Wheel of the Year]
 description: "Across the northern hemisphere, mid-September marks the most rapid astronomical transition of the year."
 ---
 
@@ -11,23 +11,23 @@ description: "Across the northern hemisphere, mid-September marks the most rapid
 
 Across the northern hemisphere, mid-September marks the most rapid astronomical transition of the year. 
 
-At 41.9° N latitude, the sun's midday elevation has dropped from its summer peak of 71.5° down to **49.8° above the southern horizon**. Day length is shrinking by nearly three minutes each cycle; the point on the horizon where the sun sets is migrating rapidly south toward true West (270°), which it will cross exactly on the **Autumnal Equinox (September 22)**.
+At 41.9 deg N latitude, the sun's midday elevation has dropped from its summer peak of 71.5 deg down to **49.8 deg above the southern horizon**. Day length is shrinking by nearly three minutes each cycle; the point on the horizon where the sun sets is migrating rapidly south toward true West (270 deg), which it will cross exactly on the **Autumnal Equinox (September 22)**.
 
 To live in rhythm with the land is to notice these shifting arcs not as an inconvenience, but as an ancient call to alignment.
 
 ```
        SOLAR ARC SHIFT (JUNE TO SEPTEMBER)
-  ┌─────────────────────────────────────────────────────────────┐
-  │ Midsummer Noon: 71.5°  ───────────>  Equinox Noon: 48.1°   │
-  │ Sunset Azimuth: 301° NW ──────────>  Sunset Azimuth: 270° W │
-  └──────────────────────────────┬──────────────────────────────┘
-                                 │
-                 ┌───────────────┴───────────────┐
-                 ▼                               ▼
+  +-------------------------------------------------------------+
+  | Midsummer Noon: 71.5 deg  ------->  Equinox Noon: 48.1 deg  |
+  | Sunset Azimuth: 301 deg NW ---->  Sunset Azimuth: 270 deg W |
+  +------------------------------+------------------------------+
+                                 |
+                 +---------------+---------------+
+                 v                               v
       [JERA (ᛃ - THE HARVEST)]       [KENAZ (ᚲ - THE TORCH)]
       Summer Bounty Gathered          Light Retreating Indoors
       Soil Cooled to Seedbed          Hearthfire & Reading Lamp
-  └─────────────────────────────────────────────────────────────┘
+  +-------------------------------------------------------------+
 ```
 
 ---
@@ -50,4 +50,4 @@ As soon as astronomical twilight concludes, the Milky Way core arches straight t
 
 When you stand beneath that celestial dome, the impending dark of winter carries no threat. It is simply the inward half of the breath. The harvest is gathered; the timber is sound; the hearth is prepared.
 
-Rest in the turning season. Gather the harvest. Kindle the inner fire. ᛃ ᚲ ᛟ ☀️🍁✨
+Rest in the turning season. Gather the harvest. Kindle the inner fire. ᛃ ᚲ ᛟ 

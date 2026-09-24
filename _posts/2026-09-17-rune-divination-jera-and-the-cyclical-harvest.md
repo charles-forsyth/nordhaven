@@ -1,18 +1,9 @@
 ---
 title: "Jera: The Cyclical Harvest, Reconciliation Loops, and the Law of Gestation"
 date: 2026-09-17
+categories: [Runic Lore, Philosophy, Systems Architecture]
+tags: [Elder Futhark, Jera, Feedback Loops, Systems Architecture, Phenology, Equinox]
 layout: post
-categories:
-  - Runic Lore
-  - Philosophy
-  - Systems Engineering
-tags:
-  - Elder Futhark
-  - Jera
-  - Feedback Loops
-  - Systems Architecture
-  - Phenology
-  - Equinox
 description: "In the Elder Futhark, Jera (ᛃ) is the twelfth stave, marking the exact midpoint of the twenty-four rune sequence."
 ---
 

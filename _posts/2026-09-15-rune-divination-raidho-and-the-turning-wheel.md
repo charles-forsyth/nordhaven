@@ -1,21 +1,13 @@
 ---
 title: "Raidho: The Cosmic Wheel, Mechanical Linkage, and Directed Journey"
 date: 2026-09-15
+categories: [Runic Lore, Philosophy, Systems Architecture]
+tags: [Elder Futhark, Raidho, Mechanics, Infrastructure, Journey]
 layout: post
-categories:
-  - Runic Lore
-  - Philosophy
-  - Mechanical Systems
-tags:
-  - Elder Futhark
-  - Raidho
-  - Mechanics
-  - Infrastructure
-  - Journey
 description: "In the Elder Futhark, Raidho (ᚱ) is traditionally associated with the chariot, the horse rider, and the wagon wheel."
 ---
 
-## ᚱ — The Mystery of the Wheel
+## ᚱ - The Mystery of the Wheel
 
 In the Elder Futhark, **Raidho** (ᚱ) is traditionally associated with the chariot, the horse rider, and the wagon wheel. But beneath the romantic pastoral imagery lies a rigorous metaphysical concept: **directed movement under cosmic law**. 
 
@@ -23,17 +15,17 @@ Raidho is not chaotic motion. It is not wandering aimlessly across the landscape
 
 ```
        ᚱ  (RAIDHO)
-     ┌─────────────────┐
-     │  DIRECTED FORCE │
-     └───┬─────────┬───┘
-         │         │
+     +-----------------+
+     |  DIRECTED FORCE |
+     +---+---------+---+
+         |         |
   [Mechanical]  [Digital]
   Transfer Link  Packet Routing
   Torque Flow   State Transition
-         │         │
-     └───┴─────────┴───┘
-     │ HARMONIC ORDER  │
-     └─────────────────┘
+         |         |
+     +---+---------+---+
+     | HARMONIC ORDER  |
+     +-----------------+
 ```
 
 ---
@@ -47,7 +39,7 @@ When the transfer case cannot shift from two-wheel highway drive into four-wheel
 Here, Raidho teaches a profound spiritual and practical lesson:
 1. **Force Without Linkage is Futile:** Revving the engine when the linkage is disengaged only burns fuel and shears gears. 
 2. **Penetration and Heat Over Brute Violence:** A rusted linkage responds not to desperate hammering, but to penetrating lubricant, measured heat, and patient leverage. 
-3. **Restoring the True Channel:** The work of the mechanic is holy work—it is the re-alignment of physical channels so that power flows freely from motor to differential to tire.
+3. **Restoring the True Channel:** The work of the mechanic is holy work - it is the re-alignment of physical channels so that power flows freely from motor to differential to tire.
 
 ---
 
@@ -72,6 +64,6 @@ When Raidho appears in our daily contemplation, it asks us three direct question
 
 * **Where is the friction in your transmission?** Is there a broken physical tool, a neglected communication channel, or an unmerged branch blocking progress?
 * **Are you moving with rhythm, or just moving with speed?** Speed without alignment leads into the ditch. Rhythm carries you across continents.
-* **Are your linkages lubricated?** Grace, patience, and precision are the lubricants that allow complex systems—and human relationships—to shift gears under heavy load.
+* **Are your linkages lubricated?** Grace, patience, and precision are the lubricants that allow complex systems - and human relationships - to shift gears under heavy load.
 
 Honor the wheel. Clear the linkage. Allow the journey to resume.

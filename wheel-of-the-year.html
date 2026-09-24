@@ -1,0 +1,26 @@
+---
+layout: page
+title: "The Wheel of the Year"
+permalink: /wheel-of-the-year/
+description: "Nordhaven's seasonal dispatches: the harvest, the equinox, Winter Finding, and the turning of the year on the ridge."
+---
+
+<h1>The Wheel of the Year</h1>
+<p>The old year turns through eight great points: Yule, Disting, Ostara, Walpurgis, Midsummer, Freyfaxi, Winter Finding, and Winter Nights. These are the lodge's seasonal dispatches, oldest first, so they can be read as the year actually moves. New ones are added as each turning comes around.</p>
+
+{% assign wheel = site.posts | where_exp: "p", "p.tags contains 'Wheel of the Year'" | reverse %}
+{% if wheel.size > 0 %}
+<ol>
+  {% for post in wheel %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d, %Y" }}</small><br><small>{{ post.description }}</small></li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+<h2>Coming turnings</h2>
+<ul>
+  <li><strong>Winter Nights</strong> (mid-October): the ancestors' feast, and the last of the harvest.</li>
+  <li><strong>Yule</strong> (the winter solstice): the longest night, and the return of the light.</li>
+</ul>
+
+<p>See also the <a href="{{ '/runes/' | relative_url }}">Rune Index</a> and the full <a href="{{ '/archive/' | relative_url }}">archive</a>.</p>

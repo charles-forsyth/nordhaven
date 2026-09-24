@@ -1,17 +1,9 @@
 ---
 title: "Building an HPC Cluster in Google Cloud: The Trials, Tribulations, and Hard-Won Lessons"
 date: 2026-09-11
+categories: [Systems Architecture]
+tags: [Google Cloud, Slurm, HPC, FinOps, GPU Infrastructure, Cluster Toolkit]
 layout: post
-categories:
-  - High Performance Computing
-  - Cloud Architecture
-tags:
-  - Google Cloud
-  - Slurm
-  - HPC
-  - FinOps
-  - GPU Infrastructure
-  - Cluster Toolkit
 description: "When researchers think of High-Performance Computing (HPC), they typically picture an on-premise datacenter: row upon row of liquid-cooled racks humming at..."
 ---
 
@@ -21,13 +13,13 @@ When researchers think of High-Performance Computing (HPC), they typically pictu
 
 In university research computing, our mission is to dramatically shrink the *"Time to Science."* To complement our campus HPCC and regional consortium resources, we set out to build an **elastic HPC cluster** (`hpc-cluster`) in Google Cloud using the **Google Cloud Cluster Toolkit (`gcluster`)** and **Slurm v6**.
 
-The goal was ambitious: provide an elastic, on-demand supercomputing environment capable of scaling from zero to hundreds of CPU cores and multi-node NVIDIA L4 GPU arrays, running heavy production workloads across Computational Fluid Dynamics (OpenFOAM), Molecular Dynamics (GROMACS), bioinformatics genomics pipelines, and distributed machine learning training—all while strictly enforcing FinOps governance to prevent runaway cloud costs.
+The goal was ambitious: provide an elastic, on-demand supercomputing environment capable of scaling from zero to hundreds of CPU cores and multi-node NVIDIA L4 GPU arrays, running heavy production workloads across Computational Fluid Dynamics (OpenFOAM), Molecular Dynamics (GROMACS), bioinformatics genomics pipelines, and distributed machine learning training - all while strictly enforcing FinOps governance to prevent runaway cloud costs.
 
 Building it, however, was an odyssey of infrastructure edge cases, cloud capacity realities, and architectural pivots. Here are the trials, tribulations, and hard-won lessons from the trenches.
 
 ---
 
-## Tribulation 1: Quota on Paper ≠ Hardware in the Rack
+## Tribulation 1: Quota on Paper != Hardware in the Rack
 
 The single most frustrating misconception in cloud engineering is believing that an approved GCP quota means resources are actually available when you request them.
 
@@ -52,7 +44,7 @@ We refactored our deployment templates to decouple regional networking and stora
 
 ## Tribulation 2: The Storage Bottleneck & POSIX Fidelity
 
-Scientific workloads are notorious I/O abusers. Unlike modern web applications that gracefully communicate over HTTP APIs or cloud object stores (GCS), HPC scientific codes (like GROMACS, LAMMPS, and BLAST) expect rigid, local POSIX filesystem semantics—millions of small file reads, atomic file locking (`fcntl`/`flock`), and high-throughput scratch space.
+Scientific workloads are notorious I/O abusers. Unlike modern web applications that gracefully communicate over HTTP APIs or cloud object stores (GCS), HPC scientific codes (like GROMACS, LAMMPS, and BLAST) expect rigid, local POSIX filesystem semantics - millions of small file reads, atomic file locking (`fcntl`/`flock`), and high-throughput scratch space.
 
 ### Why Object Storage (GCS) Fails as Scratch
 Attempting to use FUSE-mounted object storage (like Cloud Storage FUSE) for active simulation scratch space is a recipe for catastrophic performance degradation. High metadata latency and lack of full POSIX locking will choke molecular dynamics simulations and crash MPI ranks within minutes.
@@ -89,9 +81,9 @@ Rather than deploying a monolithic Terraform template, we split our environment 
 
 ```text
 slurm-cluster-v11/
-├── setup/                 # VPC networks, subnets, firewall rules, IAM roles
-├── software_installation/ # Filestore NFS instances, base OS images, Spack/modules
-└── cluster/               # Slurm controller, login nodes, compute partitions
++-- setup/                 # VPC networks, subnets, firewall rules, IAM roles
++-- software_installation/ # Filestore NFS instances, base OS images, Spack/modules
++-- cluster/               # Slurm controller, login nodes, compute partitions
 ```
 
 This modular separation saved countless hours. When we needed to update cluster configuration or adjust Slurm partition limits, we only re-applied the `cluster` stage, leaving the underlying network fabric and multi-terabyte Filestore instances completely untouched.
@@ -104,7 +96,7 @@ After completing the migration to `us-central1-a` and stabilizing the Filestore 
 
 * **Job 9 (Distributed AI Training):** A 4-node distributed GPU training run across the `gpul4` partition, validating multi-node NCCL communication and GPU memory bandwidth.
 * **Job 18 (Structural Biology):** A massive 5x scale protein folding simulation leveraging dual NVIDIA L4 GPUs running continuously under high thermal and memory load.
-* **Jobs 19–22 (The Multi-Discipline Gauntlet):** Submitted simultaneously to stress-test concurrent I/O, MPI inter-process communication, and CPU scheduling:
+* **Jobs 19-22 (The Multi-Discipline Gauntlet):** Submitted simultaneously to stress-test concurrent I/O, MPI inter-process communication, and CPU scheduling:
   * **OpenFOAM:** High-resolution Computational Fluid Dynamics mesh calculations.
   * **GROMACS:** Full molecular dynamics trajectory integration testing POSIX file writes.
   * **Bioinformatics Genomics:** Multi-threaded sequence alignment across terabyte reference genomes.
@@ -121,4 +113,4 @@ Every single job executed to completion, wrote its output matrices to `/scratch`
 3. **FinOps is an Architectural Component, Not an Accounting Report:** Build aggressive idle shutdown triggers directly into your Slurm configuration. Couple cluster operations with automated budget monitors and alert webhooks so that resource exhaustion trips a circuit breaker before it triggers an invoice disaster.
 4. **Decouple Infrastructure Layers:** Separate networking, shared storage, and compute controllers into distinct Terraform groups using Google Cloud Cluster Toolkit. You should be able to destroy and recreate your compute cluster without risking a single byte of user data or hours of software compilation.
 
-Building supercomputers in the public cloud is not about clicking buttons in a web console—it is about orchestrating infrastructure as code, respecting thermodynamic and financial constraints, and ruthlessly eliminating single points of failure.
+Building supercomputers in the public cloud is not about clicking buttons in a web console - it is about orchestrating infrastructure as code, respecting thermodynamic and financial constraints, and ruthlessly eliminating single points of failure.

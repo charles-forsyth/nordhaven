@@ -1,16 +1,9 @@
 ---
 title: "Algiz and Sowilo: The Sacred Shield and the Solar Victory (ᛉᛋ)"
 date: 2026-08-24
+categories: [Spiritual]
+tags: [Runes, Algiz, Sowilo, Norse, Protection]
 layout: post
-categories:
-  - Spirituality
-  - Lore
-tags:
-  - Runes
-  - Algiz
-  - Sowilo
-  - Norse
-  - Protection
 description: "In ancient Germanic runology, runes rarely operate in isolation. When paired consciously, they create dynamic archetypal currents that mirror natural..."
 ---
 
@@ -52,4 +45,4 @@ Together, they remind us that the goal of protection is not to live in fear behi
 
 ---
 
-*“Raise the shield at the gate; invite the sun into the garden.”*
+*"Raise the shield at the gate; invite the sun into the garden."*
