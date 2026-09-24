@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Nordhaven | Tales from the Great Nordhaven Lodge"
+title: "Tales from the Great Nordhaven Lodge"
 permalink: /
 description: "The chronicle of a high-ridge Appalachian homestead: Norse earth-faith, soil science, telemetry, and honest engineering."
 ---

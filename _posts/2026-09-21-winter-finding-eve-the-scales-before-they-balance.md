@@ -4,6 +4,7 @@ title: "Winter Finding Eve: A Blessing for the Night the Scales Come Level"
 date: 2026-09-21
 categories: [Spiritual, Hearthcraft, Astronomy]
 tags: [Winter Finding, Haustblot, Equinox, Mabon, Land-Wights, Frey, Thor, Frigg, Troth, Autumn]
+description: "It is near midnight on the ridge, and tomorrow the scales come level."
 ---
 
 ## The Night Before the Balance

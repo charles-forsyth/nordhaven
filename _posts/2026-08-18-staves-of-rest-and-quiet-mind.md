@@ -4,6 +4,7 @@ title: "The Thurisaz Thorn: Boundaries, Governance, and the Quiet Mind"
 date: 2026-08-18
 categories: [Spiritual, Governance, Philosophy]
 tags: [Thurisaz, Uruz, Algiz, Boundaries, Night Watch, FinOps]
+description: "In the Elder Futhark, ᚦ Thurisaz is the rune of the thorn, the giant, and the defensive barrier."
 ---
 
 ## The Sacred Defense of the Boundary

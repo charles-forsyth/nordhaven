@@ -12,6 +12,7 @@ tags:
   - FinOps
   - GPU Infrastructure
   - Cluster Toolkit
+description: "When researchers think of High-Performance Computing (HPC), they typically picture an on-premise datacenter: row upon row of liquid-cooled racks humming at..."
 ---
 
 ## From On-Prem Monoliths to Elastic Cloud Supercomputing

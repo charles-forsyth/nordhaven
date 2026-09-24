@@ -10,6 +10,7 @@ tags:
   - Reciprocity
   - Norse
   - Animism
+description: "At its heart, an earth-based pagan blessing is fundamentally an act of attunement, gratitude, and reciprocity with the living cosmos."
 ---
 
 ## What is an Earth Blessing?

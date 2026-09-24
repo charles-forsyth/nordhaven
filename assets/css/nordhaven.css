@@ -1,0 +1,7 @@
+/* Small additions on top of the Zendesk Garden theme */
+.nh-nav { display: flex; gap: 1.25rem; align-items: center; margin-left: 2rem; flex-wrap: wrap; }
+.nh-nav a { font-size: 1rem; text-decoration: none; }
+.nh-nav a:hover { text-decoration: underline; }
+.nh-archive-month { margin-top: 2rem; }
+.nh-cat-list { columns: 2; }
+@media (max-width: 700px) { .nh-nav { margin-left: 0; gap: 0.75rem; } .nh-cat-list { columns: 1; } }

@@ -12,6 +12,7 @@ tags:
   - Preservation
   - Ancestral Tech
   - Data Durability
+description: "Before the advent of refrigeration, human survival in northern latitudes was defined by a single, ruthless equation: can you preserve the surplus of the..."
 ---
 
 ## The Imperative of Preservation

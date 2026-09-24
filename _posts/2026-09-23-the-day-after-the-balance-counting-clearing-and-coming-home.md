@@ -4,6 +4,7 @@ title: "The Day After the Balance: Counting, Clearing, and Coming Home"
 date: 2026-09-23
 categories: [Spiritual, Hearthcraft, Retrospective]
 tags: [Winter Finding, Equinox, Troth, Frigg, Tyr, Heimdall, Land-Wights, Autumn, Verification, Thresholds]
+description: "It is a little after eight in the evening on the ridge. The moon is waxing gibbous, about nine-tenths lit, a few nights short of the Harvest Moon."
 ---
 
 ## The First Day of the Dark Half

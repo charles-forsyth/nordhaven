@@ -13,6 +13,7 @@ tags:
   - Plant Physiology
   - Networking
   - Resilience
+description: "Every high-throughput pipeline eventually encounters a fundamental physical limit."
 ---
 
 ## The Physics of Constrained Conduits

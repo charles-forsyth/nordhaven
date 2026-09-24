@@ -4,6 +4,7 @@ title: "The Four Elements on the Ridge: The Forge, The Shore, and The Living Hea
 date: 2026-08-28
 categories: [Spiritual, Philosophy, Animism]
 tags: [Four Elements, Balance, Landvaettir, Forge, Lakeside, Evening]
+description: "In the late summer dusk, a full life requires a careful balance between three distinct realms:"
 ---
 
 ## The Triad of Daily Balance

@@ -13,6 +13,7 @@ tags:
   - Protocols
   - Systems Architecture
   - Equinox
+description: "In the Elder Futhark, Ansuz (ᚫ) is the fourth stave, traditionally revered as the rune of Odin (Óðinn), the Allfather of Norse cosmology."
 ---
 
 ## ᚫ — The Breath of Odin and the Primal Word

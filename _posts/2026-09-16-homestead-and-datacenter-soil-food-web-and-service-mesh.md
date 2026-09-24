@@ -13,6 +13,7 @@ tags:
   - Mycorrhizae
   - Decentralized Systems
   - Resiliency
+description: "In classical computing, systems were architected as monolithic fortresses."
 ---
 
 ## The Illusion of the Monolith

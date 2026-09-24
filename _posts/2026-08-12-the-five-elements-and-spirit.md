@@ -10,6 +10,7 @@ tags:
   - Animism
   - Landvaettir
   - Earth Faith
+description: "When walking the boundary line of a mountain homestead at 1,600 feet, the ancient elemental forces cease to be abstract philosophies."
 ---
 
 ## Living Foundations on the High Ridge

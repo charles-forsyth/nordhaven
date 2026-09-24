@@ -4,6 +4,7 @@ title: "The Agronomy of Code & The Spirit: Three Insights from the Digital Homes
 date: 2026-09-17
 categories: [Spiritual, Philosophy, Systems]
 tags: [Homestead, Technology, Governance, Automation, Worldview, Spirituality]
+description: "We walk in many worlds at once. The homesteader kneels on the same soil that supports the steel footings of a radio tower."
 ---
 
 We walk in many worlds at once. The homesteader kneels on the same soil that supports the steel footings of a radio tower. The systems architect who orchestrates terabytes of cloud data retires to a hearth warmed by hand-split hickory. The lines between our digital, physical, and spiritual lives are porous, and if we look closely, the same deep patterns govern them all. From a season of managing code, crops, and kinship, three such insights have surfaced from the earth.

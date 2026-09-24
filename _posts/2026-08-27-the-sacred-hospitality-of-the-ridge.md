@@ -4,6 +4,7 @@ title: "Under the Copper Shield: Post-Eclipse Clarity, Hemlocks, and Hearth Peac
 date: 2026-08-27
 categories: [Spiritual, Poetry, Philosophy]
 tags: [Eclipse, Mani, Algiz, Jera, Wunjo, Sanctuary, Ridge]
+description: "When the deep copper veil of an eclipse passes, the night sky does not return to ordinary dark; it feels cleansed, re-centered, and profoundly quiet."
 ---
 
 ## The Cleared Sky

@@ -4,6 +4,7 @@ title: "The Autumn Equinox Almanac: Solar Arcs, Kenaz, and the Gathering Hearth"
 date: 2026-09-15
 categories: [Spiritual, Astronomy, Hearthcraft]
 tags: [Equinox, Solar Almanac, Jera, Kenaz, Othala, Dark Skies, Autumn]
+description: "Across the northern hemisphere, mid-September marks the most rapid astronomical transition of the year."
 ---
 
 ## The Equinox Approaches

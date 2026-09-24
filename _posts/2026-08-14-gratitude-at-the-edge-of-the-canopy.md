@@ -4,6 +4,7 @@ title: "The Three Pillars: Intellectual Order, Fellowship, and the Nourished Ear
 date: 2026-08-14
 categories: [Spiritual, Philosophy, Homestead]
 tags: [Jera, Wunjo, Innangard, Soil Stewardship, Gratitude]
+description: "In modern society, a day's worth is often quantified by hollow metrics: hours logged, emails answered, or tickets closed."
 ---
 
 ## Measuring a Great Day

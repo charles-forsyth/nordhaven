@@ -4,6 +4,7 @@ title: "The Eve of the Red Eclipse: Ridge Telemetry, Jörð, and the High Horned
 date: 2026-08-26
 categories: [Spiritual, Astronomy, Meteorology]
 tags: [Eclipse, Sturgeon Moon, Jord, Algiz, Telemetry, Landvaettir]
+description: "At 10:20 PM on Wednesday night, the ridge temperature hovers at a cool 62 degF."
 ---
 
 ## 93% Illumination: The Eve of Totality

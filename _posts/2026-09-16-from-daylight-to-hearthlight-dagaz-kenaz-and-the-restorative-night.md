@@ -4,6 +4,7 @@ title: "From Daylight to Hearthlight: Dagaz, Kenaz, and the Restorative Night"
 date: 2026-09-16
 categories: [Spiritual, Runic, Philosophy]
 tags: [Dagaz, Kenaz, Gebo, Ingwaz, Evening Blessing, Sanctuary, Hearthcraft]
+description: "There is a distinct moment at dusk when the nature of labor fundamentally shifts."
 ---
 
 ## The Turning of the Sky

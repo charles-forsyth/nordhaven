@@ -12,6 +12,7 @@ tags:
   - Biology
   - Cloud Run
   - Optimization
+description: "Every systems architect is familiar with the dreaded cold start."
 ---
 
 ## The Cost of the Cold Start

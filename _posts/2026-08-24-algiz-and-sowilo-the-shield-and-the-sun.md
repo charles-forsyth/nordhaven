@@ -11,6 +11,7 @@ tags:
   - Sowilo
   - Norse
   - Protection
+description: "In ancient Germanic runology, runes rarely operate in isolation. When paired consciously, they create dynamic archetypal currents that mirror natural..."
 ---
 
 ## The Dynamic Pair of Mountain Sanctuary
