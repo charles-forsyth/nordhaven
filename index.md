@@ -30,6 +30,35 @@ Nordhaven is a living, self-sufficient homestead run as a closed-loop ecological
 
 ---
 
+## <a id="harvest-moon-week"></a>New from Nordhaven: The Harvest Moon Week
+
+*Seven small books, written the week the Harvest Moon rose full over the ridge.* Each one is set on one of the nights after the full moon, and each takes one lesson from an ordinary working week on the homestead and follows it back through the old stories: false scales and honest blanks, the edge of what a watcher can see, gates that swing against their neighbors, the winter larder, the keeper of the keys, the waning moon, and a small house on wheels that has to go back. Start with the prologue, or with whichever title calls to you.
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 8%;">Book</th>
+      <th style="width: 52%;">Title</th>
+      <th style="width: 22%;">Length</th>
+      <th style="width: 18%;">Read</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign hmw = site.posts | where: "series", "Harvest Moon Week" | sort: "series_part" %}
+    {% for post in hmw %}
+    {% assign words = post.content | number_of_words %}
+    <tr>
+      <td><strong>{% if post.series_part == 0 %}Prologue{% else %}{{ post.series_part }}{% endif %}</strong></td>
+      <td><strong>{{ post.title }}</strong><br><em>{{ post.description }}</em></td>
+      <td>about {{ words | divided_by: 230 | plus: 1 }} min read</td>
+      <td><a href="{{ post.url | relative_url }}">Read &rarr;</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+---
+
 ## Nordhaven Press
 
 The lodge is also a working intellectual shop. Through its imprint, **Nordhaven Press**, it publishes free open-access field manuals and treatises bridging earth-faith, thermodynamics, and applied agronomy.
