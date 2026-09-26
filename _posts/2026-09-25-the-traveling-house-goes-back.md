@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Traveling House Goes Back: Courtesy with a Spine"
-date: 2026-09-25 20:37:00 -0400
+date: 2026-09-25 20:37:00 +0000
 categories: [Resilience, Philosophy, Hearthcraft]
 series: "Harvest Moon Week"
 series_part: 7

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Harvest Moon: The Hand That Waits for the Word"
-date: 2026-09-25 20:20:00 -0400
+date: 2026-09-25 20:20:00 +0000
 categories: [Spiritual, Hearthcraft, Systems Architecture]
 series: "Harvest Moon Week"
 series_part: 0

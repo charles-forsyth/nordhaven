@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Report That Lied: False Scales, Empty Gauges, and the Honest Blank"
-date: 2026-09-25 20:31:00 -0400
+date: 2026-09-25 20:31:00 +0000
 categories: [Systems Architecture, Philosophy, Spiritual]
 series: "Harvest Moon Week"
 series_part: 1

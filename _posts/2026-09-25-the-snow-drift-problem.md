@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Snow-Drift Problem: A Small Book on the Edge of What You Can See"
-date: 2026-09-25 20:32:00 -0400
+date: 2026-09-25 20:32:00 +0000
 categories: [Systems Architecture, Philosophy, Homesteading]
 series: "Harvest Moon Week"
 series_part: 2

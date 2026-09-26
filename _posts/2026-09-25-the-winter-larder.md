@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Winter Larder: An Inventory Rite for the Dark Half"
-date: 2026-09-25 20:34:00 -0400
+date: 2026-09-25 20:34:00 +0000
 categories: [Hearthcraft, Homesteading, Sky and Weather]
 series: "Harvest Moon Week"
 series_part: 4
