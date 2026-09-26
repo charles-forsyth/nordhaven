@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Harvest Moon Wanes: Clearing, Cutting, and the Honest Close"
-date: 2026-09-25 20:36:00 -0400
+date: 2026-09-25 20:36:00 +0000
 categories: [Sky and Weather, Spiritual, Philosophy]
 series: "Harvest Moon Week"
 series_part: 6

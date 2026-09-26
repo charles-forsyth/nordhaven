@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Steward and the Seneschal: On Keeping a Helper That Holds the Keys"
-date: 2026-09-25 20:35:00 -0400
+date: 2026-09-25 20:35:00 +0000
 categories: [Philosophy, Systems Architecture, Hearthcraft]
 series: "Harvest Moon Week"
 series_part: 5
