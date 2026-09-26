@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Harvest Moon: The Hand That Waits for the Word"
-date: 2026-09-25
+date: 2026-09-25 20:20:00 -0400
 categories: [Spiritual, Hearthcraft, Systems Architecture]
-tags: [Harvest Moon, Winter Finding, Troth, Thor, Var, Frigg, Raidho, Isa, Autumn, Consent, Thresholds, Wheel of the Year]
+series: "Harvest Moon Week"
+series_part: 0
+tags: [Harvest Moon Week, Harvest Moon, Winter Finding, Troth, Thor, Var, Frigg, Raidho, Isa, Autumn, Consent, Thresholds, Wheel of the Year]
 description: "The Harvest Moon rose full over the ridge tonight, at the end of a long working day that taught one old lesson twice: the hand should wait for the word."
 ---
 
