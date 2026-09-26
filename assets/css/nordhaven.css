@@ -5,3 +5,14 @@
 .nh-archive-month { margin-top: 2rem; }
 .nh-cat-list { columns: 2; }
 @media (max-width: 700px) { .nh-nav { margin-left: 0; gap: 0.75rem; } .nh-cat-list { columns: 1; } }
+
+/* Featured series block on the home page */
+.nh-feature { border: 1px solid #c9d6d2; border-left: 6px solid #03363d; background: #f5f9f8; border-radius: 6px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+.nh-feature h2 { margin-top: 0; }
+.nh-series { list-style: none; padding-left: 0; margin: 1rem 0 0; }
+.nh-series li { padding: 0.7rem 0; border-top: 1px solid #dfe8e5; line-height: 1.45; }
+.nh-series li:first-child { border-top: none; }
+.nh-part { display: inline-block; min-width: 5.5rem; font-weight: 600; color: #03363d; white-space: nowrap; }
+.nh-len { color: #68737d; font-size: 0.9em; white-space: nowrap; margin-left: 0.4rem; }
+.nh-desc { color: #49545c; font-size: 0.95em; font-style: italic; }
+@media (max-width: 700px) { .nh-feature { padding: 1rem; } .nh-part { display: block; } }

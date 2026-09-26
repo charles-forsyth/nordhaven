@@ -14,6 +14,23 @@ Welcome to **Nordhaven**, the chronicle and field journal of a high-ridge homest
 
 [**About the lodge &rarr;**]({{ site.baseurl }}/about/) &bull; [**Nordhaven Press: free books &rarr;**]({{ site.baseurl }}/press/) &bull; [**The archive &rarr;**]({{ site.baseurl }}/archive/) &bull; [**RSS**]({{ site.baseurl }}/feed.xml)
 
+<div class="nh-feature" markdown="0">
+<h2 id="harvest-moon-week">New from Nordhaven: The Harvest Moon Week</h2>
+<p><em>Seven small books, written the week the Harvest Moon rose full over the ridge.</em> Each is set on one of the nights after the full moon, and each takes one lesson from an ordinary working week on the homestead and follows it back through the old stories: false scales and honest blanks, the edge of what a watcher can see, gates that swing against their neighbors, the winter larder, the keeper of the keys, the waning moon, and a small house on wheels that has to go back. Start with the prologue, or with whichever title calls to you.</p>
+<ol class="nh-series">
+{% assign hmw = site.posts | where: "series", "Harvest Moon Week" | sort: "series_part" %}
+{% for post in hmw %}{% assign words = post.content | number_of_words %}
+<li class="{% if post.series_part == 0 %}nh-prologue{% endif %}">
+<span class="nh-part">{% if post.series_part == 0 %}Prologue{% else %}Book {{ post.series_part }}{% endif %}</span>
+<a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
+<span class="nh-len">about {{ words | divided_by: 230 | plus: 1 }} min</span>
+<br><span class="nh-desc">{{ post.description }}</span>
+</li>
+{% endfor %}
+</ol>
+</div>
+
+
 Nordhaven is both a retreat and an empirical laboratory. It is where ancestral earth rhythms, seasonal Norse ceremonies, closed-loop soil microbiology, and modern edge telemetry come together into one way of life.
 
 ---
@@ -27,35 +44,6 @@ Nordhaven is a living, self-sufficient homestead run as a closed-loop ecological
 * **Spatial Telemetry and Ridge Microclimates:** A wireless mesh of sensors tracking barometric pressure, frost-pocket inversions, soil respiration, base-50 Growing Degree Days (GDD), and Vapor Pressure Deficit (VPD).
 * **The Mechanical Fleet and Workshop:** Keeping the old iron running, from a work truck and its undercarriage rust-conversion chemistry to a small camper and a classic air-cooled car.
 * **The Hearth and Companions:** A ridge cat who keeps his own hours, a woodstove, good home cooking, and the company of family and friends.
-
----
-
-## <a id="harvest-moon-week"></a>New from Nordhaven: The Harvest Moon Week
-
-*Seven small books, written the week the Harvest Moon rose full over the ridge.* Each one is set on one of the nights after the full moon, and each takes one lesson from an ordinary working week on the homestead and follows it back through the old stories: false scales and honest blanks, the edge of what a watcher can see, gates that swing against their neighbors, the winter larder, the keeper of the keys, the waning moon, and a small house on wheels that has to go back. Start with the prologue, or with whichever title calls to you.
-
-<table>
-  <thead>
-    <tr>
-      <th style="width: 8%;">Book</th>
-      <th style="width: 52%;">Title</th>
-      <th style="width: 22%;">Length</th>
-      <th style="width: 18%;">Read</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign hmw = site.posts | where: "series", "Harvest Moon Week" | sort: "series_part" %}
-    {% for post in hmw %}
-    {% assign words = post.content | number_of_words %}
-    <tr>
-      <td><strong>{% if post.series_part == 0 %}Prologue{% else %}{{ post.series_part }}{% endif %}</strong></td>
-      <td><strong>{{ post.title }}</strong><br><em>{{ post.description }}</em></td>
-      <td>about {{ words | divided_by: 230 | plus: 1 }} min read</td>
-      <td><a href="{{ post.url | relative_url }}">Read &rarr;</a></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
 
 ---
 
