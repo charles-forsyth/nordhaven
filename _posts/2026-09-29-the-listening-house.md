@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Listening House: A Question Asked of the Machine, and the Crack in the Wall"
-date: 2026-09-29 16:00:00 +0000
+date: 2026-09-29 14:30:00 +0000
 categories: [Systems Architecture, Philosophy, Press]
 tags: [Heimdall, Ansuz, Algiz, Havamal, Radio, Shielding, Research Helper, The Traveling House, Honesty, Measurement, Autumn, Wheel of the Year]
 description: "The steward asked the research helper how to turn the little camper into a listening post, got back a forty-page dossier and a real computation on the cluster, and learned the old lesson again: the wall is only as good as its smallest gap."
