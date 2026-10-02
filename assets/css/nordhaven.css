@@ -16,3 +16,24 @@
 .nh-len { color: #68737d; font-size: 0.9em; white-space: nowrap; margin-left: 0.4rem; }
 .nh-desc { color: #49545c; font-size: 0.95em; font-style: italic; }
 @media (max-width: 700px) { .nh-feature { padding: 1rem; } .nh-part { display: block; } }
+
+/* Science posts: figures, video and image galleries */
+.nh-sim-figure { margin: 2rem 0; text-align: center; }
+.nh-sim-figure video, .nh-sim-figure img { width: 100%; max-width: 760px; height: auto; border-radius: 6px; background: #000; box-shadow: 0 6px 24px rgba(3, 54, 61, 0.25); }
+.nh-sim-figure figcaption { color: #49545c; font-size: 0.92em; font-style: italic; margin: 0.6rem auto 0; max-width: 700px; line-height: 1.45; }
+.nh-sim-hero { margin: 1.5rem 0 2rem; padding: 1rem; background: #0b0b10; border-radius: 8px; }
+.nh-sim-hero video { box-shadow: none; }
+.nh-sim-hero figcaption { color: #c9c9d1; }
+.nh-sim-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem; margin: 1.5rem 0 0.5rem; }
+.nh-sim-strip figure { margin: 0; text-align: center; }
+.nh-sim-strip img { width: 100%; height: auto; border-radius: 4px; display: block; }
+.nh-sim-strip figcaption { font-size: 0.82em; color: #49545c; margin-top: 0.3rem; line-height: 1.3; }
+.nh-sim-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin: 1.5rem 0 0.5rem; }
+.nh-sim-pair img { width: 100%; height: auto; border-radius: 4px; display: block; }
+.nh-sim-pair figure { margin: 0; text-align: center; }
+.nh-sim-pair figcaption { font-size: 0.85em; color: #49545c; margin-top: 0.3rem; }
+.nh-sim-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; margin: 1.5rem 0; }
+.nh-sim-facts div { border: 1px solid #c9d6d2; border-top: 4px solid #03363d; background: #f5f9f8; border-radius: 6px; padding: 0.7rem 0.8rem; text-align: center; }
+.nh-sim-facts b { display: block; font-size: 1.35em; color: #03363d; }
+.nh-sim-facts span { font-size: 0.85em; color: #49545c; }
+@media (max-width: 700px) { .nh-sim-pair { grid-template-columns: 1fr; } .nh-sim-facts { grid-template-columns: repeat(2, 1fr); } .nh-sim-hero { padding: 0.5rem; } }

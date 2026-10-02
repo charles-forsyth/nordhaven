@@ -1,0 +1,43 @@
+nodes=4 ntasks=88
+[22:27:27] +0s modules ok
+gadget4 commit: 6fb393b Mon Aug 24 17:56:25 2026 +0200
+[22:27:35] +8s built Gadget4
+[22:27:35] +8s starting run on 88 ranks
+[01:23:14] +10547s run finished rc=0
+RESTART: Writing restart files group #81 out of 84...
+RESTART: Writing restart files group #82 out of 84...
+RESTART: Writing restart files group #83 out of 84...
+RESTART: Writing restart files group #84 out of 84...
+RESTART: done. load/save took 4.11128 sec, total size 1092.76 MB, corresponds to effective I/O rate of 265.796 MB/sec
+endrun called, calling MPI_Finalize()
+bye!
+
+Sync-Point 5398, Time: 1, Redshift: 4.44089e-16, Systemstep: 0.000253806, Dloga: 0.000253838, Nsync-grv:   16777216, Nsync-hyd:          0
+steps: 5399
+12
+bak-restart.0
+bak-restart.1
+bak-restart.10
+last snapshot a=1.0000 (z=0.000); 12 snapshots
+P(k) growth a=0.0156->1.0000: linear theory D^2 ratio = 2527.6
+  k=0.043 h/Mpc (   17 modes): growth 0.95 x theory, P(z) / P_lin 0.96
+  k=0.077 h/Mpc (   46 modes): growth 0.98 x theory, P(z) / P_lin 0.86
+  k=0.108 h/Mpc (   84 modes): growth 0.87 x theory, P(z) / P_lin 0.92
+  k=0.139 h/Mpc (  129 modes): growth 0.95 x theory, P(z) / P_lin 0.93
+  k=0.172 h/Mpc (  230 modes): growth 1.17 x theory, P(z) / P_lin 1.13
+  k=0.204 h/Mpc (  272 modes): growth 1.31 x theory, P(z) / P_lin 1.26
+  k=0.235 h/Mpc (  369 modes): growth 1.30 x theory, P(z) / P_lin 1.34
+  k=0.266 h/Mpc (  473 modes): growth 1.59 x theory, P(z) / P_lin 1.50
+FOF at output/fof_tab_011.hdf5: 28213 groups; particle mass 4.117e+10 Msun/h; largest 1.91e+15 Msun/h (46492 particles)
+  4.12e+12-8.90e+12:   5058 halos, Watson fit    4638.4  ratio 1.09 ok
+  8.90e+12-1.92e+13:   2399 halos, Watson fit    2265.7  ratio 1.06 ok
+  1.92e+13-4.15e+13:   1145 halos, Watson fit    1079.8  ratio 1.06 ok
+  4.15e+13-8.98e+13:    518 halos, Watson fit     489.6  ratio 1.06 ok
+  8.98e+13-1.94e+14:    210 halos, Watson fit     202.0  ratio 1.04 ok
+  1.94e+14-4.19e+14:     69 halos, Watson fit      70.2  ratio 0.98 ok
+  4.19e+14-9.06e+14:     19 halos, Watson fit      18.0  ratio 1.05 
+  9.06e+14-1.96e+15:      5 halos, Watson fit       2.8  ratio 1.82 
+RUN VERDICT: PASS
+[01:23:40] +10573s check done
+12
+[01:23:40] +10573s done
