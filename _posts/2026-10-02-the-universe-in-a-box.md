@@ -7,14 +7,11 @@ tags: [Ymir, Ginnungagap, Yggdrasil, Wyrd, Jera, Dagaz, Cosmology, Simulation, D
 description: "On the first night of October the steward asked the cluster at the day job to build a universe from almost nothing, sixteen million grains of unseen matter and fourteen billion years of gravity, and it came back with the cosmic web, a giant cluster, and the numbers to prove it was not lying."
 ---
 
-*Everything from this story is free to see and to take: two short films, the stills, the charts, the job script that built it, and the measurements, gathered under [The Files](#the-files) at the end.*
+*Everything from this story is free to see and to take: [two short films](#the-films) at the end, the stills, the charts, the job script that built it, and the measurements, gathered under [The Files](#the-files).*
 
-<figure class="nh-sim-figure nh-sim-hero">
-  <video controls muted loop playsinline preload="metadata" poster="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web_poster.jpg">
-    <source src="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web.mp4" type="video/mp4">
-    Your browser cannot play this film. <a href="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web.mp4">Download it here.</a>
-  </video>
-  <figcaption>Fourteen billion years in thirteen seconds. A slice of a simulated universe nearly a billion light-years across, from thirty million years after the beginning to today. Every bright knot is a cluster of what would be galaxies; every dark hollow is a void.</figcaption>
+<figure class="nh-sim-figure nh-sim-small">
+  <img src="{{ site.baseurl }}/assets/books/universe-in-a-box/media/wide_11_z0.0.jpg" alt="A slice of the simulated universe today: bright clusters joined by threads around dark voids">
+  <figcaption>The box tonight: nearly a billion light-years of simulated sky. The films are at the end.</figcaption>
 </figure>
 
 ## The Question After Supper
@@ -156,13 +153,8 @@ Of the twenty-eight thousand halos that formed in the box, one is larger than al
 
 The helper went back afterwards and followed the region where that giant ends up, all the way to the beginning, and made a second film of it.
 
-<figure class="nh-sim-figure">
-  <video controls muted loop playsinline preload="metadata" poster="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom_poster.jpg">
-    <source src="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom.mp4" type="video/mp4">
-    Your browser cannot play this film. <a href="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom.mp4">Download it here.</a>
-  </video>
-  <figcaption>The birth of the greatest hall. A cube about one hundred and ninety million light-years on a side, centered on where the largest cluster stands today. Watch the threads feed it.</figcaption>
-</figure>
+The whole birth of it is the second film at [the end of this page](#the-films). Here it is in three moments.
+
 
 <div class="nh-sim-strip">
   <figure>
@@ -294,6 +286,24 @@ May wonder keep us quiet when it should.
 **Wes hal.**
 
 ᛃ ᛞ ᛇ
+
+## The Films
+
+<figure class="nh-sim-figure nh-sim-hero nh-sim-big">
+  <video controls muted loop playsinline preload="metadata" poster="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web_poster.jpg">
+    <source src="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web.mp4" type="video/mp4">
+    Your browser cannot play this film. <a href="{{ site.baseurl }}/assets/books/universe-in-a-box/media/universe_web.mp4">Download it here.</a>
+  </video>
+  <figcaption>Fourteen billion years in thirteen seconds. A slice of the simulated universe nearly a billion light-years across, from thirty million years after the beginning to today. Every bright knot is a cluster of what would be galaxies; every dark hollow is a void.</figcaption>
+</figure>
+
+<figure class="nh-sim-figure nh-sim-hero nh-sim-big">
+  <video controls muted loop playsinline preload="metadata" poster="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom_poster.jpg">
+    <source src="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom.mp4" type="video/mp4">
+    Your browser cannot play this film. <a href="{{ site.baseurl }}/assets/books/universe-in-a-box/media/cluster_zoom.mp4">Download it here.</a>
+  </video>
+  <figcaption>The birth of the greatest hall. A cube about one hundred and ninety million light-years on a side, centered on where the largest cluster stands today. Watch the threads feed it.</figcaption>
+</figure>
 
 ---
 

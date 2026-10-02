@@ -36,4 +36,7 @@
 .nh-sim-facts div { border: 1px solid #c9d6d2; border-top: 4px solid #03363d; background: #f5f9f8; border-radius: 6px; padding: 0.7rem 0.8rem; text-align: center; }
 .nh-sim-facts b { display: block; font-size: 1.35em; color: #03363d; }
 .nh-sim-facts span { font-size: 0.85em; color: #49545c; }
+/* small lead image at the top; big films at the bottom */
+.nh-sim-small img { max-width: 420px; }
+.nh-sim-big video { max-width: 100%; }
 @media (max-width: 700px) { .nh-sim-pair { grid-template-columns: 1fr; } .nh-sim-facts { grid-template-columns: repeat(2, 1fr); } .nh-sim-hero { padding: 0.5rem; } }
