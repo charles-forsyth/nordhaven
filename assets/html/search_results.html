@@ -1,0 +1,12 @@
+---
+title: "Search"
+sitemap: false
+permalink: /assets/html/search_results
+raw: true
+hero: false
+---
+<script>
+  var q = new URLSearchParams(location.search).get('query') || '';
+  location.replace('{{ "/archive/" | relative_url }}' + (q ? '?q=' + encodeURIComponent(q) : ''));
+</script>
+<section class="band band-dark"><div class="container"><p>Search moved to <a href="{{ '/archive/' | relative_url }}">the Chronicle</a>.</p></div></section>

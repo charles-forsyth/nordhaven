@@ -1,0 +1,34 @@
+name: Check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build with the GitHub Pages gem set
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bundle exec jekyll build -d /tmp/nhsite
+      - name: Privacy and link check
+        env:
+          NH_SITE: /tmp/nhsite
+        run: python3 tools/nh_verify.py
+      - name: Plain ASCII in new post bodies (runes allowed)
+        run: |
+          bad=0
+          for f in $(git diff --name-only --diff-filter=A origin/main...HEAD -- '_posts/*.md' 2>/dev/null || true); do
+            if grep -nP '[^\x00-\x7F\x{16A0}-\x{16FF}]' "$f"; then echo "::error file=$f::non-ASCII outside runes"; bad=1; fi
+          done
+          exit $bad

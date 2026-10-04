@@ -44,7 +44,20 @@ Nordhaven is published under the lodge's name, not a personal one. Posts, pages,
 
 ## Technical architecture
 
-* **Engine:** Jekyll on GitHub Pages (builds from `main`)
-* **Theme:** `zendesk/jekyll-theme-zendesk-garden@main` (remote theme), with a local `_layouts/default.html` override that adds SEO/Open Graph tags, the RSS link, and site navigation
-* **Plugins:** `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-remote-theme`
-* **Pages:** home, about, press, archive (by month and category), 404
+* **Engine:** Jekyll on GitHub Pages (builds from `main`), with Nordhaven's own theme. There is no remote theme any more.
+* **Layouts:** `_layouts/default.html` (shell, fonts, search overlay, script), `post.html` (hero, chapter sidebar, tags, series or chronicle pager), `page.html` (hero plus prose, or `raw: true` for full-width bands), `manual.html` (Field Manual chapters).
+* **Style:** `assets/css/nordhaven.css`. Night palette by default, a parchment reading mode per browser (`localStorage nh.mode`). Fonts: Cormorant Garamond, Source Serif 4, JetBrains Mono, Noto Sans Runic.
+* **Script:** `assets/js/nordhaven.js`, no framework and nothing sent anywhere. It drives the chapter sidebar, the search overlay (`/` or Ctrl+K), Tonight's Measure, the Wheel, the Rune Index, the Chronicle filters and the Press edition picker. It reads two files built by Jekyll: `assets/js/search.json` (every post) and `assets/js/lore.json` (runes and turnings).
+* **Data:** `_data/categories.yml` (icons), `_data/runes.yml` (the 24 staves), `_data/sabbats.yml` (the eight turnings), `_data/books.yml` (the Press catalog and editions).
+* **Field Manual:** the `_manual/` collection, one file per chapter with `order`, `icon`, `short` and an explicit `permalink`.
+* **Pages:** home (`index.html`), Chronicle (`archive.html`), Wheel, Runes, Press, Manual, About, 404.
+* **Plugins:** `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`.
+* **CI:** `.github/workflows/check.yml` builds the site with the GitHub Pages gem set and runs `tools/nh_verify.py` (protected names, internal links). A pull request that leaks a name or breaks a link fails.
+
+## How posts drive the site
+
+* `categories:` pick the card icon and the Chronicle filter (keep to the list above).
+* `tags:` feed the Rune Index (tag the stave's exact name, e.g. `Isa`), the Wheel (`Wheel of the Year`, plus a turning's name such as `Winter Finding` to pin it to that turning) and the "woven with" filter.
+* `series:` and `series_part:` give the post a series pager instead of the date pager.
+* A paragraph of only runes (the closing rune line) is centred and enlarged automatically.
+* Plain-text code blocks (the measure boxes) are drawn as stone panels.

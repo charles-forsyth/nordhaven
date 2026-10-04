@@ -1,20 +1,28 @@
 title: Nordhaven
 description: Tales told from the Great Nordhaven Lodge
+tagline: "Norse earth-faith, living soil, ridge telemetry and honest engineering, from a high-ridge homestead."
 url: https://charles-forsyth.github.io
 baseurl: /nordhaven
 lang: en_US
+timezone: Etc/UTC
 author: Nordhaven
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
-
-search_enabled: true
 permalink: /:year/:month/:day/:title.html
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
+
+collections:
+  manual:
+    output: true
+    permalink: /manual/:name/
 
 defaults:
   - scope:
@@ -22,9 +30,19 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: manual
+    values:
+      layout: manual
+  - scope:
+      path: ""
+    values:
+      layout: page
 
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
+  - tools

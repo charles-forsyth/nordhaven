@@ -1,26 +1,48 @@
 ---
-layout: page
 title: "The Wheel of the Year"
 permalink: /wheel-of-the-year/
-description: "Nordhaven's seasonal dispatches: the harvest, the equinox, Winter Finding, and the turning of the year on the ridge."
+nav: Wheel
+kicker: '<i class="fa-solid fa-circle-notch"></i> The turning year'
+description: "Eight turnings of the old year, and every dispatch that falls in each season. The green hand is today."
+raw: true
 ---
-
-<h1>The Wheel of the Year</h1>
-<p>The old year turns through eight great points: Yule, Disting, Ostara, Walpurgis, Midsummer, Freyfaxi, Winter Finding, and Winter Nights. These are the lodge's seasonal dispatches, oldest first, so they can be read as the year actually moves. New ones are added as each turning comes around.</p>
-
-{% assign wheel = site.posts | where_exp: "p", "p.tags contains 'Wheel of the Year'" | reverse %}
-{% if wheel.size > 0 %}
-<ol>
-  {% for post in wheel %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d, %Y" }}</small><br><small>{{ post.description }}</small></li>
-  {% endfor %}
-</ol>
-{% endif %}
-
-<h2>Coming turnings</h2>
-<ul>
-  <li><strong>Winter Nights</strong> (mid-October): the ancestors' feast, and the last of the harvest.</li>
-  <li><strong>Yule</strong> (the winter solstice): the longest night, and the return of the light.</li>
-</ul>
-
-<p>See also the <a href="{{ '/runes/' | relative_url }}">Rune Index</a> and the full <a href="{{ '/archive/' | relative_url }}">archive</a>.</p>
+<section class="band band-dark">
+  <div class="container wheel-wrap" data-wheel>
+    <svg class="wheel-svg" viewBox="-40 0 480 400" role="group" aria-label="The Wheel of the Year">
+  <path class="dark-half" d="M200,200 L50.0,196.8 A150,150 0 0,1 349.9,194.2 Z" />
+  <circle class="ring" cx="200" cy="200" r="150" />
+  <circle class="ring-inner" cx="200" cy="200" r="62" />
+  <line class="spoke" x1="200.0" y1="138.0" x2="200.0" y2="50.0" />
+  <line class="spoke" x1="241.8" y1="154.2" x2="301.2" y2="89.3" />
+  <line class="spoke" x1="262.0" y1="197.6" x2="349.9" y2="194.2" />
+  <line class="spoke" x1="248.7" y1="238.4" x2="317.8" y2="292.8" />
+  <line class="spoke" x1="200.5" y1="262.0" x2="201.3" y2="350.0" />
+  <line class="spoke" x1="160.2" y1="247.5" x2="103.7" y2="315.0" />
+  <line class="spoke" x1="138.0" y1="198.7" x2="50.0" y2="196.8" />
+  <line class="spoke" x1="143.3" y1="174.9" x2="62.9" y2="139.2" />
+  <line class="now-hand" data-now-hand x1="200" y1="200" x2="200" y2="82" />
+  <circle class="now-dot" data-now-dot cx="200" cy="50" r="6" />
+  <g class="turning" data-slug="yule" tabindex="0" role="button" aria-label="Yule"><circle class="node" cx="200.0" cy="50.0" r="11" /><text class="lbl" x="200.0" y="30.0" text-anchor="middle">Yule</text></g>
+  <g class="turning" data-slug="disting" tabindex="0" role="button" aria-label="Disting"><circle class="node" cx="301.2" cy="89.3" r="11" /><text class="lbl" x="316.0" y="75.0" text-anchor="start">Disting</text></g>
+  <g class="turning" data-slug="ostara" tabindex="0" role="button" aria-label="Ostara"><circle class="node" cx="349.9" cy="194.2" r="11" /><text class="lbl" x="371.9" y="199.3" text-anchor="start">Ostara</text></g>
+  <g class="turning" data-slug="walpurgis" tabindex="0" role="button" aria-label="Walpurgis"><circle class="node" cx="317.8" cy="292.8" r="11" /><text class="lbl" x="335.1" y="312.4" text-anchor="start">Walpurgis</text></g>
+  <g class="turning" data-slug="midsummer" tabindex="0" role="button" aria-label="Midsummer"><circle class="node" cx="201.3" cy="350.0" r="11" /><text class="lbl" x="201.5" y="392.0" text-anchor="middle">Midsummer</text></g>
+  <g class="turning" data-slug="freyfaxi" tabindex="0" role="button" aria-label="Freyfaxi"><circle class="node" cx="103.7" cy="315.0" r="11" /><text class="lbl" x="89.6" y="351.9" text-anchor="end">Freyfaxi</text></g>
+  <g class="turning" data-slug="winter-finding" tabindex="0" role="button" aria-label="Winter Finding"><circle class="node" cx="50.0" cy="196.8" r="11" /><text class="lbl" x="28.0" y="202.3" text-anchor="end">Winter Finding</text></g>
+  <g class="turning" data-slug="winter-nights" tabindex="0" role="button" aria-label="Winter Nights"><circle class="node" cx="62.9" cy="139.2" r="11" /><text class="lbl" x="42.8" y="136.3" text-anchor="end">Winter Nights</text></g>
+  <text class="center-rune" x="200" y="214" text-anchor="middle">&#x16C3;</text>
+  <text class="center-txt" x="200" y="238" text-anchor="middle">TODAY</text>
+  <text class="half-lbl" x="200" y="120" text-anchor="middle">DARK HALF</text>
+  <text class="half-lbl" x="200" y="288" text-anchor="middle">LIGHT HALF</text>
+</svg>
+    <div class="wheel-panel" data-wheel-panel aria-live="polite"><p class="muted">Loading the wheel...</p></div>
+  </div>
+</section>
+<section class="band band-light">
+  <div class="container narrow prose">
+    <h2>How the wheel is read</h2>
+    <p>The old year turns through eight great points: four set by the sun (the solstices and equinoxes) and four that fall between them. Yule sits at the top, the longest night. The shaded side of the wheel is the dark half of the year, from Winter Finding round to Ostara, when nights are longer than days.</p>
+    <p>Click a turning to see its season's dispatches. A dispatch belongs to a turning when it names that turning, or else to the season it was written in. The green hand marks today, worked out in your own browser.</p>
+    <p>Dates are the lodge's own reckoning and drift by a day or so from year to year; the solstices and equinoxes follow the sun. See also the <a href="{{ '/runes/' | relative_url }}">Rune Index</a> and the full <a href="{{ '/archive/' | relative_url }}">Chronicle</a>.</p>
+  </div>
+</section>

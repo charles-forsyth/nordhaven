@@ -1,11 +1,11 @@
 ---
-layout: page
 title: "About Nordhaven | The Ridge and The Wire"
+heading: "The Ridge and the Wire"
 permalink: /about/
+nav: About
+kicker: '<i class="fa-solid fa-house-chimney"></i> About the lodge'
 description: "Who keeps the Great Nordhaven Lodge: a high-ridge Appalachian homestead where Norse earth-faith, soil science, and systems engineering meet."
 ---
-
-# About Nordhaven: The Ridge and The Wire
 
 > *"Between the bedrock and the server rack, the ancient forest meets the empirical wire. What the old Norse called the Landvaettir, the spirits of place, we honor with both sacred gratitude and exact measurement."*
 

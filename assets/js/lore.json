@@ -1,0 +1,6 @@
+---
+layout: null
+sitemap: false
+---
+{"runes":[{% for a in site.data.runes %}{% for s in a.staves %}{"name":{{ s.name | jsonify }},"glyph":{{ s.glyph | jsonify }},"gloss":{{ s.gloss | jsonify }},"meaning":{{ s.meaning | jsonify }},"aett":{{ a.aett | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endfor %}],
+"sabbats":{{ site.data.sabbats | jsonify }}}

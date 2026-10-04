@@ -1,64 +1,50 @@
 ---
-layout: page
 title: "Nordhaven Press"
 permalink: /press/
-description: "Free open-access books from the Great Nordhaven Lodge: Norse cosmology, thermodynamics, soil science, and homestead engineering."
+nav: Press
+kicker: '<i class="fa-solid fa-book"></i> The lodge library'
+description: "Free, open-access books from the Great Nordhaven Lodge: Norse cosmology, thermodynamics, soil science and homestead engineering. Every edition is a free PDF."
+raw: true
 ---
-
-# Nordhaven Press
-*Applied Agronomy, Spatial Mesoclimates, Norse Cosmology & Living Biophysics*
-
-Welcome to **Nordhaven Press**, the publishing imprint of the *Great Nordhaven Lodge*. Every book here is free to download.
-
-Here we document the empirical synthesis of high-altitude Appalachian agroecology, 21-node spatial telemetry mesh networks, closed-loop soil microbiology, and ancestral Earth & Norse spiritual metaphysics.
-
----
-
-## The Metaphysics & Physics Series (New Releases)
-
-### 1. **The Web of Wyrd & Entropy**
-*Ancient Norse Cosmology, Thermodynamics, and the Science of the Living Homestead*  
-**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters  
-
-* **Core Premise:** The ancient Norse metaphysics of *Wyrd* - the interconnected web of cause, consequence, and ancestral momentum (*Urðr, Verðandi, Skuld*) - is fundamentally an intuitive spiritual model of thermodynamic entropy, quantum entanglement, and ecological feedback loops. When applied to an empirical homestead, managing soil respiration, thermal loss, closed-loop nutrient flows, and generational soil fertility becomes both a sacred duty to the Norns and a strict exercise in non-equilibrium thermodynamics.
-* **Available Editions:**
-  * [ Download Gemini 2.5 Flash-Lite Edition (2.0 MB)]({{ site.baseurl }}/assets/books/Web_of_Wyrd_Flash_Lite_25.pdf) - *Massive encyclopedic formulations, Boltzmann microstates, and non-equilibrium entropy production.*
-  * [ Download Gemini 2.5 Pro Edition (1.4 MB)]({{ site.baseurl }}/assets/books/Web_of_Wyrd_Pro_25.pdf) - *Deep thinking mode: mathematical derivations, Onsager reciprocal relations, and Prigogine dissipative structures.*
-  * [ Download Gemini 3.7 Flash Edition (1.3 MB)]({{ site.baseurl }}/assets/books/Web_of_Wyrd_Flash_37.pdf) - *Includes authentic Old Norse poetic epigraphs from the Eddas (Völuspá, Hávamál) alongside Landauer's limit and Odum's emergy transformities.*
-
----
-
-### 2. **The Scientific Animist**
-*Honoring the Land Through Ritual, Sensor Networks, and Ecological Biophysics*  
-**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters  
-
-* **Core Premise:** True animism does not mean ignoring reality in favor of mysticism; it means honoring the *Landvættir* (land wights and spirits of place) by measuring and understanding their actual physical manifestations. Covers 21-node LoRa telemetry grids, soil respiration chambers, *Argiope aurantia* (Zipper Spider) orb-web tensile biophysics, and solar declination angles.
-* **Available Edition:**
-  * [ Download Gemini 3.5 Flash-Lite Edition (1.6 MB)]({{ site.baseurl }}/assets/books/The_Scientific_Animist_Flash_Lite_35.pdf)
-
----
-
-### 3. **Of Soil and Solstice**
-*Where Ancient Earth Faith Meets Modern Physics on the Living Homestead*  
-**Author:** Nordhaven &bull; September 2026 &bull; 12 Chapters &bull; 121 Pages  
-
-* **Core Premise:** Blends the turning of the ancient seasonal wheel (Yule, Imbolc, Ostara, Beltane, Midsummer, Lammas, Mabon, Samhain) with the real solar physics of photoperiodism, base-50 Growing Degree Day (GDD) accumulation, 1D Fourier soil thermal lag diffusion ($\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial z^2}$), and seed vernalization epigenetics.
-* **Available Edition:**
-  * [ Download Gemini 3.5 Flash-Lite Edition (1.9 MB)]({{ site.baseurl }}/assets/books/Of_Soil_and_Solstice_Flash_Lite_35.pdf)
-
----
-
-## The Agronomy & Engineering Series
-
-### **Building a Farmstead for Science**
-*Applied Agronomy, Spatial Mesoclimates, and Closed-Loop Homestead Engineering*  
-**Author:** Nordhaven &bull; September 2026 &bull; 20 Chapters  
-
-* **Abstract:** Grounded in soil chemistry, thermodynamics, avian epidemiology, and autonomous IoT telemetry, this master volume outlines the exact protocols, mathematical models, and engineering blueprints required to operate a resilient, closed-loop homestead in the Northern Appalachian plateau.
-* **Available Editions:**
-  * [ Download Gemini 3.8 Flash Edition - The Scientific Homestead (1.2 MB)]({{ site.baseurl }}/assets/books/The_Scientific_Homestead_Gemini_Flash_38.pdf) *(Latest Master Edition: Autonomous Typst compilation via Hermes Agent Kanban plugin. 84 pages, 8 technical chapters, 40+ mathematical models, 39 data tables, 37 ASCII schematics, and 16 project build plans covering CEA aeroponics, LoRaWAN telemetry, Oxford Nanopore MinION soil metagenomics, 50-tonne Biomeiler heat recovery, and UV-Vis spectrophotometry)*
-  * [ Download Gemini 2.5 Flash-Lite Edition (3.7 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_25.pdf) *(The definitive data-dense reference manual)*
-  * [ Download Gemini 3.5 Flash-Lite Edition (3.1 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_35.pdf) *(Optimal narrative & practical homestead balance)*
-  * [ Download Gemma 4 31B Edition (1.6 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Gemma_4_31B_Edition.pdf) *(Exhaustive chemical breakdowns & chassis rust conversion)*
-  * [ Download Gemini 3.1 Flash-Lite Edition (2.4 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Flash_Lite_31.pdf) *(Analytical academic modeling)*
-  * [ Download Gemini 2.5 Pro Edition (0.7 MB)]({{ site.baseurl }}/assets/books/Building_a_Farmstead_for_Science_Gemini_Pro_Edition.pdf) *(Executive architectural overview)*
+<section class="band band-dark">
+  <div class="container">
+    <div class="book-grid">
+      {% for b in site.data.books %}
+      <article class="book" id="{{ b.slug }}" data-book>
+        <div class="cover" style="--c1: {{ b.c1 }}; --c2: {{ b.c2 }}" aria-hidden="true">
+          <div class="cp">Nordhaven Press</div>
+          <div class="ct">{{ b.title }}</div>
+          <div class="cr">{{ b.rune }}</div>
+          <div class="cp">{{ b.chapters }} chapters</div>
+        </div>
+        <div>
+          <div class="meta">{{ b.series }} <span class="sep">|</span> {{ b.editions | size }} edition{% if b.editions.size > 1 %}s{% endif %}</div>
+          <h3>{{ b.title }}</h3>
+          <p class="sub">{{ b.subtitle }}</p>
+          <p>{{ b.premise }}</p>
+          {% if b.editions.size > 1 %}
+          <label for="ed-{{ b.slug }}">Edition</label>
+          <select id="ed-{{ b.slug }}">
+            {% for e in b.editions %}<option value="{{ '/assets/books/' | append: e.file | relative_url }}" data-note="{{ e.note | escape }}" data-meta="{{ e.pages }} pages, {{ e.mb }} MB">{{ e.label }}</option>{% endfor %}
+          </select>
+          {% else %}{% assign e = b.editions[0] %}
+          <select hidden aria-hidden="true"><option value="{{ '/assets/books/' | append: e.file | relative_url }}" data-note="{{ e.label }} edition." data-meta="{{ e.pages }} pages, {{ e.mb }} MB">{{ e.label }}</option></select>
+          {% endif %}
+          <div class="ed-note" data-note></div>
+          <a class="btn btn-primary" data-dl href="{{ '/assets/books/' | append: b.editions[0].file | relative_url }}"><i class="fa-solid fa-download"></i> Free PDF</a>
+          <span class="book-size" data-meta></span>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="band band-light">
+  <div class="container narrow prose">
+    <h2>About the editions</h2>
+    <p>Most of these books were drafted with large language models under the lodge's direction and then read, corrected and de-identified by hand. Where a book exists in several editions, each was written by a different model, and they really do differ: some go deep on mathematics, some on practice, some on story. The note under each edition says what to expect. Pick the one that suits you, or read two side by side.</p>
+    <p>Everything here is free to read, print and share. Treat the numbers in them as you would any reference: check what matters before you rely on it.</p>
+    <h2>Dossiers and data</h2>
+    <p>Some dispatches carry their own files: research dossiers, charts and the data behind them. Those live with their posts, for example <a href="{{ '/2026/09/29/the-listening-house.html' | relative_url }}">The Listening House</a> and <a href="{{ '/2026/10/02/the-universe-in-a-box.html' | relative_url }}">The Universe in a Box</a>.</p>
+  </div>
+</section>

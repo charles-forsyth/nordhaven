@@ -18,3 +18,4 @@ ucr-*/
 *.env
 *.key
 *.pem
+Gemfile.lock

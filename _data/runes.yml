@@ -1,0 +1,30 @@
+- aett: "Freyr's Aett"
+  staves:
+    - {name: Fehu, glyph: "ᚠ", gloss: "cattle, wealth", meaning: "Wealth that moves: what is earned, shared and kept circulating."}
+    - {name: Uruz, glyph: "ᚢ", gloss: "aurochs", meaning: "Raw strength, health and the endurance of the wild ox."}
+    - {name: Thurisaz, glyph: "ᚦ", gloss: "thurs, thorn", meaning: "Force and the thorn: the giant's power, and the gate it guards."}
+    - {name: Ansuz, glyph: "ᚨ", gloss: "the god", meaning: "Odin's breath: speech, inspiration and words that carry."}
+    - {name: Raidho, glyph: "ᚱ", gloss: "riding", meaning: "The journey and right order: going at the proper pace."}
+    - {name: Kenaz, glyph: "ᚲ", gloss: "torch", meaning: "The torch and the forge-fire: knowledge, craft and warmth."}
+    - {name: Gebo, glyph: "ᚷ", gloss: "gift", meaning: "The gift that calls for a gift, and binds the givers."}
+    - {name: Wunjo, glyph: "ᚹ", gloss: "joy", meaning: "Joy and belonging: the hall at peace with itself."}
+- aett: "Hagal's Aett"
+  staves:
+    - {name: Hagalaz, glyph: "ᚺ", gloss: "hail", meaning: "Hail: disruption from outside that melts into water."}
+    - {name: Nauthiz, glyph: "ᚾ", gloss: "need", meaning: "Need and constraint: the friction that kindles the need-fire."}
+    - {name: Isa, glyph: "ᛁ", gloss: "ice", meaning: "Ice and stillness: holding a thing frozen until its season."}
+    - {name: Jera, glyph: "ᛃ", gloss: "year, harvest", meaning: "The good year: patient work rewarded in its season."}
+    - {name: Eihwaz, glyph: "ᛇ", gloss: "yew", meaning: "The yew: endurance between life and death, the world-axis."}
+    - {name: Perthro, glyph: "ᛈ", gloss: "lot-cup", meaning: "The lot-cup: chance, wyrd and what is not yet revealed."}
+    - {name: Algiz, glyph: "ᛉ", gloss: "elk-sedge", meaning: "Protection and warding: the raised hand, the watchful sedge."}
+    - {name: Sowilo, glyph: "ᛊ", gloss: "sun", meaning: "The sun: guidance, clarity and victory of the light."}
+- aett: "Tyr's Aett"
+  staves:
+    - {name: Tiwaz, glyph: "ᛏ", gloss: "Tyr", meaning: "Tyr's rune: justice, sacrifice and the oath kept."}
+    - {name: Berkano, glyph: "ᛒ", gloss: "birch", meaning: "The birch: growth, renewal and the sheltering mother."}
+    - {name: Ehwaz, glyph: "ᛖ", gloss: "horse", meaning: "Horse and rider: trust, partnership and movement together."}
+    - {name: Mannaz, glyph: "ᛗ", gloss: "humankind", meaning: "Humankind: the self among others, memory and mind."}
+    - {name: Laguz, glyph: "ᛚ", gloss: "water", meaning: "Water: what flows, what washes, what runs beneath."}
+    - {name: Ingwaz, glyph: "ᛜ", gloss: "Ing", meaning: "The seed of Ing: potential stored, gestation, the closed circle."}
+    - {name: Dagaz, glyph: "ᛞ", gloss: "day", meaning: "Day: dawn, breakthrough and the turn from dark to light."}
+    - {name: Othala, glyph: "ᛟ", gloss: "heritage", meaning: "The home ground: what is inherited, enclosed and passed on."}
