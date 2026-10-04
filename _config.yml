@@ -46,3 +46,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - tools
+  - docs
