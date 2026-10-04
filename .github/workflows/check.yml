@@ -24,6 +24,8 @@ jobs:
       - name: Privacy and link check
         env:
           NH_SITE: /tmp/nhsite
+          NH_PRIV: ${{ secrets.NH_PRIV }}
+          NH_PRIV_OK: ${{ secrets.NH_PRIV_OK }}
         run: python3 tools/nh_verify.py
       - name: Plain ASCII in new post bodies (runes allowed)
         run: |

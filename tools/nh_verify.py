@@ -1,12 +1,23 @@
 #!/usr/bin/env python3
 """Verify the locally built Nordhaven site in /tmp/nhsite: privacy terms, internal links, optional PDF text.
 Usage: nh_verify.py [--pdf]   Prints PRIV/LINK/PDF lines and 'VERIFY: CLEAN' when nothing is found.
-Extend PRIV when new protected names/places come up; PRIV_OK whitelists known false positives
-(forsythia the plant, Ursa Major the constellation, the charles-forsyth GitHub URLs)."""
+The term lists live outside the repo (see below)."""
 import os,re,sys,html,subprocess
 SITE=os.environ.get('NH_SITE','/tmp/nhsite'); BASE='/nordhaven'
-PRIV=r"chuck|forsyth|laylla|rylie|michelle|chelle|seamus|leslie|omstead|tioga|button hill|pennsylvania|\bucr\b|riverside|ursa major|ursa-major|1,607|1607 ft|jayco|212qbw|daytona|milo|/home/|wilkins|elmira|corning|owego"
-PRIV_OK=r"forsythia|ursa major wheels steadily|ursa major &amp; minor|<strong>ursa major</strong> wheels|ursa major & minor|ursa major\*\* wheels|ursa major \(the great bear|great & little bears"
+# The protected-term list is private: it names exactly what this site must never say.
+# It comes from the NH_PRIV environment variable (a GitHub Actions secret in CI) or from
+# ~/.config/nordhaven/priv.txt locally. Never commit the list itself to this public repo.
+def _load(env, fname):
+    v = os.environ.get(env, '').strip()
+    if not v:
+        p = os.path.expanduser('~/.config/nordhaven/' + fname)
+        if os.path.exists(p):
+            v = open(p, encoding='utf-8').read().strip()
+    return v
+PRIV = _load('NH_PRIV', 'priv.txt')
+if not PRIV:
+    print('VERIFY: NO TERM LIST (set NH_PRIV or ~/.config/nordhaven/priv.txt)'); sys.exit(2)
+PRIV_OK = _load('NH_PRIV_OK', 'priv_ok.txt') or r'(?!x)x'
 bad=0
 for root,_,fs in os.walk(SITE):
     for f in fs:
