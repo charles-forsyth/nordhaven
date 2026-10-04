@@ -1,0 +1,30 @@
+---
+title: "The Steward's Field Manual"
+permalink: /manual/
+nav: Manual
+kicker: '<i class="fa-solid fa-book-open"></i> Evergreen pages'
+description: "How the lodge does what it does: reading the runes, keeping the wheel, feeding living soil, readying for winter, and keeping its machines honest. Dispatches tell what happened; the manual tells how."
+raw: true
+---
+{%- assign chapters = site.manual | sort: "order" -%}
+<section class="band band-dark">
+  <div class="container">
+    <div class="card-grid three">
+      {% for c in chapters %}
+      <article class="card feature">
+        <div class="card-meta"><i class="{{ c.icon }}"></i> Chapter {{ c.order }}</div>
+        <h3><a href="{{ c.url | relative_url }}">{{ c.title }}</a></h3>
+        <p>{{ c.description }}</p>
+        <div class="card-foot"><span>{{ c.content | number_of_words | divided_by: 230 | plus: 1 }} min read</span><span>Open &rarr;</span></div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="band band-light">
+  <div class="container narrow prose">
+    <h2>How this manual is kept</h2>
+    <p>The chronicle is dated: each dispatch is one day, one lesson, written down and left as it was. The manual is the other half. These pages are tended and revised as the practice changes, so they always describe how things are done now. When a dispatch teaches something lasting, the lesson moves here.</p>
+    <p>Nothing here is a prescription for your land or your machines. It is one lodge's practice, written plainly so it can be checked, borrowed or argued with.</p>
+  </div>
+</section>

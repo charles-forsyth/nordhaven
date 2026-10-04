@@ -1,36 +1,29 @@
 ---
-layout: page
-title: "Archive"
+title: "The Chronicle"
 permalink: /archive/
-description: "Every Nordhaven dispatch, by month and by category."
+nav: Chronicle
+kicker: '<i class="fa-solid fa-scroll"></i> Every dispatch'
+description: "Every dispatch from the lodge, newest first. Search any word, or filter by category and by what is woven through it."
+raw: true
 ---
-
-<h1>The Archive</h1>
-<p>All {{ site.posts | size }} dispatches from the lodge. Jump to <a href="#by-category">by category</a>, see <a href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel of the Year</a> or the <a href="{{ '/runes/' | relative_url }}">Rune Index</a>, or subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.</p>
-
-<h2 id="by-month">By Month</h2>
-{% assign months = site.posts | group_by_exp: "p", "p.date | date: '%B %Y'" %}
-{% for m in months %}
-<h3 class="nh-archive-month" id="{{ m.name | slugify }}">{{ m.name }} <small>({{ m.items | size }})</small></h3>
-<ul>
-  {% for post in m.items %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d" }}</small></li>
-  {% endfor %}
-</ul>
-{% endfor %}
-
-<h2 id="by-category">By Category</h2>
-{% assign cats = site.categories | sort %}
-<ul class="nh-cat-list">
-  {% for c in cats %}
-  <li><a href="#cat-{{ c[0] | slugify }}">{{ c[0] }}</a> ({{ c[1] | size }})</li>
-  {% endfor %}
-</ul>
-{% for c in cats %}
-<h3 class="nh-archive-month" id="cat-{{ c[0] | slugify }}">{{ c[0] }}</h3>
-<ul>
-  {% for post in c[1] %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %d, %Y" }}</small></li>
-  {% endfor %}
-</ul>
-{% endfor %}
+<section class="band band-dark">
+  <div class="container" data-archive>
+    <div class="search-bar">
+      <input type="search" data-arch-q placeholder="Search titles, summaries and text: Frigg, frost, Algiz, cluster..." aria-label="Search the Chronicle" />
+      <button type="button" class="btn btn-ghost" data-arch-clear>Clear</button>
+    </div>
+    <div class="filter-row"><span class="label">Category</span><span data-arch-cats></span></div>
+    <div class="filter-row"><span class="label">Woven with</span><span data-arch-tags></span></div>
+    <div class="result-count" data-arch-count aria-live="polite"></div>
+    <div data-arch-list>
+      {% assign months = site.posts | group_by_exp: "p", "p.date | date: '%B %Y'" %}
+      {% for m in months %}
+      <div class="month-group"><h3>{{ m.name }}</h3>
+        {% for post in m.items %}
+        <div class="post-row"><div class="d">{{ post.date | date: "%-d %b %Y" }}</div><div><div class="m">{{ post.categories | join: " / " }}</div><a class="t" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</div></div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

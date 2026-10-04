@@ -1,34 +1,41 @@
 ---
-layout: page
 title: "Rune Index"
 permalink: /runes/
-description: "Every Nordhaven dispatch organized by Elder Futhark rune, from Fehu to Othala."
+nav: Runes
+kicker: '<i class="fa-solid fa-feather-pointed"></i> The Elder Futhark'
+description: "The twenty-four staves in their three aettir. Choose a stave to read its meaning and every dispatch that works with it."
+raw: true
 ---
-
-<h1>Rune Index</h1>
-<p>The Elder Futhark in its three aettir, with every dispatch that works with each stave. Staves with no entry yet are still waiting their turn.</p>
-
-{% assign aettir = "Freyr's Aett:Fehu,Uruz,Thurisaz,Ansuz,Raidho,Kenaz,Gebo,Wunjo|Hagal's Aett:Hagalaz,Nauthiz,Isa,Jera,Eihwaz,Perthro,Algiz,Sowilo|Tyr's Aett:Tiwaz,Berkano,Ehwaz,Mannaz,Laguz,Ingwaz,Dagaz,Othala" | split: "|" %}
-{% for aett in aettir %}
-{% assign parts = aett | split: ":" %}
-<h2>{{ parts[0] }}</h2>
-<table>
-  <thead><tr><th style="width: 18%;">Stave</th><th>Dispatches</th></tr></thead>
-  <tbody>
-  {% assign staves = parts[1] | split: "," %}
-  {% for s in staves %}
-    {% assign hits = site.posts | where_exp: "p", "p.tags contains s" %}
-    <tr>
-      <td><strong>{{ s }}</strong></td>
-      <td>
-        {% if hits.size > 0 %}
-          {% for post in hits %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
-        {% else %}<em>not yet written</em>{% endif %}
-      </td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
-{% endfor %}
-
-<p>See also <a href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel of the Year</a> and the full <a href="{{ '/archive/' | relative_url }}">archive</a>.</p>
+<section class="band band-dark">
+  <div class="container" data-runes>
+    {% for a in site.data.runes %}
+    <div class="aett">
+      <h2>{{ a.aett }} <small>{% if forloop.index == 1 %}first eight{% elsif forloop.index == 2 %}second eight{% else %}third eight{% endif %}</small></h2>
+      <div class="rune-grid">
+        {% for s in a.staves %}
+        <button type="button" class="rune-tile" data-rune="{{ s.name }}" data-glyph="{{ s.glyph }}" data-meaning="{{ s.meaning | escape }}" aria-expanded="false">
+          <span class="glyph" aria-hidden="true">{{ s.glyph }}</span>
+          <span class="rname">{{ s.name }}</span>
+          <span class="gloss">{{ s.gloss }}</span>
+          <span class="count">&nbsp;</span>
+        </button>
+        {% endfor %}
+      </div>
+      <div class="rune-detail" hidden aria-live="polite"></div>
+    </div>
+    {% endfor %}
+    <noscript>
+      <div class="prose">
+        {% for a in site.data.runes %}{% for s in a.staves %}{% assign hits = site.posts | where_exp: "p", "p.tags contains s.name" %}{% if hits.size > 0 %}
+        <h3>{{ s.glyph }} {{ s.name }}</h3><ul>{% for p in hits %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}</ul>{% endif %}{% endfor %}{% endfor %}
+      </div>
+    </noscript>
+  </div>
+</section>
+<section class="band band-light">
+  <div class="container narrow prose">
+    <h2>About the staves</h2>
+    <p>The Elder Futhark is the oldest runic alphabet, twenty-four staves named for its first six letters and grouped into three families of eight, the <em>aettir</em>, each later linked with a god: Freyr, Hagal and Tyr. The meanings here are the lodge's working glosses, drawn from the old rune poems and long use, not the last word. A dispatch shows up under a stave when it is tagged with that stave's name.</p>
+    <p>See also <a href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel of the Year</a>, the <a href="{{ '/manual/runes-primer/' | relative_url }}">runes primer</a> in the Field Manual, and the full <a href="{{ '/archive/' | relative_url }}">Chronicle</a>.</p>
+  </div>
+</section>

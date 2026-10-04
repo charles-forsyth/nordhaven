@@ -1,0 +1,10 @@
+# The lodge's eight turnings. month/day are approximate (solstices and equinoxes move by a day or so).
+# A post tagged "Wheel of the Year" belongs to the season that starts at the turning before its date.
+- {name: Yule, slug: yule, month: 12, day: 21, md: 1221, glyph: "ᛃ", blurb: "The longest night, and the return of the light."}
+- {name: Disting, slug: disting, month: 2, day: 2, md: 202, glyph: "ᛒ", blurb: "The charming of the plough; the first stirring under the snow."}
+- {name: Ostara, slug: ostara, month: 3, day: 20, md: 320, glyph: "ᛞ", blurb: "The spring equinox: day and night level, the light gaining."}
+- {name: Walpurgis, slug: walpurgis, month: 4, day: 30, md: 430, glyph: "ᚲ", blurb: "The bonfire night before May; warding the herds and fields."}
+- {name: Midsummer, slug: midsummer, month: 6, day: 21, md: 621, glyph: "ᛊ", blurb: "The sun at its height: the longest day."}
+- {name: Freyfaxi, slug: freyfaxi, month: 8, day: 1, md: 801, glyph: "ᚠ", blurb: "Frey's horse festival and the first harvest."}
+- {name: Winter Finding, slug: winter-finding, month: 9, day: 22, md: 922, glyph: "ᛁ", blurb: "The autumn equinox: the scales come level and tip toward the dark."}
+- {name: Winter Nights, slug: winter-nights, month: 10, day: 15, md: 1015, glyph: "ᛟ", blurb: "The feast of the ancestors and the last of the harvest."}

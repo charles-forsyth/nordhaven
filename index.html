@@ -1,0 +1,145 @@
+---
+title: "Tales from the Great Nordhaven Lodge"
+permalink: /
+hero: false
+raw: true
+description: "The chronicle of a high-ridge Appalachian homestead: Norse earth-faith, living soil, ridge telemetry, and honest engineering."
+---
+{%- assign hmw = site.posts | where: "series", "Harvest Moon Week" | sort: "series_part" -%}
+{%- assign manual = site.manual | sort: "order" -%}
+<header class="hero">
+  <div class="hero-runes" aria-hidden="true">&#x16A0; &#x16A2; &#x16A6; &#x16A8; &#x16B1; &#x16B2; &#x16B7; &#x16B9;</div>
+  <div class="kicker">The Lodge Chronicle <span class="sep">|</span> about 1,600 feet up</div>
+  <h1>Nordhaven</h1>
+  <h2>Tales and truths from the Great Nordhaven Lodge, high on a northern Appalachian ridge</h2>
+  <p class="lead">Norse earth-faith and exact measurement, living soil and old iron, the turning wheel and the machines of the day job: one homestead's chronicle, told honestly.</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="{{ '/archive/' | relative_url }}">Read the Chronicle</a>
+    <a class="btn btn-secondary" href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel</a>
+    <a class="btn btn-secondary" href="{{ '/runes/' | relative_url }}">The Runes</a>
+    <a class="btn btn-secondary" href="{{ '/press/' | relative_url }}">Free Books</a>
+  </div>
+</header>
+
+<section class="band band-light" aria-labelledby="measure-title">
+  <div class="container">
+    <div class="band-head">
+      <div>
+        <h2 class="band-title" id="measure-title"><i class="fa-solid fa-moon"></i>Tonight's Measure</h2>
+        <p class="band-lead">The sky and the season, worked out in your own browser from the moon's old count and the lodge's calendar.</p>
+      </div>
+    </div>
+    <div class="measure" data-measure>
+      <div class="measure-cell" data-m-moon><div class="label">The moon</div><div class="big">...</div></div>
+      <div class="measure-cell" data-m-turn><div class="label">Next turning</div><div class="big">...</div></div>
+      <div class="measure-cell" data-m-rune><div class="label">Rune of the day</div><div class="big">...</div></div>
+      <div class="measure-cell" data-m-season><div class="label">The season</div><div class="big">...</div></div>
+    </div>
+    <p class="measure-note">Moon phase is computed, not observed, and good to within a few hours. The rune of the day is drawn by the calendar, the same for every reader that day.</p>
+  </div>
+</section>
+
+<section class="band band-dark" aria-labelledby="latest-title">
+  <div class="container">
+    <div class="band-head">
+      <div>
+        <h2 class="band-title" id="latest-title"><i class="fa-solid fa-fire-flame-curved"></i>Latest from the Hearth</h2>
+        <p class="band-lead">The newest dispatches. Everything else is in the <a href="{{ '/archive/' | relative_url }}">Chronicle</a>, searchable and filterable.</p>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/archive/' | relative_url }}">All {{ site.posts | size }} dispatches</a>
+    </div>
+    <div class="card-grid three">
+      {% for post in site.posts limit: 6 %}{% include post-card.html post=post %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band band-light" aria-labelledby="series-title" id="harvest-moon-week">
+  <div class="container">
+    <div class="band-head">
+      <div>
+        <div class="kicker">A series in eight parts</div>
+        <h2 class="band-title" id="series-title"><i class="fa-solid fa-book-open"></i>The Harvest Moon Week</h2>
+        <p class="band-lead">Seven small books and a prologue, written the week the Harvest Moon rose full over the ridge. Each takes one lesson from an ordinary working week and follows it back through the old stories.</p>
+      </div>
+    </div>
+    <ol class="series-list">
+      {% for post in hmw %}{% assign words = post.content | number_of_words %}
+      <li>
+        <span class="part">{% if post.series_part == 0 %}Prologue{% else %}Book {{ post.series_part }}{% endif %}</span>
+        <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="len">{{ words | divided_by: 230 | plus: 1 }} min</span><span class="desc">{{ post.description }}</span></div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="band band-dark" aria-labelledby="ways-title">
+  <div class="container">
+    <h2 class="band-title" id="ways-title"><i class="fa-solid fa-compass"></i>Ways into the Lodge</h2>
+    <p class="band-lead">The chronicle can be walked by season, by stave, or by the kind of work it describes.</p>
+    <div class="card-grid three">
+      <article class="card feature">
+        <div class="card-icon"><i class="fa-solid fa-circle-notch"></i></div>
+        <h3><a href="{{ '/wheel-of-the-year/' | relative_url }}">The Wheel of the Year</a></h3>
+        <p>Eight turnings, from Yule to Winter Nights, with a hand that points to today and every dispatch gathered under its season.</p>
+        <div class="card-foot"><span>Interactive</span><span>Turn the wheel &rarr;</span></div>
+      </article>
+      <article class="card feature">
+        <div class="card-icon"><span class="rune">&#x16C9;</span></div>
+        <h3><a href="{{ '/runes/' | relative_url }}">The Rune Index</a></h3>
+        <p>The twenty-four staves of the Elder Futhark in their three aettir. Choose one to read its meaning and the dispatches that carry it.</p>
+        <div class="card-foot"><span>24 staves</span><span>Cast the staves &rarr;</span></div>
+      </article>
+      <article class="card feature">
+        <div class="card-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <h3><a href="{{ '/archive/' | relative_url }}">The Chronicle</a></h3>
+        <p>Every dispatch, newest first. Search any word, or filter by category and by the gods, runes and themes woven through each one.</p>
+        <div class="card-foot"><span>Press / anywhere</span><span>Search &rarr;</span></div>
+      </article>
+    </div>
+    <div style="margin-top: 34px">
+      {% for c in site.data.categories %}{% assign n = site.categories[c[0]] | size %}{% if n > 0 %}<a class="chip" href="{{ '/archive/' | relative_url }}?cat={{ c[0] | url_encode }}"><i class="{{ c[1].icon }}"></i> {{ c[0] }}<span class="n">{{ n }}</span></a>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band band-light" aria-labelledby="press-title">
+  <div class="container">
+    <div class="band-head">
+      <div>
+        <h2 class="band-title" id="press-title"><i class="fa-solid fa-book"></i>Nordhaven Press</h2>
+        <p class="band-lead">Free, open-access books from the lodge: Norse cosmology and thermodynamics, scientific animism, the solar wheel and the soil, and a full field manual for a farmstead built for science.</p>
+      </div>
+      <a class="btn btn-secondary" href="{{ '/press/' | relative_url }}">The Library</a>
+    </div>
+    <div class="card-grid">
+      {% for b in site.data.books limit: 4 %}
+      <article class="card">
+        <div class="card-meta"><i class="fa-solid fa-book"></i> {{ b.series }} <span class="sep">|</span> {{ b.editions | size }} edition{% if b.editions.size > 1 %}s{% endif %}</div>
+        <h3><a href="{{ '/press/' | relative_url }}#{{ b.slug }}">{{ b.title }}</a></h3>
+        <p>{{ b.subtitle }}</p>
+        <div class="card-foot"><span>Free PDF</span><span>Open &rarr;</span></div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band band-dark" aria-labelledby="manual-title">
+  <div class="container">
+    <h2 class="band-title" id="manual-title"><i class="fa-solid fa-book-open"></i>The Steward's Field Manual</h2>
+    <p class="band-lead">The evergreen pages: how the lodge reads the runes and keeps the wheel, tends its soil, readies for winter, and keeps its machines honest. Dispatches tell what happened; the manual tells how it is done.</p>
+    <div class="manual-strip">
+      {% for c in manual %}<a href="{{ c.url | relative_url }}"><i class="{{ c.icon }}"></i>{{ c.short | default: c.title }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band band-light" aria-labelledby="lodge-title">
+  <div class="container narrow text-center">
+    <h2 class="band-title" id="lodge-title">The Ridge and the Wire</h2>
+    <p class="band-lead" style="margin-left:auto;margin-right:auto">Nordhaven is a working homestead and an empirical laboratory: a pastured flock, fabric-pot gardens fed on living teas, a mesh of sensors on the ridge, an old truck and a small camper, a woodstove, a ridge cat who keeps his own hours, and the old Norse ways kept alongside the measurements. It is written under the lodge's name, on purpose: the place and the practice are the point.</p>
+    <div class="cta"><a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About the lodge</a><a class="btn btn-ghost" href="{{ '/feed.xml' | relative_url }}"><i class="fa-solid fa-rss"></i> RSS</a></div>
+  </div>
+</section>

@@ -1,17 +1,19 @@
-<header class="chrome:header">
-  <div class="chrome:header_title">
-    <a href="{{ "/" | relative_url }}" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
-      <span class="text-3xl">{{ site.title }}</span>
-    </a>
+{%- assign here = page.url | relative_url -%}
+<header class="nh-top">
+  <div class="container">
+    <a class="nh-brand" href="{{ '/' | relative_url }}"><span class="rune" aria-hidden="true">&#x16DF;</span> Nordhaven</a>
+    <nav class="nh-menu" id="nh-menu" aria-label="Site">
+      {%- assign links = "Chronicle|/archive/,Wheel|/wheel-of-the-year/,Runes|/runes/,Press|/press/,Manual|/manual/,About|/about/" | split: "," -%}
+      {%- for l in links -%}
+      {%- assign p = l | split: "|" -%}
+      {%- assign u = p[1] | relative_url -%}
+      <a href="{{ u }}"{% if here == u or page.nav == p[0] %} aria-current="page"{% endif %}>{{ p[0] }}</a>
+      {%- endfor -%}
+    </nav>
+    <div class="nh-tools">
+      <button class="icon-btn" type="button" data-nh-search aria-label="Search (press /)" title="Search (press /)"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="icon-btn" type="button" data-nh-mode aria-label="Switch between night and parchment" title="Night / parchment"><i class="fa-solid fa-circle-half-stroke"></i></button>
+      <button class="icon-btn nh-burger" type="button" data-nh-burger aria-controls="nh-menu" aria-expanded="false" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
   </div>
-  <nav class="nh-nav" aria-label="Site">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/archive/' | relative_url }}">Archive</a>
-    <a href="{{ '/wheel-of-the-year/' | relative_url }}">Wheel</a>
-    <a href="{{ '/runes/' | relative_url }}">Runes</a>
-    <a href="{{ '/press/' | relative_url }}">Press</a>
-    <a href="{{ '/about/' | relative_url }}">About</a>
-    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-  </nav>
-  {% if site.search_enabled %} {% include search_input.html %} {% endif %}
 </header>

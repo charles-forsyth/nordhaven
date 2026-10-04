@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{%- assign c0 = page.categories | first -%}
+{%- assign cat = site.data.categories[c0] -%}
+{%- assign t1 = page.title | split: ": " | first -%}
+{%- assign t2 = page.title | remove_first: t1 | remove_first: ": " -%}
+{%- assign words = content | number_of_words -%}
+{%- if page.series -%}
+  {%- assign series = site.posts | where: "series", page.series | sort: "series_part" -%}
+  {%- for s in series -%}
+    {%- if s.url == page.url -%}
+      {%- assign idx = forloop.index0 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign prev_i = idx | minus: 1 -%}
+  {%- assign next_i = idx | plus: 1 -%}
+  {%- if idx > 0 %}{% assign prev_post = series[prev_i] %}{% else %}{% assign prev_post = nil %}{% endif -%}
+  {%- assign next_post = series[next_i] -%}
+{%- else -%}
+  {%- assign prev_post = page.previous -%}
+  {%- assign next_post = page.next -%}
+{%- endif -%}
+<header class="hero doc-hero">
+  <div class="kicker">
+    <i class="{{ cat.icon | default: 'fa-solid fa-scroll' }}"></i>
+    {% for c in page.categories %}<a href="{{ '/archive/' | relative_url }}?cat={{ c | url_encode }}">{{ c }}</a>{% unless forloop.last %}<span class="sep">/</span>{% endunless %}{% endfor %}
+    <span class="sep">|</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    <span class="sep">|</span> {{ words | divided_by: 230 | plus: 1 }} min read
+  </div>
+  <h1>{{ t1 }}</h1>
+  {% if t2 != "" %}<h2>{{ t2 }}</h2>{% endif %}
+  {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+</header>
+<div class="container doc-layout" data-toc-layout>
+  <aside class="doc-toc" data-toc hidden>
+    <h4><i class="fa-solid fa-list"></i> In this dispatch</h4>
+    <ul data-toc-list></ul>
+    <div class="toc-meta">
+      {{ words }} words<br />
+      {% if page.series %}{{ page.series }}, {% if page.series_part == 0 %}prologue{% else %}book {{ page.series_part }}{% endif %}<br />{% endif %}
+      <a href="#main">Back to top</a>
+    </div>
+  </aside>
+  <article class="prose">
+    {{ content }}
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      <span class="label">Woven through this dispatch</span>
+      {% for t in page.tags %}<a class="chip" href="{{ '/archive/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    <nav class="pager" aria-label="{% if page.series %}Series{% else %}Chronicle{% endif %} navigation">
+      {% if prev_post %}<a class="prev" href="{{ prev_post.url | relative_url }}"><span>&larr; {% if page.series %}Previous in the series{% else %}Older{% endif %}</span>{{ prev_post.title | split: ": " | first }}</a>{% endif %}
+      {% if next_post %}<a class="next" href="{{ next_post.url | relative_url }}"><span>{% if page.series %}Next in the series{% else %}Newer{% endif %} &rarr;</span>{{ next_post.title | split: ": " | first }}</a>{% endif %}
+    </nav>
+  </article>
+</div>

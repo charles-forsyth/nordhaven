@@ -1,0 +1,12 @@
+# Category -> icon (Font Awesome 6) and one-line blurb. Keep in step with README's list.
+Spiritual: {icon: "fa-solid fa-fire-flame-curved", blurb: "Blessings, rites and the evening fire"}
+Runic Lore: {icon: "fa-solid fa-feather-pointed", blurb: "The staves of the Elder Futhark"}
+Hearthcraft: {icon: "fa-solid fa-mug-hot", blurb: "Kitchen, home and sanctuary"}
+Homesteading: {icon: "fa-solid fa-house-chimney", blurb: "Flock, fleet and the work of the ridge"}
+Agronomy: {icon: "fa-solid fa-seedling", blurb: "Living soil and what grows in it"}
+Sky and Weather: {icon: "fa-solid fa-cloud-moon", blurb: "Moon, frost, wind and sky"}
+Astronomy: {icon: "fa-solid fa-star", blurb: "The deep sky and the cosmos"}
+Systems Architecture: {icon: "fa-solid fa-network-wired", blurb: "Machines, clusters and how they fail"}
+Philosophy: {icon: "fa-solid fa-scroll", blurb: "Troth, honesty and the long view"}
+Resilience: {icon: "fa-solid fa-shield-halved", blurb: "Warding, backups and hard winters"}
+Press: {icon: "fa-solid fa-book", blurb: "News from Nordhaven Press"}
