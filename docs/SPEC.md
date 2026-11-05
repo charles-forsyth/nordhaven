@@ -1,10 +1,10 @@
 # Nordhaven: Site Specification
 
-Status: describes the site as built on 2026-10-04 (the lodge theme, PR #47, and the private term list, PR #48)
+Status: describes the site as built on 2026-11-04 (structure unchanged since the lodge theme, PR #47, and the private term list, PR #48; re-checked 2026-11-04)
 Repo: `charles-forsyth/nordhaven` (public), branch `main`
 Live: https://charles-forsyth.github.io/nordhaven/
 Engine: Jekyll 3.10 through the `github-pages` gem (232), built by GitHub Pages from `main` / root
-Last updated: 2026-10-04
+Last updated: 2026-11-04 (1.0 2026-10-04)
 
 This document is public, like the repo. It follows the same privacy rule as the site
 (section 3): no real names, places, vendors, employers, addresses, IPs or project IDs.
@@ -142,7 +142,7 @@ _posts/*.md  _manual/*.md  _data/*.yml  pages (*.html, *.md)
 | `_data/sabbats.yml` | The eight turnings: name, slug, month, day, md, glyph, blurb |
 | `_data/books.yml` | Nordhaven Press catalog: title, subtitle, series, rune, cover colours, editions |
 | `_manual/0N-*.md` | Field Manual chapters (5 as of 2026-10-04) |
-| `_posts/YYYY-MM-DD-slug.md` | Dispatches (59 as of 2026-10-04) |
+| `_posts/YYYY-MM-DD-slug.md` | Dispatches (60 as of 2026-11-04; latest 2026-10-06) |
 | `index.html` | Home page (bands, section 6.1) |
 | `archive.html` | The Chronicle: search, category and tag filters, month groups |
 | `wheel-of-the-year.html` | The Wheel (inline SVG, section 6.4) |
@@ -659,6 +659,9 @@ new build.
   home bands, chapter-sidebar posts, interactive Wheel, Runes and Chronicle, the Press
   library, the Field Manual, and the CI privacy gate. All 81 previously published URLs
   kept. PR #48 moved the protected-term list out of the repo into secrets.
+- 2026-10-05/06: dispatches The Warded Day (#50) and The Given Road (#51).
+- 2026-10-20: weather test pages added (#52) and removed the same day (#53); they live on the
+  personal site now. No structural change since PR #48.
 
 ## 13. Known limits and open items
 
